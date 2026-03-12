@@ -7,18 +7,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="./assets/main.css" rel="stylesheet">
+  <link href="./assets/styles/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
     <div class="topbar" role="banner">
       <div class="brand" aria-label="Naranja - Ciencia y Técnica">
-        <div class="logo" aria-hidden="true">N</div>
-        <div>
-          <h1>Naranja</h1>
-          <p>Ciencia y Técnica</p>
-        </div>
+        <div class="logo" aria-hidden="true"><img src="./assets/img/ncyt_icono_b.png"></div>
       </div>
 
       <nav aria-label="Menú principal">
@@ -46,7 +42,7 @@
 
         <div class="hero-ctas" role="navigation" aria-label="Acciones principales">
           <a class="btn btn-primary" href="#areas">Leenos en Prensa</a>
-          <a class="btn btn-secondary" href="#unete">Únete a Nosotrxs</a>
+          <a class="btn btn-secondary" href="#unete">Sumate a luchar con nosotrxs</a>
         </div>
       </div>
 
@@ -55,8 +51,8 @@
           <h3 style="margin:0 0 8px;color:var(--orange); font-weight: 600;">Publicá en nuestra Gaceta Clara Zetkin</h3>
           <p style="margin:0 0 20px; color: var(--text-light);">La revista es un espacio de divulgación y reflexión impulsado por trabajadores y trabajadoras de la ciencia y la técnica, activistas por diversos derechos y luchadores sociales. Su objetivo es difundir textos con espíritu crítico que promuevan el debate, el pensamiento transformador y la construcción colectiva del conocimiento.</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
-            <a class="btn btn-primary" href="#impacto">Proponer Publicación</a>
-            <a class="btn btn-secondary" href="#colaborar">Recibir Gaceta</a>
+            <a class="btn btn-primary" href="https://forms.gle/iyDx42kKJXf5XRqJ8" target="_blank">Proponer Publicación</a>
+            <a class="btn btn-secondary" href="https://forms.gle/DjZ8oMDuBwUKiw1D9" target="_blank">Recibir Gaceta</a>
           </div>
         </div>
       </aside>
@@ -131,17 +127,18 @@
         </article>
       </div>
     </section>
+  <section class="mission" aria-labelledby="mission-title">
+    <div class="content" id="mission-title">
+      <h3>Nuestro Programa</h3>
+      <p>Construir una ciencia democrática, al servicio de lxs trabajadorxs. Promovemos la investigación con impacto social, la democratización del conocimiento y la defensa de los derechos laborales en el ámbito científico-técnico.</p>
 
-    <section class="mission" aria-labelledby="mission-title">
-      <div class="content" id="mission-title">
-        <h3>Nuestro Programa</h3>
-        <p>Construir una ciencia democrática, al servicio de lxs trabajadorxs. Promovemos la investigación con impacto social, la democratización del conocimiento y la defensa de los derechos laborales en el ámbito científico-técnico.</p>
-
-        <div class="pill-list">
-          <div class="pill">Conoce nuestro programa completo</div>
-        </div>
+      <div class="pill-list">
+        <a href="https://drive.google.com/file/d/1OzfTdpE6GM2oYF8vDz6-3liISUZOHV4x/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="pill">
+          Conoce nuestro programa completo
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
     <section class="events" id="charlas" aria-labelledby="events-title">
       <div class="section-title">
@@ -160,8 +157,8 @@
             <span>6 NOV</span>
           </div>
           <div class="event-footer">
-            <span>18:00 hs</span>
-            <a class="btn btn-secondary" href="#inscribirse">Presencial</a>
+            <span>Terminado</span>
+            <a class="btn btn-secondary" href="https://youtu.be/UIfAlUSg2ws?si=_TDd-KruJiDSkUiW" target="_blank">Ver en Youtube</a>
           </div>
         </article>
 
@@ -177,8 +174,8 @@
             <span>11 DIC</span>
           </div>
           <div class="event-footer">
-            <span>18:00 hs</span>
-            <a class="btn btn-secondary" href="#inscribirse">Pronto</a>
+            <span>Terminado</span>
+            <a class="btn btn-secondary" href="https://youtu.be/1_LiLunXPII?si=cKXkKSHQCtcePod_" target="_blank">Ver en Youtube</a>
           </div>
         </article>
                 <article class="event-card" role="listitem" aria-labelledby="e3">
@@ -187,12 +184,12 @@
           </div>
           <div class="event-body">
             <h4 id="e3">Arquitectura Urbana</h4>
-            <p class="muted">Censurar la ciencia para tapar el envenenamiento</p>
+            <p class="muted">Análisis</p>
             <p class="muted">UMDP</p>
           </div>
           <div class="event-footer">
-            <span>2025</span>
-            <a class="btn btn-secondary" href="#inscribirse">Volver a ver</a>
+            <span>Terminado</span>
+            <a class="btn btn-secondary" href="https://www.youtube.com/@NaranjaCienciayT%C3%A9cnica" target="_blank">Ver en Youtube</a>
           </div>
         </article>
       </div>
@@ -211,7 +208,7 @@
           <p>Próximamente: contenido exclusivo en nuestro canal</p>
         </div>
         
-        <a class="btn btn-primary" href="#youtube-channel">
+        <a class="btn btn-primary" href="https://www.youtube.com/@NaranjaCienciayT%C3%A9cnica" target="_blank">
           <i class="fab fa-youtube"></i>
           Suscribite a nuestro canal
         </a>
@@ -235,7 +232,7 @@
           </div>
           <div class="news-footer">
             <small class="muted">12 oct 2025</small>
-            <a class="btn btn-secondary" href="#leer1">Leer</a>
+            <a class="btn btn-secondary" href="https://www.instagram.com/naranja.cyt" target="_blank">Leer</a>
           </div>
         </article>
 
@@ -250,7 +247,7 @@
           </div>
           <div class="news-footer">
             <small class="muted">30 sep 2025</small>
-            <a class="btn btn-secondary" href="#leer2">Leer</a>
+            <a class="btn btn-secondary" href="https://www.instagram.com/naranja.cyt" target="_blank">Leer</a>
           </div>
         </article>
 
@@ -265,7 +262,7 @@
           </div>
           <div class="news-footer">
             <small class="muted">14 ago 2025</small>
-            <a class="btn btn-secondary" href="#leer3">Leer</a>
+            <a class="btn btn-secondary" href="https://www.instagram.com/naranja.cyt" target="_blank">Leer</a>
           </div>
         </article>
       </div>
@@ -274,17 +271,16 @@
     <footer id="contacto" class="wrap" aria-labelledby="footer-title">
       <div style="display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;justify-content:space-between;">
         <div>
-          <h4 id="footer-title">Naranja Ciencia y Técnica</h4>
-          <p class="muted">Contacto: naranjacienciaytecnica</p>
+          <h4 id="footer-title"><div class="logo" aria-hidden="true"><img src="./assets/img/ncyt_icono_b.png"></div></h4>
         </div>
 
-        <div style="display:flex;flex-direction:column;gap:12px;">
-          <small class="muted">Síguenos en redes</small>
+        <div class="media-icons">
+          <small class="muted">Contacto: naranjacienciaytecnica@gmail.com</small>
           <div class="social-icons">
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/naranja.cyt" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/naranja.cyt" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@NaranjaCienciayT%C3%A9cnica" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/naranja.cyt" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
           </div>
         </div>
       </div>
