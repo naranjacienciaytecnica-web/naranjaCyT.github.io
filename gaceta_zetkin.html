@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="es" class="h-full">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gaceta Clara Zetkin · Naranja Ciencia y Técnica</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/gaceta.css">
+</head>
+<body class="h-full">
+  <div class="app-root" id="app-root">
+    <header class="glass-header">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <a href="index.html" class="flex items-center gap-3">
+            <div class="logo-bg">
+              <img src="./assets/img/ncyt_icono_b.png">
+            </div>
+            <div class="hidden sm:block">
+              <p class="logo-title">Gaceta Clara Zetkin</p>
+            </div>
+          </a>
+        </div>
+        
+        <nav aria-label="Menú principal" class="hidden md:flex items-center gap-6">
+          <a href="index.html#quienes" class="link-underline nav-link">Quiénes somos</a>
+          <a href="index.html#areas" class="link-underline nav-link">Declaraciones</a>
+          <a href="index.html#noticias" class="link-underline nav-link">Prensa</a>
+          <a href="index.html#charlas" class="link-underline nav-link">Charlas</a>
+          <a href="index.html#youtube" class="link-underline nav-link">YouTube</a>
+          <a href="gaceta.html" class="link-underline nav-link active">Gaceta</a>
+        </nav>
+        
+        <div class="flex items-center gap-3">
+          <a href="https://forms.gle/VPDCjJuHjpry31bi9" target="_blank" rel="noopener noreferrer" 
+             class="btn-primary small" id="nav-subscribe-btn">
+            <span id="nav-subscribe-text">Recibir Gaceta</span>
+          </a>
+          <button id="mobile-menu-btn" class="mobile-menu-btn md:hidden" aria-label="Abrir menú">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+      
+      <div id="mobile-menu" class="mobile-menu hidden">
+        <nav aria-label="Menú móvil" class="flex flex-col gap-3">
+          <a href="index.html#quienes" class="nav-link-mobile">Quiénes somos</a>
+          <a href="index.html#areas" class="nav-link-mobile">Declaraciones</a>
+          <a href="index.html#noticias" class="nav-link-mobile">Prensa</a>
+          <a href="index.html#charlas" class="nav-link-mobile">Charlas</a>
+          <a href="index.html#youtube" class="nav-link-mobile">YouTube</a>
+          <a href="gaceta.html" class="nav-link-mobile active">Gaceta</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-gradient relative">
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <div class="hero-badge anim-slide-1">
+              <span class="hero-badge-dot"></span>
+              <span class="hero-badge-text">Publicación Mensual</span>
+            </div>
+            <h1 id="hero-title" class="hero-title anim-slide-2">
+              Gaceta<br><span>Clara Zetkin</span>
+            </h1>
+            <p id="hero-subtitle" class="hero-subtitle anim-slide-3">
+              Ciencia, crítica y lucha social — un espacio de divulgación y reflexión impulsado por trabajadorxs de la ciencia y la técnica
+            </p>
+            <div class="hero-actions anim-slide-4">
+              <a href="https://forms.gle/iyDx42kKJXf5XRqJ8" target="_blank" rel="noopener noreferrer" 
+                 class="btn-primary" id="hero-publish-btn">
+                <i data-lucide="pen-tool"></i>
+                <span id="hero-publish-text">Proponer Publicación</span>
+              </a>
+              <a href="#ediciones" class="btn-secondary">
+                <i data-lucide="book-open"></i> Leer Ediciones
+              </a>
+            </div>
+          </div>
+          
+          <div class="anim-fade flex justify-center">
+            <div class="relative">
+              <div class="magazine-cover">
+                <img src="./assets/img/logo_zk.png" alt="zetkin">
+                <div class="magazine-line"></div>
+                <span class="magazine-label">Gaceta</span>
+                <span class="magazine-name">Clara Zetkin</span>
+                <span class="magazine-date">Edición Nº 1 · Julio 2025</span>
+                <div class="magazine-badge badge-pulse">
+                  <span>NUEVA EDICIÓN</span>
+                </div>
+              </div>
+              <div class="magazine-shadow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-bg">
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+        <div class="grid md:grid-cols-3 gap-8 items-start">
+          <div class="md:col-span-1">
+            <h2 class="section-title">Sobre la Gaceta</h2>
+            <div class="line-accent left"></div>
+          </div>
+          <div class="md:col-span-2">
+            <p id="about-text" class="about-text">
+              La revista es un espacio de divulgación y reflexión impulsado por trabajadores y trabajadoras de la ciencia y la técnica, activistas por diversos derechos y luchadores sociales. Su objetivo es difundir textos con espíritu crítico que promuevan el debate, el pensamiento transformador y la construcción colectiva del conocimiento.
+            </p>
+            <div class="grid sm:grid-cols-3 gap-6">
+              <div class="flex items-start gap-3">
+                <div class="feature-icon">
+                  <img src="./assets/img/naranja.png">
+                </div>
+                <div>
+                  <h4 class="feature-title">Espíritu Crítico</h4>
+                  <p class="feature-desc">Pensamiento transformador y debate</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="feature-icon">
+                  <img src="./assets/img/naranja.png">
+                </div>
+                <div>
+                  <h4 class="feature-title">Construcción Colectiva</h4>
+                  <p class="feature-desc">Conocimiento desde las bases</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="feature-icon">
+                  <img src="./assets/img/naranja.png">
+                </div>
+                <div>
+                  <h4 class="feature-title">Divulgación</h4>
+                  <p class="feature-desc">Ciencia accesible para todxs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="secciones" class="secciones-bg">
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Secciones de la Revista</h2>
+          <div class="line-accent"></div>
+          <p class="section-subtitle">Cada edición reúne diversas voces y formatos</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <article class="seccion-card card-anim-1">
+            <div class="seccion-icon">
+              <img src="./assets/img/naranja.png">
+            </div>
+            <h3>Narraciones</h3>
+            <p id="section-narraciones-text">Relatos, cuentos cortos, crónicas y poesías</p>
+          </article>
+          <article class="seccion-card card-anim-2">
+            <div class="seccion-icon">
+              <img src="./assets/img/naranja.png">
+            </div>
+            <h3>Notas</h3>
+            <p id="section-notas-text">¿Ciencia para qué? Textos sobre política, cultura, ambiente y actualidad</p>
+          </article>
+          <article class="seccion-card card-anim-3">
+            <div class="seccion-icon">
+              <img src="./assets/img/naranja.png">
+            </div>
+            <h3>Entrevistas</h3>
+            <p id="section-entrevistas-text">Diálogos con protagonistas de la lucha social y científica</p>
+          </article>
+          <article class="seccion-card card-anim-4">
+            <div class="seccion-icon">
+              <img src="./assets/img/naranja.png">
+            </div>
+            <h3>Reseñas</h3>
+            <p id="section-resenas-text">Recomendaciones y críticas de libros, películas y muestras culturales</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ediciones" class="ediciones-bg">
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Ediciones</h2>
+          <div class="line-accent"></div>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <article class="edicion-card section-card">
+            <div class="edicion-header">
+              <div class="text-center">
+                <span class="edicion-number">01</span>
+                <p>Abril 2026</p>
+              </div>
+              <div class="edicion-badge badge-pulse">
+                <span>NUEVA</span>
+              </div>
+            </div>
+            <div class="edicion-content">
+              <h3>Edición Inaugural</h3>
+              <p>Primera edición de la Gaceta Clara Zetkin con textos fundacionales y voces diversas.</p>
+              <a href="#" class="edicion-link">
+                <i data-lucide="arrow-right"></i> Leer edición
+              </a>
+            </div>
+          </article>
+          <article class="edicion-placeholder">
+            <div>
+              <div class="placeholder-icon">
+                <img src="./assets/img/naranja.png">
+              </div>
+              <h3 class="placeholder-title">Próximamente</h3>
+              <p class="placeholder-date">Mayo 2026</p>
+            </div>
+          </article>
+          <article class="edicion-placeholder">
+            <div>
+              <div class="placeholder-icon">
+                <img src="./assets/img/naranja.png">
+              </div>
+              <h3 class="placeholder-title">Próximamente</h3>
+              <p class="placeholder-date">Junio 2026</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="participar" class="cta-section">
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2 class="cta-title">Participá de la Gaceta</h2>
+          <p class="cta-text">
+            Invitamos a todxs lxs trabajadorxs, activistas e investigadorxs a enviar sus textos. La Gaceta es un espacio abierto y colectivo.
+          </p>
+          <div class="cta-actions">
+            <a href="https://forms.gle/iyDx42kKJXf5XRqJ8" target="_blank" rel="noopener noreferrer" 
+               class="btn-primary" id="cta-publish-btn">
+              <i data-lucide="send"></i>
+              <span id="cta-publish-text">Proponer Publicación</span>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoDjhK5pIuNJ-frQALCyhfO73gRy6luWhTlIPikAZUPzQQYQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" 
+               class="btn-secondary" id="cta-subscribe-btn">
+              <i data-lucide="mail"></i>
+              <span id="cta-subscribe-text">Recibir la Gaceta</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-border">
+      <div class="max-w-6xl mx-auto px-4 py-10">
+        <div class="grid sm:grid-cols-3 gap-8 items-start">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <a href="index.html" class="flex items-center gap-2">
+                <img src="./assets/img/logo_zk.png" alt="zetkin" class="logo-icon">
+                <span class="footer-subtitle">Gaceta Clara Zetkin</span>
+              </a>
+            </div>
+            <p class="footer-text">
+              Una publicación de Naranja Ciencia y Técnica · Agrupación de trabajadorxs organizadxs con independencia política.
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-heading">Contacto</h4>
+            <p class="footer-text mb-3">naranjacienciaytecnica@gmail.com</p>
+            <div class="flex gap-3">
+              <a href="https://www.instagram.com/naranja.cyt" target="_blank" rel="noopener noreferrer" 
+                 class="social-icon" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/naranja.cyt" target="_blank" rel="noopener noreferrer" 
+                 class="social-icon" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="mailto:naranjacienciaytecnica@gmail.com" 
+                 class="social-icon" aria-label="Email">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+              <a href="https://www.youtube.com/@NaranjaCienciayT%C3%A9cnica" target="_blank" rel="noopener noreferrer" 
+                 class="social-icon" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.instagram.com/naranja.cyt" target="_blank" rel="noopener noreferrer" 
+                 class="social-icon" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>© 2025 Naranja Ciencia y Técnica · Gaceta Clara Zetkin</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./assets/scripts/gaceta.js"></script>
+</body>
+</html>
