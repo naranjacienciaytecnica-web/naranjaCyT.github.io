@@ -320,7 +320,6 @@
       border-radius:14px;
       display:grid;
       place-items:center;
-      background:linear-gradient(135deg, var(--orange-bg), var(--orange-light));
       color:var(--white);
       font-weight:800;
       font-size:22px;
