@@ -283,13 +283,13 @@
       gap:24px;
       grid-template-columns: repeat(1,1fr);
     }
-    .area-card{
-      background:var(--white);
-      border-radius:var(--card-radius);
-      padding:24px;
-      display:flex;
-      gap:20px;
-      align-items:flex-start;
+    .area-card {
+      background: var(--white);
+      border-radius: var(--card-radius);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
       box-shadow: var(--shadow);
       transition: var(--transition);
       border: 1px solid rgba(0,0,0,0.03);
@@ -323,7 +323,6 @@
       color:var(--white);
       font-weight:800;
       font-size:22px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
       transition: var(--transition);
     }
     .area-card:hover .area-icon {
@@ -641,12 +640,15 @@
     .muted{color:var(--text-light)}
     .tag {
       display: inline-block;
-      padding: 4px 10px;
-      background: var(--orange-bg);
+      padding: 4px 12px;
+      background: var(--white);
       color: var(--orange);
+      border: 2px solid #000000;
       border-radius: 20px;
       font-size: 12px;
       font-weight: 600;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     .media-icons{
       display:flex;
@@ -690,6 +692,7 @@
   .section-title h3 {
     font-size: 24px;
   }
+
   
   .area-card {
     flex-direction: column;
