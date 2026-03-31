@@ -70,11 +70,11 @@ function initSmoothScroll() {
 
 function initActiveNav() {
   const currentPath = window.location.pathname;
-  const currentPage = currentPath.split('/').pop() || 'index.html';
+  const currentPage = currentPath.split('/').pop() || 'inicio.html';
   
   document.querySelectorAll('nav a, .mobile-menu a, .footer-link').forEach(link => {
     const href = link.getAttribute('href');
-    if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+    if (href === currentPage || (currentPage === '' && href === 'inicio.html')) {
       link.classList.add('active');
       if (link.classList.contains('footer-link')) {
         link.style.color = '#F36F21';
