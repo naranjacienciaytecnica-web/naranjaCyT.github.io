@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Naranja - Noticias | Ciencia y Técnica</title>
+  <link rel="icon" type="image/png" href="./assets/img/naranja.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="./assets/styles/main.css" rel="stylesheet">
+  <link href="./assets/styles/noticias.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="topbar" role="banner">
+      <div class="brand" aria-label="Naranja - Ciencia y Técnica">
+        <div class="logo" aria-hidden="true">
+          <a href="index.html" class="flex items-center gap-3">
+            <img src="./assets/img/ncyt_icono_b_comb_icon.png" alt="Logo">
+        </a>
+        </div>
+      </div>
+
+      <nav aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Quiénes somos</a></li>
+          <li><a href="declaraciones.html">Declaraciones</a></li>
+          <li><a href="noticias.html">Prensa</a></li>
+          <li><a href="index.html#charlas">Charlas y Talleres</a></li>
+          <li><a href="index.html#youtube">YouTube</a></li>
+          <li><a href="gacetaZetkin.html">Gaceta Clara Zetkin</a></li>
+        </ul>
+      </nav>
+      
+      <div class="cta">
+        <a class="btn btn-primary" href="#suscribirse">Suscribirse</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <div class="news-header">
+      <h1>Declaraciones Naranjas</h1>
+      <p>Enterate sobre nuestra postura en los conflictos relativos a CyT</p>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label for="tagSelect">Filtrar por institución</label>
+        <select id="tagSelect">
+          <option value="all">Todas las instituciones</option>
+          <option value="CONICET">CONICET</option>
+          <option value="INTI">INTI</option>
+          <option value="INTA">INTA</option>
+          <option value="CIC PBA">CIC PBA</option>
+          <option value="CNEA">CNEA</option>
+          <option value="UNIVERSIDAD">UNIVERSIDAD</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <label for="dateFrom">Desde</label>
+        <input type="date" id="dateFrom">
+      </div>
+      
+      <div class="filter-group">
+        <label for="dateTo">Hasta</label>
+        <input type="date" id="dateTo">
+      </div>
+      
+      <div class="filter-actions">
+        <button class="btn-filter" onclick="filterNews()">Aplicar filtros</button>
+        <button class="btn-reset" onclick="resetFilters()">Limpiar</button>
+      </div>
+    </div>
+
+    <!-- Tag Filters -->
+    <div class="tag-cloud">
+      <h3>Filtrar rápidamente por:</h3>
+      <div class="tag-list">
+        <span class="tag-filter active" data-tag="all" onclick="quickFilter('all')">Todas</span>
+        <span class="tag-filter" data-tag="CONICET" onclick="quickFilter('CONICET')">CONICET</span>
+        <span class="tag-filter" data-tag="INTI" onclick="quickFilter('INTI')">INTI</span>
+        <span class="tag-filter" data-tag="INTA" onclick="quickFilter('INTA')">INTA</span>
+        <span class="tag-filter" data-tag="CIC PBA" onclick="quickFilter('CIC PBA')">CIC PBA</span>
+        <span class="tag-filter" data-tag="CNEA" onclick="quickFilter('CNEA')">CNEA</span>
+        <span class="tag-filter" data-tag="UNIVERSIDAD" onclick="quickFilter('UNIVERSIDAD')">UNIVERSIDAD</span>
+      </div>
+    </div>
+
+    <!-- Declas Stats -->
+    <div class="news-stats" id="newsStats">
+      Mostrando <span id="visibleCount">0</span> de <span id="totalCount">0</span> noticias
+    </div>
+
+    <!-- Declas Grid -->
+    <div class="news-grid" id="newsGrid" role="list">
+      <!-- Declas items will be dynamically inserted here -->
+    </div>
+  </main>
+
+  <footer id="contacto" class="wrap" aria-labelledby="footer-title">
+    <div style="display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;justify-content:space-between;">
+      <div>
+        <h4 id="footer-title"><div class="logo" aria-hidden="true"><img src="./assets/img/ncyt_icono_b_comb.png" alt="Logo"></div></h4>
+      </div>
+
+      <div class="media-icons">
+        <small class="muted">Contacto: naranjacienciaytecnica@gmail.com</small>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/naranja.cyt" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/naranja.cyt" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@NaranjaCienciayT%C3%A9cnica" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/naranja.cyt" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/declaraciones.js"></script>
+</body>
+</html>
