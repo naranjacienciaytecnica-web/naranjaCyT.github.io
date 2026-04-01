@@ -8,7 +8,7 @@ const newsData = [
     date: "2026-03-01",
     dateDisplay: "1 mar 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "../notas/decla_CNEA_marzo_2026.html"  
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const newsData = [
     date: "2026-02-10",
     dateDisplay: "10 feb 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-cnea-nucleoelectrica.html"  
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const newsData = [
     date: "2025-11-25",
     dateDisplay: "25 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-up.html"  
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const newsData = [
     date: "2025-12-05",
     dateDisplay: "5 dic 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-lineamientos.html"  
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const newsData = [
     date: "2025-11-26",
     dateDisplay: "26 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-censura.html"  
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const newsData = [
     date: "2025-10-28",
     dateDisplay: "28 oct 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-lucha.html"  
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const newsData = [
     date: "2025-12-22",
     dateDisplay: "22 dic 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-presupuesto.html"  
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const newsData = [
     date: "2025-12-08",
     dateDisplay: "8 dic 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-agencia.html"  
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const newsData = [
     date: "2025-09-09",
     dateDisplay: "9 sep 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./notas/decla_AI_CONICET.html"
   },
   {
     id: 10,
@@ -98,7 +98,7 @@ const newsData = [
     date: "2025-10-17",
     dateDisplay: "17 oct 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-informe.html"  
   },
   {
     id: 11,
@@ -108,7 +108,7 @@ const newsData = [
     date: "2025-11-12",
     dateDisplay: "12 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-conicet-sumarios.html"  
   },
   {
     id: 12,
@@ -118,7 +118,7 @@ const newsData = [
     date: "2026-01-21",
     dateDisplay: "21 ene 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
+    link: "./declaracion-cic-fuga.html"  
   }
 ];
 
