@@ -91,14 +91,14 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 10,
-    title: "Jornada de debate sobre soberanía tecnológica en el INTI",
-    description: "Trabajadores y trabajadoras del INTI organizan una jornada para discutir el rol de la tecnología en el desarrollo nacional y la defensa de los recursos estratégicos.",
-    tag: "INTI",
-    date: "2025-11-20",
-    dateDisplay: "20 nov 2025",
-    image: "./assets/img/logo_largo_ncyt_lineas_small.png",
-    link: "https://www.instagram.com/naranja.cyt"
+      id: 10,
+      title: "El nuevo negocio inmobiliario del Gobierno nacional con las tierras del INTA",
+      description: "El gobierno de Javier Milei intenta vender 40.000 hectáreas del INTA bajo el pretexto de una modernización, este es otro intento de desguazar la institución.",
+      tag: "INTA",
+      date: "2025-12-22",
+      dateDisplay: "22 dic 2025",
+      image: "./assets/img/logo_largo_ncyt_lineas_small.png",
+      link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 15,
