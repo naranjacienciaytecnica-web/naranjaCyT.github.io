@@ -1,6 +1,5 @@
 // Declas database
 const newsData = [
-  // CNEA News
   {
     id: 1,
     title: "Alertan por despidos en la CNEA y se intensifica la lucha",
@@ -112,7 +111,6 @@ const newsData = [
     image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-  // CIC (Provincial) News
   {
     id: 12,
     title: "La fuga de cerebros en la ciencia bonaerense: ajuste con apellido",
