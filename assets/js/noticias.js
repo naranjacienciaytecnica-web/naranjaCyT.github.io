@@ -1,6 +1,4 @@
-// News database
 const newsData = [
-  // CNEA News
   {
     id: 1,
     title: "La presión de los trabajadores arrancó la renovación de los contratos y profundiza el estado de alerta",
@@ -41,11 +39,9 @@ const newsData = [
     image: "./assets/img/logo_largo_ncyt_lineas_small.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-
-  // CIC PBA News
   {
     id: 5,
-    title: "CIC PBA: Ajuste salarial y fuga de cerebros en la ciencia bonaerense",
+    title: "Ajuste salarial y fuga de cerebros en la ciencia bonaerense",
     description: "El gobierno de Axel Kicillof, con la complicidad imprescindible de la dirección de ATE PBA, consumó el ajuste salarial contra lxs trabajadorxs estatales. La propuesta se disfrazó de 'aumento': un 1% retroactivo y un 2% para enero, un incremento irrisorio pulverizado por la inflación que deja los salarios más pobres que nunca. Dentro de este esquema de pauperización, lxs trabajadorxs de la Comisión de Investigaciones Científicas (CIC) sufren un ataque específico. El presidente de la CIC Roberto Salvarezza ya había excluído deliberadamente de una bonificación del 125% del sueldo básico que sí recibieron otras áreas. No es un error: es una decisión política que acelera la fuga de cerebros hacia el sistema nacional y el sector privado, donde los salarios duplican los de la provincia.",
     tag: "CIC PBA",
     date: "2026-01-21",
@@ -55,28 +51,6 @@ const newsData = [
   },
   {
     id: 6,
-    title: "CIC PBA: defensa de la ciencia pública provincial",
-    description: "Investigadores e investigadoras de la CIC PBA se movilizan en defensa del presupuesto para ciencia y técnica en la provincia de Buenos Aires.",
-    tag: "CIC PBA",
-    date: "2025-10-28",
-    dateDisplay: "28 oct 2025",
-    image: "./assets/img/logo_largo_ncyt_lineas_small.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-  {
-    id: 7,
-    title: "CIC PBA: ciclo de charlas sobre ciencia y derechos humanos",
-    description: "La Comisión de Investigaciones Científicas de la Provincia de Buenos Aires organiza un ciclo de debates sobre el rol de la ciencia en la construcción de memoria.",
-    tag: "CIC PBA",
-    date: "2025-08-30",
-    dateDisplay: "30 ago 2025",
-    image: "./assets/img/logo_largo_ncyt_lineas_small.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-
-  // CONICET News
-  {
-    id: 8,
     title: "CONICET: Feliz Navidad y Próspero Ajuste",
     description: "El proyecto oficial consolida un recorte sin precedentes: la inversión en CyT cae a un mínimo histórico del 0.149% del PBI y el financiamiento universitario retrocede a niveles de 2007, según un análisis detallado del Grupo EPC. Mientras aún se discute en el Congreso el Presupuesto 2026, que ya proyecta recortes severos para ciencia y universidades, el Gobierno nacional avanza con un nuevo plan de achique estructural del Estado. Según información oficial, se prepara una reducción de personal que podría alcanzar 'otro 10%' de la planta total de empleados públicos nacionales, lo que equivale a unas 28.500 personas tomando como base los datos actuales del INDEC.",
     tag: "CONICET",
@@ -86,7 +60,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 9,
+    id: 7,
     title: "Nuevos Lineamientos Estratégicos en Innovación, Ciencia y Tecnología 2025–2027",
     description: "un proyecto político de subordinación de la ciencia pública argentina a los intereses del capital concentrado, bajo el lenguaje de la eficiencia, la competitividad y la innovación.",
     tag: "CONICET",
@@ -96,7 +70,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 10,
+    id: 8,
     title: "Nueva convocatoria para proyectos de investigación con impacto social",
     description: "El CONICET lanza una nueva línea de financiamiento para proyectos que aborden problemáticas sociales desde una perspectiva comunitaria y participativa.",
     tag: "CONICET",
@@ -106,9 +80,8 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
 
-  // INTI News
   {
-    id: 11,
+    id: 9,
     title: "Avanzada represiva en INTI",
     description: "desde la intervención del gobierno en el INTI lxs trabajadorxs denuncian múltiples mecanismos persecutorios y represivos tales como: la instalación de cámaras, con micrófono y con reconocimiento facial, en todo el PTM; desembarco de gendarmería y policía federal para la vigilancia de entrada y salida de trabajadorxs del predio.",
     tag: "INTI",
@@ -118,7 +91,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 12,
+    id: 10,
     title: "Jornada de debate sobre soberanía tecnológica en el INTI",
     description: "Trabajadores y trabajadoras del INTI organizan una jornada para discutir el rol de la tecnología en el desarrollo nacional y la defensa de los recursos estratégicos.",
     tag: "INTI",
@@ -127,30 +100,6 @@ const newsData = [
     image: "./assets/img/logo_largo_ncyt_lineas_small.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-
-  // INTA News
-  {
-    id: 13,
-    title: "Preocupación en el INTA por recortes presupuestarios",
-    description: "Trabajadores del INTA denuncian que los recortes afectan directamente a los proyectos de investigación en desarrollo rural y soberanía alimentaria.",
-    tag: "INTA",
-    date: "2025-11-15",
-    dateDisplay: "15 nov 2025",
-    image: "./assets/img/logo_largo_ncyt_lineas_small.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-  {
-    id: 14,
-    title: "INTA: jornada por la soberanía alimentaria",
-    description: "Técnicos e investigadores del INTA participan de una jornada de debate sobre el rol del Estado en la producción de alimentos y el desarrollo rural.",
-    tag: "INTA",
-    date: "2025-09-18",
-    dateDisplay: "18 sep 2025",
-    image: "./assets/img/logo_largo_ncyt_lineas_small.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-
-  // UNIVERSIDAD News
   {
     id: 15,
     title: "Universidades públicas en alerta por veto presupuestario",
