@@ -1,174 +1,126 @@
 // Declas database
 const newsData = [
-  // CNEA Declas
+  // CNEA News
   {
     id: 1,
-    title: "La presión de los trabajadores arrancó la renovación de los contratos y profundiza el estado de alerta",
-    description: "Desde la Naranja Ciencia y Técnica exigimos la renovación de todos los contratos. ¡Ningún despido, fin de la precarización laboral! En el día jueves 27 de marzo, alrededor de un centenar de trabajadores de la Comisión Nacional de Energía Atómica (CNEA) se congregó en la sede central del organismo para llevar adelante una masiva asamblea, en un clima atravesado por la preocupación, la bronca y la incertidumbre frente al vencimiento de cientos de contratos previsto para el próximo 31 de marzo.",
+    title: "Alertan por despidos en la CNEA y se intensifica la lucha",
+    description: "Exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Más de 330 contratos vencen el 31 de marzo sin confirmación de renovación.",
     tag: "CNEA",
-    date: "2026-03-27",
-    dateDisplay: "27 mar 2026",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    date: "2026-03-01",
+    dateDisplay: "1 mar 2026",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 2,
-    title: "CNEA: Alertan por despidos en la CNEA y se intensifica la lucha",
-    description: "Desde la Naranja Ciencia y Técnica exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Frente a la incertidumbre que azota al sector científico-tecnológico y energético nacional, los trabajadores y trabajadoras de la Comisión Nacional de Energía Atómica (CNEA) nos declaramos en estado de alerta. El 31 de Marzo vencen los contratos de más de 330 compañeros y compañeras. Piezas fundamentales para el funcionamiento y los proyectos estratégicos del organismo.",
+    title: "Soberanía energética en disputa: contra la privatización de Nucleoeléctrica",
+    description: "Trabajadores de Nucleoeléctrica y CNEA rechazaron en el Congreso la privatización de la empresa estatal superavitaria que el gobierno pretende entregar al capital privado.",
     tag: "CNEA",
-    date: "2026-03-19",
-    dateDisplay: "19 mar 2026",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    date: "2026-02-10",
+    dateDisplay: "10 feb 2026",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
+  // CONICET News
   {
     id: 3,
-    title: "Ofensiva privatizadora sobre Nucleoeléctrica Argentina S.A.",
-    description: "El gobierno nacional avanza con un plan de privatización de Nucleoeléctrica Argentina S.A. (NASA), la empresa estatal que opera las tres centrales nucleares de potencia del país: Atucha I, Atucha II y Embalse. No se trata de una medida técnica ni aislada, sino de un nuevo capítulo en el desguace del sector energético nacional, continuidad directa del modelo neoliberal inaugurado en los años noventa.",
-    tag: "CNEA",
-    date: "2025-08-14",
-    dateDisplay: "14 ago 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    title: "Crisis en la Obra Social UP: basta de ajuste sobre nuestra salud",
+    description: "Lxs trabajadorxs del CONICET sufren recortes sistemáticos, cobros irregulares y negativas a coberturas esenciales. La justicia falló a favor pero UP se niega a acatar.",
+    tag: "CONICET",
+    date: "2025-11-25",
+    dateDisplay: "25 nov 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 4,
-    title: "CNEA: trabajadores rechazan privatización de Atucha",
-    description: "Los trabajadores de la Comisión Nacional de Energía Atómica se manifiestan en contra del proyecto de privatización de las centrales nucleares.",
-    tag: "CNEA",
-    date: "2025-09-25",
-    dateDisplay: "25 sep 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    title: "Por una ciencia al servicio del pueblo, no del capital",
+    description: "Rechazamos los 'Lineamientos Estratégicos en Innovación, Ciencia y Tecnología 2025-2027' que subordinan la ciencia pública a los intereses del capital bajo el discurso de la eficiencia.",
+    tag: "CONICET",
+    date: "2025-12-05",
+    dateDisplay: "5 dic 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-
-  // CIC PBA Declas
   {
     id: 5,
-    title: "CIC PBA: Ajuste salarial y fuga de cerebros en la ciencia bonaerense",
-    description: "El gobierno de Axel Kicillof, con la complicidad imprescindible de la dirección de ATE PBA, consumó el ajuste salarial contra lxs trabajadorxs estatales. La propuesta se disfrazó de 'aumento': un 1% retroactivo y un 2% para enero, un incremento irrisorio pulverizado por la inflación que deja los salarios más pobres que nunca. Dentro de este esquema de pauperización, lxs trabajadorxs de la Comisión de Investigaciones Científicas (CIC) sufren un ataque específico. El presidente de la CIC Roberto Salvarezza ya había excluído deliberadamente de una bonificación del 125% del sueldo básico que sí recibieron otras áreas. No es un error: es una decisión política que acelera la fuga de cerebros hacia el sistema nacional y el sector privado, donde los salarios duplican los de la provincia.",
-    tag: "CIC PBA",
-    date: "2026-01-21",
-    dateDisplay: "21 ene 2026",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    title: "Censura en CONICET y el avance del lobby minero",
+    description: "Denunciamos las presiones que llevaron a reemplazar un informe del CONICET sobre riesgos ambientales del Proyecto Minero San Jorge por un comunicado alineado al gobierno y las mineras.",
+    tag: "CONICET",
+    date: "2025-11-26",
+    dateDisplay: "26 nov 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 6,
-    title: "CIC PBA: defensa de la ciencia pública provincial",
-    description: "Investigadores e investigadoras de la CIC PBA se movilizan en defensa del presupuesto para ciencia y técnica en la provincia de Buenos Aires.",
-    tag: "CIC PBA",
+    title: "La lucha de lxs trabajadorxs de CyT debe radicalizarse",
+    description: "CONICET recortó de 845 a solo 400 ingresos a la carrera de investigador. 2000 trabajadorxs menos desde 2023, pérdida del 35% salarial y convocatorias paralizadas.",
+    tag: "CONICET",
     date: "2025-10-28",
     dateDisplay: "28 oct 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 7,
-    title: "CIC PBA: ciclo de charlas sobre ciencia y derechos humanos",
-    description: "La Comisión de Investigaciones Científicas de la Provincia de Buenos Aires organiza un ciclo de debates sobre el rol de la ciencia en la construcción de memoria.",
-    tag: "CIC PBA",
-    date: "2025-08-30",
-    dateDisplay: "30 ago 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    title: "Presupuesto 2026: ajuste estructural para el sistema científico",
+    description: "El proyecto de Presupuesto 2026 deroga la ley que garantizaba financiamiento progresivo para CyT, dejando al sistema público sin piso de inversión mínima.",
+    tag: "CONICET",
+    date: "2025-12-22",
+    dateDisplay: "22 dic 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-
-  // CONICET Declas
   {
     id: 8,
-    title: "CONICET: Feliz Navidad y Próspero Ajuste",
-    description: "El proyecto oficial consolida un recorte sin precedentes: la inversión en CyT cae a un mínimo histórico del 0.149% del PBI y el financiamiento universitario retrocede a niveles de 2007, según un análisis detallado del Grupo EPC. Mientras aún se discute en el Congreso el Presupuesto 2026, que ya proyecta recortes severos para ciencia y universidades, el Gobierno nacional avanza con un nuevo plan de achique estructural del Estado. Según información oficial, se prepara una reducción de personal que podría alcanzar 'otro 10%' de la planta total de empleados públicos nacionales, lo que equivale a unas 28.500 personas tomando como base los datos actuales del INDEC.",
+    title: "Nuevos financiamientos de AGENCIA I+D+i: ciencia al servicio del capital",
+    description: "Denunciamos el desvío de fondos del BID destinados a CyT hacia empresas privadas, mientras las convocatorias PICT 2022 y 2023 quedaron en una farsa testimonial.",
     tag: "CONICET",
-    date: "2025-12-02",
-    dateDisplay: "02 dic 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    date: "2025-12-08",
+    dateDisplay: "8 dic 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 9,
-    title: "Nuevos Lineamientos Estratégicos en Innovación, Ciencia y Tecnología 2025–2027",
-    description: "un proyecto político de subordinación de la ciencia pública argentina a los intereses del capital concentrado, bajo el lenguaje de la eficiencia, la competitividad y la innovación.",
+    title: "IA en evaluaciones de CONICET: liquidar trabajadorxs con inteligencia artificial",
+    description: "El uso de inteligencia artificial para evaluar becas vulnera derechos de lxs trabajadores, atenta contra la autonomía científica y es un retroceso en la democratización del organismo.",
     tag: "CONICET",
-    date: "2025-09-30",
-    dateDisplay: "30 sep 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    date: "2025-09-09",
+    dateDisplay: "9 sep 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
     id: 10,
-    title: "Nueva convocatoria para proyectos de investigación con impacto social",
-    description: "El CONICET lanza una nueva línea de financiamiento para proyectos que aborden problemáticas sociales desde una perspectiva comunitaria y participativa.",
+    title: "Nuevo ataque a lxs trabajadorxs del CONICET: exigen informe de avance",
+    description: "CONICET exige informe de avance a investigadorxs que esperan su efectivización hace más de dos años. Una excusa para profundizar la precarización de quienes ya fueron evaluados y admitidos.",
     tag: "CONICET",
-    date: "2025-11-05",
-    dateDisplay: "05 nov 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    date: "2025-10-17",
+    dateDisplay: "17 oct 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-
-  // INTI Declas
   {
     id: 11,
-    title: "Avanzada represiva en INTI",
-    description: "desde la intervención del gobierno en el INTI lxs trabajadorxs denuncian múltiples mecanismos persecutorios y represivos tales como: la instalación de cámaras, con micrófono y con reconocimiento facial, en todo el PTM; desembarco de gendarmería y policía federal para la vigilancia de entrada y salida de trabajadorxs del predio.",
-    tag: "INTI",
-    date: "2025-10-12",
-    dateDisplay: "12 oct 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    title: "Persecución y censura en CyT: sumarios a trabajadorxs del CONICET",
+    description: "Repudiamos los sumarios iniciados contra compañerxs del CENPAT que participaron de una protesta pacífica en 2024. Un acto de revanchismo y persecución ideológica contra quienes luchan por la ciencia pública.",
+    tag: "CONICET",
+    date: "2025-11-12",
+    dateDisplay: "12 nov 2025",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
+  // CIC (Provincial) News
   {
     id: 12,
-    title: "Jornada de debate sobre soberanía tecnológica en el INTI",
-    description: "Trabajadores y trabajadoras del INTI organizan una jornada para discutir el rol de la tecnología en el desarrollo nacional y la defensa de los recursos estratégicos.",
-    tag: "INTI",
-    date: "2025-11-20",
-    dateDisplay: "20 nov 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-
-  // INTA Declas
-  {
-    id: 13,
-    title: "Preocupación en el INTA por recortes presupuestarios",
-    description: "Trabajadores del INTA denuncian que los recortes afectan directamente a los proyectos de investigación en desarrollo rural y soberanía alimentaria.",
-    tag: "INTA",
-    date: "2025-11-15",
-    dateDisplay: "15 nov 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-  {
-    id: 14,
-    title: "INTA: jornada por la soberanía alimentaria",
-    description: "Técnicos e investigadores del INTA participan de una jornada de debate sobre el rol del Estado en la producción de alimentos y el desarrollo rural.",
-    tag: "INTA",
-    date: "2025-09-18",
-    dateDisplay: "18 sep 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-
-  // UNIVERSIDAD Declas
-  {
-    id: 15,
-    title: "Universidades públicas en alerta por veto presupuestario",
-    description: "Docentes, investigadores y estudiantes de universidades nacionales se movilizan frente al Congreso en defensa de la educación y la ciencia pública.",
-    tag: "UNIVERSIDAD",
-    date: "2025-11-10",
-    dateDisplay: "10 nov 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-  {
-    id: 16,
-    title: "Universidad de Buenos Aires: paro en defensa del presupuesto",
-    description: "Trabajadores docentes y no docentes de la UBA realizan un paro en reclamo de mejoras salariales y presupuesto para la universidad pública.",
-    tag: "UNIVERSIDAD",
-    date: "2025-10-05",
-    dateDisplay: "05 oct 2025",
-    image: "./assets/img/ncyt_icono_b_comb.png",
+    title: "La fuga de cerebros en la ciencia bonaerense: ajuste con apellido",
+    description: "El gobierno de Kicillof excluyó a lxs trabajadorxs de la CIC de una bonificación del 125%, acelerando la fuga de cerebros hacia el sistema nacional donde los salarios duplican los de la provincia.",
+    tag: "CIC",
+    date: "2026-01-21",
+    dateDisplay: "21 ene 2026",
+    image: "./assets/img/Logo_naranja_people_banner_lines.png",
     link: "https://www.instagram.com/naranja.cyt"
   }
 ];
