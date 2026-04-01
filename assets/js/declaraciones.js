@@ -7,7 +7,7 @@ const newsData = [
     tag: "CNEA",
     date: "2026-03-01",
     dateDisplay: "1 mar 2026",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -17,10 +17,9 @@ const newsData = [
     tag: "CNEA",
     date: "2026-02-10",
     dateDisplay: "10 feb 2026",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
-  // CONICET News
   {
     id: 3,
     title: "Crisis en la Obra Social UP: basta de ajuste sobre nuestra salud",
@@ -28,7 +27,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-11-25",
     dateDisplay: "25 nov 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -38,7 +37,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-12-05",
     dateDisplay: "5 dic 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -48,7 +47,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-11-26",
     dateDisplay: "26 nov 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -58,7 +57,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-10-28",
     dateDisplay: "28 oct 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -68,7 +67,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-12-22",
     dateDisplay: "22 dic 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -78,7 +77,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-12-08",
     dateDisplay: "8 dic 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -88,7 +87,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-09-09",
     dateDisplay: "9 sep 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -98,7 +97,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-10-17",
     dateDisplay: "17 oct 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -108,7 +107,7 @@ const newsData = [
     tag: "CONICET",
     date: "2025-11-12",
     dateDisplay: "12 nov 2025",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
@@ -118,7 +117,7 @@ const newsData = [
     tag: "CIC",
     date: "2026-01-21",
     dateDisplay: "21 ene 2026",
-    image: "./assets/img/Logo_naranja_people_banner_lines.png",
+    image: "./assets/img/ncyt_icono_b_comb.png",
     link: "https://www.instagram.com/naranja.cyt"
   }
 ];
