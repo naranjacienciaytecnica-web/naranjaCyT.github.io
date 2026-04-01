@@ -12,26 +12,16 @@ const newsData = [
   },
   {
     id: 2,
-    title: "Soberanía energética en disputa: contra la privatización de Nucleoeléctrica",
-    description: "Trabajadores de Nucleoeléctrica y CNEA rechazaron en el Congreso la privatización de la empresa estatal superavitaria que el gobierno pretende entregar al capital privado.",
-    tag: "CNEA",
-    date: "2026-02-10",
-    dateDisplay: "10 feb 2026",
-    image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-cnea-nucleoelectrica.html"  
-  },
-  {
-    id: 3,
     title: "Crisis en la Obra Social UP: basta de ajuste sobre nuestra salud",
     description: "Lxs trabajadorxs del CONICET sufren recortes sistemáticos, cobros irregulares y negativas a coberturas esenciales. La justicia falló a favor pero UP se niega a acatar.",
     tag: "CONICET",
     date: "2025-11-25",
     dateDisplay: "25 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-up.html"  
+    link: "./notas/declaracion_CONICET_UP_nov_2025.html"  
   },
   {
-    id: 4,
+    id: 3,
     title: "Por una ciencia al servicio del pueblo, no del capital",
     description: "Rechazamos los 'Lineamientos Estratégicos en Innovación, Ciencia y Tecnología 2025-2027' que subordinan la ciencia pública a los intereses del capital bajo el discurso de la eficiencia.",
     tag: "CONICET",
@@ -41,7 +31,7 @@ const newsData = [
     link: "./declaracion-conicet-lineamientos.html"  
   },
   {
-    id: 5,
+    id: 4,
     title: "Censura en CONICET y el avance del lobby minero",
     description: "Denunciamos las presiones que llevaron a reemplazar un informe del CONICET sobre riesgos ambientales del Proyecto Minero San Jorge por un comunicado alineado al gobierno y las mineras.",
     tag: "CONICET",
@@ -51,7 +41,7 @@ const newsData = [
     link: "./declaracion-conicet-censura.html"  
   },
   {
-    id: 6,
+    id: 5,
     title: "La lucha de lxs trabajadorxs de CyT debe radicalizarse",
     description: "CONICET recortó de 845 a solo 400 ingresos a la carrera de investigador. 2000 trabajadorxs menos desde 2023, pérdida del 35% salarial y convocatorias paralizadas.",
     tag: "CONICET",
@@ -61,7 +51,7 @@ const newsData = [
     link: "./declaracion-conicet-lucha.html"  
   },
   {
-    id: 7,
+    id: 6,
     title: "Presupuesto 2026: ajuste estructural para el sistema científico",
     description: "El proyecto de Presupuesto 2026 deroga la ley que garantizaba financiamiento progresivo para CyT, dejando al sistema público sin piso de inversión mínima.",
     tag: "CONICET",
@@ -71,14 +61,14 @@ const newsData = [
     link: "./declaracion-conicet-presupuesto.html"  
   },
   {
-    id: 8,
+    id: 7,
     title: "Nuevos financiamientos de AGENCIA I+D+i: ciencia al servicio del capital",
     description: "Denunciamos el desvío de fondos del BID destinados a CyT hacia empresas privadas, mientras las convocatorias PICT 2022 y 2023 quedaron en una farsa testimonial.",
-    tag: "CONICET",
+    tag: "AGENCIA",
     date: "2025-12-08",
     dateDisplay: "8 dic 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-agencia.html"  
+    link: "./notas/decla_AIC_AGENCIA.html"  
   },
   {
     id: 9,
@@ -108,17 +98,17 @@ const newsData = [
     date: "2025-11-12",
     dateDisplay: "12 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-sumarios.html"  
+    link: "./notas/decla_CENPAT_nov_2025.html"  
   },
   {
     id: 12,
     title: "La fuga de cerebros en la ciencia bonaerense: ajuste con apellido",
     description: "El gobierno de Kicillof excluyó a lxs trabajadorxs de la CIC de una bonificación del 125%, acelerando la fuga de cerebros hacia el sistema nacional donde los salarios duplican los de la provincia.",
-    tag: "CIC",
+    tag: "CIC PBA",
     date: "2026-01-21",
     dateDisplay: "21 ene 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-cic-fuga.html"  
+    link: "./notas/decla_cic_PBA_enero_2026.html"  
   }
 ];
 
