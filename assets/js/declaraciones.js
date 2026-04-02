@@ -28,7 +28,7 @@ const newsData = [
     date: "2025-12-05",
     dateDisplay: "5 dic 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-lineamientos.html"  
+    link: "declaraciones.html"  
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const newsData = [
     date: "2025-11-26",
     dateDisplay: "26 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-censura.html"  
+    link: "declaraciones.html"  
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const newsData = [
     date: "2025-10-28",
     dateDisplay: "28 oct 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-lucha.html"  
+    link: "declaraciones.html"  
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const newsData = [
     date: "2025-12-22",
     dateDisplay: "22 dic 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-presupuesto.html"  
+    link: "declaraciones.html"  
   },
   {
     id: 7,
@@ -88,7 +88,7 @@ const newsData = [
     date: "2025-10-17",
     dateDisplay: "17 oct 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./declaracion-conicet-informe.html"  
+    link: "declaraciones.html"  
   },
   {
     id: 11,
