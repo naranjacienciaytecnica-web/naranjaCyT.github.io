@@ -11,16 +11,6 @@ const newsData = [
   },
   {
     id: 2,
-    title: "CNEA: Alertan por despidos en la CNEA y se intensifica la lucha",
-    description: "Desde la Naranja Ciencia y Técnica exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Frente a la incertidumbre que azota al sector científico-tecnológico y energético nacional, los trabajadores y trabajadoras de la Comisión Nacional de Energía Atómica (CNEA) nos declaramos en estado de alerta. El 31 de Marzo vencen los contratos de más de 330 compañeros y compañeras. Piezas fundamentales para el funcionamiento y los proyectos estratégicos del organismo.",
-    tag: "CNEA",
-    date: "2026-03-19",
-    dateDisplay: "19 mar 2026",
-    image: "./assets/img/logo_largo_ncyt_lineas_small.png",
-    link: "https://www.instagram.com/naranja.cyt"
-  },
-  {
-    id: 3,
     title: "Ofensiva privatizadora sobre Nucleoeléctrica Argentina S.A.",
     description: "El gobierno nacional avanza con un plan de privatización de Nucleoeléctrica Argentina S.A. (NASA), la empresa estatal que opera las tres centrales nucleares de potencia del país: Atucha I, Atucha II y Embalse. No se trata de una medida técnica ni aislada, sino de un nuevo capítulo en el desguace del sector energético nacional, continuidad directa del modelo neoliberal inaugurado en los años noventa.",
     tag: "CNEA",
@@ -30,7 +20,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 4,
+    id: 3,
     title: "CNEA: trabajadores rechazan privatización de Atucha",
     description: "Los trabajadores de la Comisión Nacional de Energía Atómica se manifiestan en contra del proyecto de privatización de las centrales nucleares.",
     tag: "CNEA",
@@ -40,7 +30,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 5,
+    id: 4,
     title: "Ajuste salarial y fuga de cerebros en la ciencia bonaerense",
     description: "El gobierno de Axel Kicillof, con la complicidad imprescindible de la dirección de ATE PBA, consumó el ajuste salarial contra lxs trabajadorxs estatales. La propuesta se disfrazó de 'aumento': un 1% retroactivo y un 2% para enero, un incremento irrisorio pulverizado por la inflación que deja los salarios más pobres que nunca. Dentro de este esquema de pauperización, lxs trabajadorxs de la Comisión de Investigaciones Científicas (CIC) sufren un ataque específico. El presidente de la CIC Roberto Salvarezza ya había excluído deliberadamente de una bonificación del 125% del sueldo básico que sí recibieron otras áreas. No es un error: es una decisión política que acelera la fuga de cerebros hacia el sistema nacional y el sector privado, donde los salarios duplican los de la provincia.",
     tag: "CIC PBA",
@@ -50,7 +40,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 6,
+    id: 5,
     title: "CONICET: Feliz Navidad y Próspero Ajuste",
     description: "El proyecto oficial consolida un recorte sin precedentes: la inversión en CyT cae a un mínimo histórico del 0.149% del PBI y el financiamiento universitario retrocede a niveles de 2007, según un análisis detallado del Grupo EPC. Mientras aún se discute en el Congreso el Presupuesto 2026, que ya proyecta recortes severos para ciencia y universidades, el Gobierno nacional avanza con un nuevo plan de achique estructural del Estado. Según información oficial, se prepara una reducción de personal que podría alcanzar 'otro 10%' de la planta total de empleados públicos nacionales, lo que equivale a unas 28.500 personas tomando como base los datos actuales del INDEC.",
     tag: "CONICET",
@@ -60,7 +50,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 7,
+    id: 6,
     title: "Nuevos Lineamientos Estratégicos en Innovación, Ciencia y Tecnología 2025–2027",
     description: "un proyecto político de subordinación de la ciencia pública argentina a los intereses del capital concentrado, bajo el lenguaje de la eficiencia, la competitividad y la innovación.",
     tag: "CONICET",
@@ -70,7 +60,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 8,
+    id: 7,
     title: "Nueva convocatoria para proyectos de investigación con impacto social",
     description: "El CONICET lanza una nueva línea de financiamiento para proyectos que aborden problemáticas sociales desde una perspectiva comunitaria y participativa.",
     tag: "CONICET",
@@ -81,7 +71,7 @@ const newsData = [
   },
 
   {
-    id: 9,
+    id: 8,
     title: "Avanzada represiva en INTI",
     description: "desde la intervención del gobierno en el INTI lxs trabajadorxs denuncian múltiples mecanismos persecutorios y represivos tales como: la instalación de cámaras, con micrófono y con reconocimiento facial, en todo el PTM; desembarco de gendarmería y policía federal para la vigilancia de entrada y salida de trabajadorxs del predio.",
     tag: "INTI",
@@ -91,7 +81,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-      id: 10,
+      id: 9,
       title: "El nuevo negocio inmobiliario del Gobierno nacional con las tierras del INTA",
       description: "El gobierno de Javier Milei intenta vender 40.000 hectáreas del INTA bajo el pretexto de una modernización, este es otro intento de desguazar la institución.",
       tag: "INTA",
@@ -101,7 +91,7 @@ const newsData = [
       link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 15,
+    id: 10,
     title: "Universidades públicas en alerta por veto presupuestario",
     description: "Docentes, investigadores y estudiantes de universidades nacionales se movilizan frente al Congreso en defensa de la educación y la ciencia pública.",
     tag: "UNIVERSIDAD",
@@ -111,7 +101,7 @@ const newsData = [
     link: "https://www.instagram.com/naranja.cyt"
   },
   {
-    id: 16,
+    id: 11,
     title: "Universidad de Buenos Aires: paro en defensa del presupuesto",
     description: "Trabajadores docentes y no docentes de la UBA realizan un paro en reclamo de mejoras salariales y presupuesto para la universidad pública.",
     tag: "UNIVERSIDAD",
@@ -119,6 +109,16 @@ const newsData = [
     dateDisplay: "05 oct 2025",
     image: "./assets/img/logo_largo_ncyt_lineas_small.png",
     link: "https://www.instagram.com/naranja.cyt"
+  },
+  {
+    "id": 12,
+    "title": "Jornadas claves para el sector científico",
+    "description": "Desde distintos sectores de Ciencia y Técnica se unen para llevar la lucha del sector a las puertas de FATE en apoyo a sus 920 trabajadores, frente al cierre patronal que mantiene la fábrica ocupada desde hace más de un mes. Bajo el lema 'Ciencia para unir las luchas', la iniciativa surgió de una asamblea de trabajadores de CONICET con el objetivo de visibilizar de manera conjunta el desmantelamiento de la ciencia y la amenaza que pesa sobre el empleo fabril. El festival se realizará el 18 de abril de 14 a 18 hs en la puerta de FATE (Victoria), con la conducción de Fabián Waldman, Valeria Edelsztein y Nadia Chiaramoni, stands interactivos, charlas y micrófono abierto con participación de científicos del CONICET, la CNEA y el Museo Nacional de Ciencias Naturales. La actividad forma parte de un plan de lucha que incluye además una jornada el 10 de abril en Plaza de Mayo para reubicar en la agenda pública la acuciante situación de la ciencia.",
+    "tag": "CONICET",
+    "date": "2026-04-02",
+    "dateDisplay": "2 abr 2026",
+    "image": "./assets/img/logo_largo_ncyt_lineas_small.png",
+    "link": "https://www.instagram.com/naranja.cyt"
   }
 ];
 
