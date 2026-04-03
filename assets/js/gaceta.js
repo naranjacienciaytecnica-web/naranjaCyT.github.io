@@ -232,3 +232,27 @@ window.gaceta = {
   applyConfig,
   defaultConfig
 };
+
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const notas = document.querySelectorAll('.nota-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const filterValue = this.getAttribute('data-filter');
+
+      notas.forEach(nota => {
+        if (filterValue === 'all' || nota.getAttribute('data-category') === filterValue) {
+          nota.style.display = 'flex';
+          setTimeout(() => nota.classList.add('visible'), 10);
+        } else {
+          nota.style.display = 'none';
+          nota.classList.remove('visible');
+        }
+      });
+    });
+  });
+});
