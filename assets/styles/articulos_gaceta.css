@@ -62,45 +62,20 @@ body {
   text-decoration: underline;
 }
 
- .gaceta-header {
-      text-align: center;
-      padding: 2rem 2rem 1rem;
-      border-bottom: 3px double #be6901;
-      margin-bottom: 2rem;
-  }
+.gaceta-header {
+  text-align: center;
+  padding: 2rem 2rem 1rem;
+  border-bottom: 3px double #be6901;
+  margin-bottom: 2rem;
+}
 
-  .gaceta-header img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 0.5rem;
-  }
+.gaceta-header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
 
-  .gaceta-subtitle {
-    font-size: 0.2rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #666;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-  }
-  .gaceta-header {
-    text-align: center;
-    padding: 2rem 2rem 1rem;
-    border-bottom: 3px double #be6901;
-    margin-bottom: 2rem;
-  }
-
-  .gaceta-title {
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: -1px;
-    text-transform: uppercase;
-    color: #1a1a1a;
-  }
-
-  .gaceta-subtitle {
+.gaceta-subtitle {
   font-size: 0.8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -136,6 +111,213 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 2rem 2rem;
+}
+
+/* Estilos para la página principal con grid de artículos */
+.main-content.full-width {
+  display: block;
+  padding: 0 2rem 2rem;
+}
+
+/* Sección editorial destacada */
+.editorial-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f0ede5;
+}
+
+.section-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #be6901;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Tarjeta destacada (editorial) */
+.featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1.5rem;
+  background: #faf8f4;
+  border: 1px solid #e0dcd5;
+}
+
+.featured-card .card-image {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.featured-card .card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card .card-tag {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #be6901;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.featured-card .card-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.featured-card .card-title a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.featured-card .card-title a:hover {
+  color: #be6901;
+}
+
+.featured-card .card-excerpt {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.featured-card .card-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e0dcd5;
+  padding-top: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* Grid de artículos */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Tarjeta de artículo estándar */
+.article-card {
+  background: #fff;
+  border: 1px solid #e0dcd5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-color: #be6901;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 1.2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-tag {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #be6901;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.card-title a:hover {
+  color: #be6901;
+}
+
+.card-excerpt {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.card-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f0ede5;
+  padding-top: 0.75rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.read-more {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #be6901;
+  text-decoration: none;
+}
+
+.read-more i {
+  margin-left: 0.3rem;
+  transition: transform 0.2s;
+}
+
+.read-more:hover i {
+  transform: translateX(4px);
 }
 
 .feature-article {
@@ -235,7 +417,6 @@ body {
   margin: 1.5rem 0;
   color: #444;
 }
-
 
 .data-box {
   background: #f8f6f0;
@@ -376,7 +557,19 @@ body {
   .main-content.single-column {
     padding: 0 1rem 1rem;
   }
-
+  
+  .main-content.full-width {
+    padding: 0 1rem 1rem;
+  }
+  
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+  
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+  
   .feature-article {
     border-right: none;
     padding-right: 0;
@@ -389,7 +582,11 @@ body {
   .gaceta-title {
     font-size: 2rem;
   }
-
+  
+  .featured-card .card-title {
+    font-size: 1.5rem;
+  }
+  
   .questions-5w {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
@@ -399,24 +596,32 @@ body {
   .gaceta-header {
     padding: 1rem;
   }
-
+  
   .gaceta-title {
     font-size: 1.5rem;
   }
-
+  
   .headline {
     font-size: 1.5rem;
   }
-
+  
   .pull-quote {
     font-size: 1.1rem;
   }
-
+  
   .top-nav ul {
     gap: 1rem;
   }
-
+  
   .top-nav a {
     font-size: 0.7rem;
+  }
+  
+  .featured-card .card-title {
+    font-size: 1.3rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
   }
 }
