@@ -109,6 +109,16 @@ const newsData = [
     dateDisplay: "21 ene 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "./notas/decla_cic_PBA_enero_2026.html"  
+  },
+  {
+    id: 13,
+    title: "Vacío institucional: becarios posdoctorales del CONICET al borde de la expulsión",
+    description: "Una vez más, lxs becarixs del CONICET se encuentran ante un escenario desesperante, expulsadxs del organismo por arbitrariedades y recortes de presupuesto.",
+    tag: "CONICET",
+    date: "2026-04-07",
+    dateDisplay: "07 abr 2026",
+    image: "./assets/img/ncyt_icono_b_comb.png",
+    link: "./notas/decla_prorroga_becas_abril_2026.html"  
   }
 ];
 
