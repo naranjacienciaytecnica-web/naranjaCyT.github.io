@@ -125,10 +125,20 @@ const newsData = [
     "title": "Ciencia para unir las luchas: festival de Ciencia en la puerta de FATE",
     "description": "En el marco de la lucha que busca revertir el devastador ajuste presupuestario y salarial, el sector de Ciencia y Técnica realizará el próximo 18 de abril un festival de ciencia en la puerta de la fábrica Fate (Victoria) impulsado por la Naranja CyT y distintas organizaciones y sindicatos del sector científico tecnológico (CONICET, CNEA, INTI y Universidad). El festival en Fate contará con la conducción del periodista Fabián Waldman y las científicas Valeria Edelsztein y Nadia Chiaramoni, además de stands interactivos, actividades para las infancias, charlas de investigadores reconocidos y micrófono abierto para lxs sectores en lucha.",
     "tag": "CONICET",
+    "date": "2026-04-06",
+    "dateDisplay": "6 abr 2026",
+    "image": "./assets/img/logo_largo_ncyt_lineas_small.png",
+    "link": "https://prensaobrera.com/sindicales/jornadas-de-luchas-claves-para-los-sectores-de-ciencia-y-tecnica"
+  },
+  {
+    "id": 14,
+    "title": "Presentación de la Gaceta Clara Zetkin",
+    "description": "La presentación de la Gaceta Clara Zetkin se hará en Plaza de Mayo, en el marco de una jornada lucha por el cumplimiento de la Ley de Financiamiento Universitario y en reclamo por el desfinanciamiento del sector Científico y Tecnológico. Porque nuestra revista busca ser en un espacio abierto para debatir y para construir horizontes colectivos. Lanzamos el primer número de la Gaceta Clara Zetkin, y lo hacemos con un tema urgente: ¿Con la IVE cómo andamos? Con la participación de Socorristas en Red.",
+    "tag": "CONICET",
     "date": "2026-04-07",
     "dateDisplay": "7 abr 2026",
     "image": "./assets/img/logo_largo_ncyt_lineas_small.png",
-    "link": "https://prensaobrera.com/sindicales/jornadas-de-luchas-claves-para-los-sectores-de-ciencia-y-tecnica"
+    "link": "https://www.naranjacyt.org/articulos/articulo_IVE_ed_1_2026.html"
   }
 ];
 
