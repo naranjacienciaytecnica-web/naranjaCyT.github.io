@@ -118,7 +118,17 @@ const newsData = [
     "date": "2026-04-02",
     "dateDisplay": "2 abr 2026",
     "image": "./assets/img/logo_largo_ncyt_lineas_small.png",
-    "link": "https://www.instagram.com/naranja.cyt"
+    "link": "https://prensaobrera.com/sindicales/jornadas-de-luchas-claves-para-los-sectores-de-ciencia-y-tecnica"
+  },
+  {
+    "id": 13,
+    "title": "Ciencia para unir las luchas: festival de Ciencia en la puerta de FATE",
+    "description": "En el marco de la lucha que busca revertir el devastador ajuste presupuestario y salarial, el sector de Ciencia y Técnica realizará el próximo 18 de abril un festival de ciencia en la puerta de la fábrica Fate (Victoria) impulsado por la Naranja CyT y distintas organizaciones y sindicatos del sector científico tecnológico (CONICET, CNEA, INTI y Universidad). El festival en Fate contará con la conducción del periodista Fabián Waldman y las científicas Valeria Edelsztein y Nadia Chiaramoni, además de stands interactivos, actividades para las infancias, charlas de investigadores reconocidos y micrófono abierto para lxs sectores en lucha.",
+    "tag": "CONICET",
+    "date": "2026-04-07",
+    "dateDisplay": "7 abr 2026",
+    "image": "./assets/img/logo_largo_ncyt_lineas_small.png",
+    "link": "https://prensaobrera.com/sindicales/jornadas-de-luchas-claves-para-los-sectores-de-ciencia-y-tecnica"
   }
 ];
 
