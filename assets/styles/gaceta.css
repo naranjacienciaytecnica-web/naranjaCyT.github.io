@@ -177,11 +177,11 @@ body { box-sizing: border-box; }
 
 .btn-secondary {
   background: transparent;
-  color: var(--naranja);
+  color: #1a1a1a;
   font-weight: 600;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
-  border: var(--border-strong);
+  border: solid 1px #1a1a1a;
   transition: var(--transition);
   display: inline-flex;
   align-items: center;
@@ -275,7 +275,7 @@ body { box-sizing: border-box; }
   justify-content: center;
   padding: 2rem;
   text-align: center;
-  border-top: 6px solid var(--naranja);
+  border-top: 6px solid #1a1a1a;
 }
 .magazine-initials {
   color: var(--naranja);
@@ -308,14 +308,14 @@ body { box-sizing: border-box; }
   font-size: 0.75rem;
 }
 .magazine-badge {
-  background: rgba(243, 111, 33, 0.15);
-  border: 1px solid var(--naranja);
+  background: rgba(139, 138, 138, 0.15);
+  border: 1px solid #1a1a1a;
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   margin-top: 1.5rem;
 }
 .magazine-badge span {
-  color: var(--naranja);
+  color: #1a1a1a;
   font-size: 0.75rem;
   font-weight: bold;
 }
@@ -326,7 +326,7 @@ body { box-sizing: border-box; }
   width: 18rem;
   height: 24rem;
   border-radius: 0.25rem;
-  border: 1px solid rgba(243, 111, 33, 0.08);
+  border: 1px solid rgba(142, 140, 139, 0.08);
   z-index: -10;
 }
 
@@ -476,7 +476,7 @@ body { box-sizing: border-box; }
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
-  background: var(--naranja);
+  background: #302f2f;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
