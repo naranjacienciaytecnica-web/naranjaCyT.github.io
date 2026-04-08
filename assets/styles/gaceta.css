@@ -147,13 +147,13 @@ body { box-sizing: border-box; }
   padding: 0.25rem 0;
 }
 .nav-link-mobile.active {
-  color: var(--naranja);
+  color: #1a1a1a;
   font-weight: 600;
 }
 
 /* Botones */
 .btn-primary {
-  background: var(--naranja);
+  background: #1a1a1a;
   color: white;
   font-weight: 600;
   padding: 0.75rem 2rem;
@@ -356,7 +356,7 @@ body { box-sizing: border-box; }
 /* About section */
 .about-bg {
   background: var(--blanco);
-  border-top: 6px solid var(--naranja);
+  border-top: 6px solid #1a1a1a;
 }
 .about-text {
   color: var(--texto);
@@ -401,7 +401,7 @@ body { box-sizing: border-box; }
   padding: 1.5rem;
   position: relative;
   overflow: hidden;
-  border-left: 4px solid var(--naranja);
+  border-left: 4px solid #6f6c6c;
   transition: var(--transition);
 }
 .seccion-card:hover {
@@ -509,7 +509,7 @@ body { box-sizing: border-box; }
 }
 .edicion-placeholder {
   background: rgba(243, 111, 33, 0.03);
-  border: 2px dashed rgba(243, 111, 33, 0.2);
+  border: 2px dashed #928e8e;
   border-radius: 0.5rem;
   min-height: 320px;
   display: flex;
@@ -531,7 +531,7 @@ body { box-sizing: border-box; }
 .placeholder-icon i {
   width: 1.75rem;
   height: 1.75rem;
-  color: var(--naranja);
+  color: #1a1a1a;
 }
 .placeholder-title {
   color: rgba(32,32,32,0.4);
@@ -547,7 +547,7 @@ body { box-sizing: border-box; }
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, var(--blanco) 0%, var(--gris-lighter) 100%);
-  border-top: 6px solid var(--naranja);
+  border-top: 6px solid #1a1a1a;
 }
 .cta-icon {
   background: rgba(243, 111, 33, 0.12);
@@ -563,7 +563,7 @@ body { box-sizing: border-box; }
 .cta-icon i {
   width: 1.75rem;
   height: 1.75rem;
-  color: var(--naranja);
+  color: #1a1a1a;
 }
 .cta-title {
   color: var(--texto);
