@@ -119,6 +119,16 @@ const newsData = [
     dateDisplay: "07 abr 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "./notas/decla_prorroga_becas_abril_2026.html"  
+  },
+  {
+    id: 14,
+    title: "Repudio al cierre de servicios del INTI: 1000 servicios dados de baja y 700 puestos de trabajo amenazados",
+    description: "Repudiamos la resolución RESFC-2026-42-APN-CD#INTI que elimina 1000 servicios del INTI y amenaza con 700 despidos. Exigimos su derogación inmediata, el cese de la amenaza de despidos, financiamiento público permanente y respeto a la autonomía de los consejos directivos. La ciencia no es una mercancía.",
+    tag: "INTI",
+    date: "2026-04-15",
+    dateDisplay: "15 abr 2026",
+    image: "./assets/img/ncyt_icono_b_comb.png",
+    link: "./notas/decla_INTI_15_abril_2026.html"  
   }
 ];
 
