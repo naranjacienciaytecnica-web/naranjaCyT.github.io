@@ -129,6 +129,16 @@ const newsData = [
     dateDisplay: "15 abr 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "./notas/decla_INTI_15_abril_2026.html"  
+  },
+  {
+    id: 15,
+    title: "Becas Williams vs CONICET: Incompatibilidad absurda que condena a la precariedad",
+    description: "Repudiamos la interpretación restrictiva del CONICET que declara incompatible con su reglamento la beca de la Fundación Williams para estadías de investigación dentro del país, mientras los estipendios de becarixs han perdido el 50% de su poder adquisitivo y se encuentran por debajo de la canasta básica. Exigimos al Directorio del CONICET que habilite urgentemente a lxs becarixs a presentarse sin restricciones. Lo verdaderamente incompatible con la ciencia es que quienes investigan tengan que manejar un Uber o endeudarse para sostenerse.",
+    tag: "Becas CONICET",
+    date: "2026-04-17",
+    dateDisplay: "17 abr 2026",
+    image: "./assets/img/ncyt_icono_b_comb.png",
+    link: "./notas/decla_Williams_17_abril_2026.html"
   }
 ];
 
