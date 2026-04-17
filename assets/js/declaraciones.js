@@ -138,7 +138,7 @@ const newsData = [
     date: "2026-04-17",
     dateDisplay: "17 abr 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
-    link: "./notas/decla_Williams_17_abril_2026.html"
+    link: "./notas/decla_Becas_Williams_CONICET.html"
   }
 ];
 
