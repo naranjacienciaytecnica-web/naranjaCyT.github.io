@@ -544,11 +544,164 @@ body {
   text-align: center;
 }
 
+.article-text ul,
+.article-text .bibliografia,
+.bibliografia-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.article-text ul li,
+.bibliografia-list li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.article-text .bibliografia,
+.article-text .bibliografia p,
+.article-text .bibliografia li,
+.article-text .notas,
+.article-text .notas p,
+.article-text .notas li,
+.article-text hr + p,
+.article-text hr + h3,
+.article-text > hr ~ p,
+.article-text > hr ~ h3 {
+  font-size: 0.65rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.article-text h3:has(+ hr),
+.article-text h3:has(+ ul),
+.article-text h3:has(+ p) {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.article-text hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.article-text .notas a,
+.article-text hr + p a,
+.article-text p a {
+  color: #be6901;
+  text-decoration: none;
+  border-bottom: 1px dotted #be6901;
+}
+
+.article-text .notas a:hover,
+.article-text hr + p a:hover,
+.article-text p a:hover {
+  color: #8a4c00;
+  border-bottom: 1px solid #8a4c00;
+}
+
+sup {
+  font-size: 0.7rem;
+  color: #be6901;
+}
+
+.float-right-img {
+  float: right;
+  width: 300px;
+  margin: 0 0 1rem 1.8rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.float-right-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.float-right-img .img-caption {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  color: #777;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  .float-right-img {
+    float: none;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  
+  .float-right-img img {
+    width: 100%;
+  }
+}
+
+.float-right-img-small {
+  float: right;
+  width: 240px;
+  margin: 0 0 0.8rem 1.5rem;
+}
+
+.float-right-img-small img {
+  width: 100%;
+  height: auto;
+}
+
+.float-right-img-small .img-caption {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  color: #777;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .float-right-img-small {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.float-left-img {
+  float: left;
+  width: 280px;
+  margin: 0 1.5rem 1rem 0;
+}
+
+.float-left-img img {
+  width: 100%;
+  height: auto;
+}
+
+
 @media (max-width: 800px) {
   .main-content {
     grid-template-columns: 1fr;
     padding: 0 1rem;
   }
+
+    .float-left-img {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
   
   .main-content.single-column {
     padding: 0 1rem 1rem;
