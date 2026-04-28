@@ -465,6 +465,10 @@ body {
   color: #be6901;
 }
 
+.gcz-question {
+  margin-bottom: 15px;
+}
+
 .inverted-pyramid-note {
   background: #f0ede5;
   padding: 1rem;
