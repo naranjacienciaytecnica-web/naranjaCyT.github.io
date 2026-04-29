@@ -472,6 +472,12 @@ body {
   margin-bottom: 15px;
 }
 
+.epigraph .dropcap {
+  margin-bottom: 0.5rem;
+}
+.epigraph {
+  margin-bottom: 2rem;
+}
 .inverted-pyramid-note {
   background: #f0ede5;
   padding: 1rem;
