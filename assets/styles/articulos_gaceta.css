@@ -132,6 +132,7 @@ body {
   color: #be6901;
   margin-bottom: 1rem;
   font-weight: 600;
+  padding-left: 2rem;
 }
 
 .featured-card {
@@ -214,6 +215,8 @@ body {
   gap: 2rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .article-card {
