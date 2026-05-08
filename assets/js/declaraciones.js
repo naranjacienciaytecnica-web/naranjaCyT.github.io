@@ -143,7 +143,7 @@ const newsData = [
   {
   id: 16,
   title: "Contra el desguace universitario y científico: 12M movilización masiva",
-  description: "Ante la caída del presupuesto universitario hasta el 45% y salarios de becarios e investigadores que perdieron entre el 30% y el 40% de su poder adquisitivo —con miles de trabajadores calificados en condiciones de pobreza—, la Agrupación Naranja Ciencia y Técnica convoca a llenar las calles el 12 de mayo. El sector CyT acumula el 8,3% de los despidos totales del Estado, mientras organismos estratégicos como la CNEA, el INTI y el CONICET son vaciados. La declaración denuncia además a las burocracias sindicales de ATE y UPCN como factores de desorganización y complicidad con el ajuste. Exigen paro en CyT para la fecha y aplicación inmediata de la ley de Financiamiento Universitario. Convocan a construir una huelga general para derrotar a Milei.",
+  description: "Ante la caída del presupuesto universitario hasta el 45% y salarios de becarixs e investigadorxs que perdimos entre el 30% y el 40% de nuestro poder adquisitivo, desde la Agrupación Naranja Ciencia y Técnica convocamos a llenar las calles este 12 de mayo. Mientras el sector CyT acumula el 8,3% de los despidos totales del Estado, con organismos estratégicos como la CNEA, el INTI y AGENCIA I+D+i siendo completamente desmantelados, las burocracias sindicales de ATE y UPCN actúan como agentes de desorganización y complicidad con el ajuste. Por esta razón exigimos un paro en CyT para la fecha de la próxima marcha Universitaria Federal. Exijamos en las calles la aplicación inmediata de la ley de Financiamiento Universitario y construyamos una huelga general para derrotar a Milei.",
   tag: "Universidad",
   date: "2026-05-12",
   dateDisplay: "12 may 2026",
