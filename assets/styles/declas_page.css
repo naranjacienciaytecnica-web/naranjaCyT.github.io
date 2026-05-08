@@ -130,12 +130,17 @@ nav a:hover {
   margin-bottom: 16px;
 }
 
+.declaracion-header h2 {
+  margin-top: 16px;
+}
+
 .date {
   font-size: 14px;
   opacity: 0.9;
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-top: 15px;
 }
 
 /* ========== BODY CONTENT ========== */
