@@ -146,10 +146,20 @@ const newsData = [
   description: "Ante la caída del presupuesto universitario hasta el 45% y salarios de becarixs e investigadorxs que perdimos entre el 30% y el 40% de nuestro poder adquisitivo, desde la Agrupación Naranja Ciencia y Técnica convocamos a llenar las calles este 12 de mayo. Mientras el sector CyT acumula el 8,3% de los despidos totales del Estado, con organismos estratégicos como la CNEA, el INTI y AGENCIA I+D+i siendo completamente desmantelados, las burocracias sindicales de ATE y UPCN actúan como agentes de desorganización y complicidad con el ajuste. Por esta razón exigimos un paro en CyT para la fecha de la próxima marcha Universitaria Federal. Exijamos en las calles la aplicación inmediata de la ley de Financiamiento Universitario y construyamos una huelga general para derrotar a Milei.",
   tag: "Universidad",
   date: "2026-05-12",
-  dateDisplay: "12 may 2026",
+  dateDisplay: "8 may 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/convocatoria_marcha_universitaria_12M.html"
-  }
+  },
+  {
+  id: 17,
+  title: "Declaración de la Naranja Ciencia y Técnica ante un nuevo Ajustazo",
+  description: "La modificación del Presupuesto 2026, realizada a través de la Decisión Administrativa 20/2026 en su planilla anexa al Artículo 1º, es un capítulo más en la ejecución programada del desguace del sistema público de ciencia y tecnología argentino. Bajo el eufemismo contable de “contribuciones figurativas negativas”, el gobierno de Milei elimina partidas enteras de organismos estratégicos. Este 12 de mayo, convocamos a llenar las calles en defensa de las universidades y el sistema científico-tecnológico públicos. ¡La victoria de la lucha de la Universidad es clave para el sistema científico! Abajo el presupuesto de ajuste.",
+  tag: "CONICET",
+  date: "2026-05-12",
+  dateDisplay: "12 may 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/decla_presupuesto_2026.html"
+}
 ];
 
 // Render Declas Summary Cards
