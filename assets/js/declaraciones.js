@@ -183,7 +183,7 @@ const newsData = [
   {
   id: 20,
   title: "La organización colectiva arranca respuestas ¡Seguimos firmes por Josefina!",
-  description: " En las últimas semanas, las denuncias impulsadas por compañeros y compañeras, junto con la difusión y el acompañamiento colectivo, comenzaron a arrancar respuestas que hasta hace poco parecían imposibles. Sin embargo, Josefina necesita acceder, sin demoras y hasta el fin del tratamiento, a las prestaciones y el medicamento RIBOCICLIB (200 mg comp. x 63) requerido por su equipo médico. A pesar de contar con una cautelar a favor, Unión Personal ha apelado el fallo poniendo en riesgo todo el tratamiento. Sabemos que ningún tratamiento médico debería depender de la presión pública, de amparos judiciales ni de campañas de visibilización para ser garantizado.Por eso creemos que es fundamental continuar denunciando a Unión Personal y UPCN para que ¡cumplan todo el tratamiento de Josefina ya!",
+  description: " En las últimas semanas, las denuncias impulsadas por compañeros y compañeras, junto con la difusión y el acompañamiento colectivo, comenzaron a arrancar respuestas que hasta hace poco parecían imposibles. A pesar de contar con una cautelar a favor, Unión Personal ha apelado el fallo judicial que intima a proveerle a Josefina el RIBOCICLIB (200 mg comp. x 63).  Por eso creemos que es fundamental continuar denunciando a Unión Personal y UPCN para que ¡cumplan todo el tratamiento de Josefina ya!",
   tag: "CONICET",
   date: "2026-05-15",
   dateDisplay: "20 may 2026",
