@@ -144,7 +144,7 @@ const newsData = [
   id: 16,
   title: "Contra el desguace universitario y científico: 12M movilización masiva",
   description: "Ante la caída del presupuesto universitario hasta el 45% y salarios de becarixs e investigadorxs que perdimos entre el 30% y el 40% de nuestro poder adquisitivo, desde la Agrupación Naranja Ciencia y Técnica convocamos a llenar las calles este 12 de mayo. Mientras el sector CyT acumula el 8,3% de los despidos totales del Estado, con organismos estratégicos como la CNEA, el INTI y AGENCIA I+D+i siendo completamente desmantelados, las burocracias sindicales de ATE y UPCN actúan como agentes de desorganización y complicidad con el ajuste. Por esta razón exigimos un paro en CyT para la fecha de la próxima marcha Universitaria Federal. Exijamos en las calles la aplicación inmediata de la ley de Financiamiento Universitario y construyamos una huelga general para derrotar a Milei.",
-  tag: "Universidad",
+  tag: "UNIVERSIDAD",
   date: "2026-05-12",
   dateDisplay: "8 may 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
@@ -159,6 +159,36 @@ const newsData = [
   dateDisplay: "12 may 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/decla_presupuesto_2026.html"
+}, 
+  {
+  id: 18,
+  title: "La marcha universitaria dejó planteada la profundización de la lucha para todos los trabajadores del Estado",
+  description: "Las movilizaciones del 12 de mayo fueron masivas en todo el país. La marcha expresó el reclamo por educación, salud, ciencia y técnica, contra los despidos y el ajuste. Milei redobla la apuesta con más violencia presupuestaria. Las y los estatales somos víctimas centrales. Proponemos una asamblea general de estatales para unir la lucha por abajo, sin distinción de afiliación. Basta de despidos, aumento salarial de emergencia, defendamos al INTI, el SMN y todos los organismos amenazados.",
+  tag: "UNIVERSIDAD",
+  date: "2026-05-15",
+  dateDisplay: "15 may 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/asamblea_general_estatales.html"
+},
+  {
+  id: 19,
+  title: "¡MEDICACIÓN PARA JOSEFINA YA!",
+  description: "Desde la Agrupación Naranja Ciencia y Técnica expresamos nuestro más profundo apoyo y solidaridad con la compañera Josefina. Exigimos a Unión Personal y a UPCN el cumplimiento inmediato de la ley y de la medida cautelar correspondiente, garantizando la entrega urgente de toda la medicación y prestaciones indicadas por sus médicos tratantes. Llamamos a toda la comunidad de CONICET, organismos de ciencia y técnica y trabajadores estatales a rodear de solidaridad este reclamo y pronunciarnos colectivamente frente a un sistema que descarga el ajuste sobre la salud y la vida de los trabajadores.",
+  tag: "CONICET",
+  date: "2026-05-15",
+  dateDisplay: "14 may 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/declaracion_sobre_josefina.html"
+},
+  {
+  id: 20,
+  title: "La organización colectiva arranca respuestas ¡Seguimos firmes por Josefina!",
+  description: " En las últimas semanas, las denuncias impulsadas por compañeros y compañeras, junto con la difusión y el acompañamiento colectivo, comenzaron a arrancar respuestas que hasta hace poco parecían imposibles. A pesar de contar con una cautelar a favor, Unión Personal ha apelado el fallo judicial que intima a proveerle a Josefina el RIBOCICLIB (200 mg comp. x 63).  Por eso creemos que es fundamental continuar denunciando a Unión Personal y UPCN para que ¡cumplan todo el tratamiento de Josefina ya!",
+  tag: "CONICET",
+  date: "2026-05-15",
+  dateDisplay: "20 may 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/declaracion_apelación_UP_contra_Josefina.html"
 }
 ];
 
