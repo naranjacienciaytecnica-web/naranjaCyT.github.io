@@ -1,4 +1,4 @@
-// Configuración por defecto (para el SDK)
+// Configuración por defecto
 const defaultConfig = {
 
   background_color: '#F5F5F5',
@@ -21,8 +21,51 @@ const defaultConfig = {
   cta_subscribe: 'Recibir la Gaceta',
 };
 
-// ===== FUNCIONES PRINCIPALES =====
+// ===== DATOS DE LAS PUBLICACIONES  =====
+const ultimasPublicaciones = [ 
+  {
+    id: 1,
+    titulo: "Defender los glaciares en Argentina: cuestión de 'vida' o 'muerte'",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Argentina tiene más de 16.000 glaciares, reservas estratégicas de agua dulce. La modificación de la Ley de Glaciares pone en riesgo la vida en territorios áridos y la justicia ambiental. Casi 1 millón de firmas acompañan un amparo judicial para frenarlo.",
+    fecha: "27 de abril de 2026",
+    enlace: "../articulos/glaciares_ed_1_2026.html",
+    imagen: "../assets/img/notas_img/glaciares.png"
+  },
+  {
+    id: 2,
+    titulo: "Asambleas de Chapadmalal",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "La experiencia de 'Luna Roja' y 'Bienes Comunes de Chapadmalal' muestra las potencialidades y tensiones de la contrademocracia en la defensa del territorio.",
+    fecha: "22 Mayo 2026",
+    enlace: "./articulos/asambleas_ciudadanas_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/Asamblea_chapadmalal_1.png"
+  },
+  {
+    id: 3,
+    titulo: "¿Fragmentación sectorial como estrategia política?",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Guillermo Folguera analiza los límites de la fragmentación como táctica política dominante y propone construir puentes desde los territorios.",
+    fecha: "18 Mayo 2026",
+    enlace: "./articulos/territorio_estrategia_politica_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/territorios_estrategia_politica_2.png"
+  },
+  {
+    id: 4,
+    titulo: "Fundamentos Filosóficos Contra El Constructivismo Social",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Una crítica al uso político del conocimiento que niega la episteme para imponer la doxa en el mundo académico y social actual.",
+    fecha: "28 Mayo 2026",
+    enlace: "./articulos/constructivismo_social_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/constructivismo_social.jpeg"
+  }
+];
 
+// ===== FUNCIONES PRINCIPALES =====
 
 function initGaceta() {
   initMobileMenu();
@@ -67,7 +110,6 @@ function initSmoothScroll() {
   });
 }
 
-
 function initActiveNav() {
   const currentPath = window.location.pathname;
   const currentPage = currentPath.split('/').pop() || 'inicio.html';
@@ -89,7 +131,47 @@ function initLucideIcons() {
   }
 }
 
-// ===== FUNCIONES DEL SDK  =====
+// ===== FUNCIÓN PARA GENERAR TARJETAS DE PREVISUALIZACIÓN =====
+function generarTarjetasPrevisualizacion() {
+  const container = document.getElementById('preview-cards-container');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  ultimasPublicaciones.forEach((pub, index) => {
+    const card = document.createElement('article');
+    card.className = 'preview-card';
+    card.style.animationDelay = `${index * 0.1}s`;
+    
+    card.innerHTML = `
+      <div class="preview-card-image">
+        <img src="${pub.imagen}" alt="${pub.seccion}">
+        <span class="preview-card-category">${pub.seccion}</span>
+      </div>
+      <div class="preview-card-content">
+        <h3 class="preview-card-title">${pub.titulo}</h3>
+        <p class="preview-card-excerpt">${pub.excerpt}</p>
+        <div class="preview-card-meta">
+          <span class="preview-card-date">
+            <i data-lucide="calendar" style="width: 12px; height: 12px;"></i>
+            ${pub.fecha}
+          </span>
+          <a href="${pub.enlace}" class="preview-card-link">
+            Leer más <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+          </a>
+        </div>
+      </div>
+    `;
+    
+    container.appendChild(card);
+  });
+  
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+}
+
+// ===== FUNCIONES DEL SDK =====
 
 function applyConfig(config) {
   const c = { ...defaultConfig, ...config };
@@ -225,14 +307,10 @@ function initSdk() {
 document.addEventListener('DOMContentLoaded', () => {
   initGaceta();
   initSdk();
+  generarTarjetasPrevisualizacion();  // Generar las tarjetas de previsualización
 });
 
-window.gaceta = {
-  init: initGaceta,
-  applyConfig,
-  defaultConfig
-};
-
+// Filtro para notas (prensa)
 document.addEventListener('DOMContentLoaded', function() {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const notas = document.querySelectorAll('.nota-card');
@@ -256,3 +334,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+window.gaceta = {
+  init: initGaceta,
+  applyConfig,
+  defaultConfig,
+  generarTarjetasPrevisualizacion
+};

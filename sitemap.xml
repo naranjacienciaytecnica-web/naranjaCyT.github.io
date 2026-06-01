@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página de Inicio -->
+  <url>
+    <loc>https://www.naranjacyt.org/index.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Declaraciones -->
+  <url>
+    <loc>https://www.naranjacyt.org/declaraciones.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gaceta (¡la más importante para vos!) -->
+  <url>
+    <loc>https://www.naranjacyt.org/gacetaZetkin.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Noticias -->
+  <url>
+    <loc>https://www.naranjacyt.org/noticias.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ediciones individuales -->
+  <url>
+    <loc>https://www.naranjacyt.org/ediciones/GCZNum1.html</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.naranjacyt.org/ediciones/GCZNum2.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Artículos de la edición -->
+  <url>
+    <loc>https://www.naranjacyt.org/articulos/mayo_frances_ed_2_2026.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.naranjacyt.org/articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.naranjacyt.org/articulos/asambleas_ciudadanas_ed_2_2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.naranjacyt.org/articulos/resenia_The_Get_Down_ed_2_2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
