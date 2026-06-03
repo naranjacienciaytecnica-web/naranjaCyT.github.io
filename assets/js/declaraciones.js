@@ -192,7 +192,7 @@ const newsData = [
 },
   {
   id: 21,
-  title: "Baja masiva de becaries y la falsa elección impuesta por UP: Ni un paso atrás con la salud de les becaries: el ajuste no puede disfrazarse de 'opción'",
+  title: "Baja masiva de becaries y la falsa elección impuesta por CONICET: Ni un paso atrás con la salud de les becaries: el ajuste no puede disfrazarse de 'opción'",
   description: "En las últimas horas se confirmó lo que veníamos advirtiendo: la Obra Social Unión Personal (UP) y las autoridades del CONICET han lanzado una maniobra brutal contra les becaries de todo el país. Bajo el ropaje de una supuesta “adecuación administrativa”, UP está notificando la baja masiva, sin fundamentos, de la cobertura de salud de decenas de compañeres becaries. Al mismo tiempo, les presentan una falsa opción: aceptar un ridículo bono de apenas 90 mil pesos, que no cubre ni una sola consulta médica, o “elegir” seguir en la obra social en crisis, en condiciones que se modifican unilateralmente, de manera discrecional y sin garantías. Esta maniobra vulnera el derecho a la salud de todo un sector de trabajadores de la ciencia, precarizados estructuralmente, que conquistaron esta obra social con más de una década de lucha ininterrumpida.",
   tag: "CONICET",
   date: "2026-03-06",
