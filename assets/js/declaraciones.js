@@ -189,10 +189,19 @@ const newsData = [
   dateDisplay: "20 may 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/declaracion_apelación_UP_contra_Josefina.html"
+},
+  {
+  id: 21,
+  title: "Baja masiva de becaries y la falsa elección impuesta por UP: Ni un paso atrás con la salud de les becaries: el ajuste no puede disfrazarse de 'opción'",
+  description: "En las últimas horas se confirmó lo que veníamos advirtiendo: la Obra Social Unión Personal (UP) y las autoridades del CONICET han lanzado una maniobra brutal contra les becaries de todo el país. Bajo el ropaje de una supuesta “adecuación administrativa”, UP está notificando la baja masiva, sin fundamentos, de la cobertura de salud de decenas de compañeres becaries. Al mismo tiempo, les presentan una falsa opción: aceptar un ridículo bono de apenas 90 mil pesos, que no cubre ni una sola consulta médica, o “elegir” seguir en la obra social en crisis, en condiciones que se modifican unilateralmente, de manera discrecional y sin garantías. Esta maniobra vulnera el derecho a la salud de todo un sector de trabajadores de la ciencia, precarizados estructuralmente, que conquistaron esta obra social con más de una década de lucha ininterrumpida.",
+  tag: "CONICET",
+  date: "2026-03-06",
+  dateDisplay: "3 jun 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/declaracion_baja_masiva_de_becaries_UP.html"
 }
 ];
 
-// Render Declas Summary Cards
 newsData.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 let currentFilters = {
