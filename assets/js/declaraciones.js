@@ -199,7 +199,17 @@ const newsData = [
   dateDisplay: "3 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/declaracion_baja_masiva_de_becaries_UP.html"
-}
+},
+{
+  id: 22,
+  title: "Con Mariano Saleh y contra persecución en el sector Nuclear",
+  description: "Desde la Naranja Ciencia y Técnica expresamos toda nuestra solidaridad con el compañero Mariano Saleh, trabajador de NA-SA en Atucha donde trabaja desde hace 14 años.No es perseguido por falta de compromiso ni por falta de capacidad. Todo lo contrario: lo atacan porque se puso al frente, junto a sus compañeros y compañeras, de las asambleas contra la privatización de Nucleoeléctrica Argentina y porque viene denunciando el vaciamiento del sector nuclear nacional.Por eso el intento de despido de Mariano tiene un mensaje claro: quieren disciplinar. ¡Reincorporación inmediata de Mariano Saleh!. Abajo la privatización de NA-SA.",
+  tag: "CNEA",
+  date: "2026-03-06",
+  dateDisplay: "12 jun 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/decla_CNEA_Saleh.html"
+},
 ];
 
 newsData.sort((a, b) => new Date(b.date) - new Date(a.date));
