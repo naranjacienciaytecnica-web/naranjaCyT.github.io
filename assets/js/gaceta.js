@@ -24,14 +24,14 @@ const defaultConfig = {
 // ===== DATOS DE LAS PUBLICACIONES  =====
 const ultimasPublicaciones = [ 
   {
-    id: 1,
-    titulo: "Defender los glaciares en Argentina: cuestión de 'vida' o 'muerte'",
-    seccion: "Artículo",
-    categoria: "notas",
-    excerpt: "Argentina tiene más de 16.000 glaciares, reservas estratégicas de agua dulce. La modificación de la Ley de Glaciares pone en riesgo la vida en territorios áridos y la justicia ambiental. Casi 1 millón de firmas acompañan un amparo judicial para frenarlo.",
-    fecha: "27 de abril de 2026",
-    enlace: "../articulos/glaciares_ed_1_2026.html",
-    imagen: "../assets/img/notas_img/glaciares.png"
+    "id": 1,
+    "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
+    "seccion": "Nota",
+    "categoria": "notas",
+    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos y el rol fundamental del científico Andrés Carrasco, que con su investigación marcó un hito en la ciencia comprometida con los pueblos.",
+    "fecha": "16 Junio 2026",
+    "enlace": "./articulos/ciencia_digna_ed_3_2026.html",
+    "imagen": "../assets/img/notas_img/ituzaingo.jpg"
   },
   {
     id: 2,
@@ -55,6 +55,36 @@ const ultimasPublicaciones = [
   },
   {
     id: 4,
+    titulo: "¿Con la IVE cómo andamos?",
+    seccion: "Nota",
+    categoria: "Nota",
+    excerpt: "Desde la asunción de Javier Milei, el Ministerio de Salud dejó de producir información sobre el acceso a la interrupción voluntaria del embarazo. A pesar del desfinanciamiento, la ley sigue vigente y los equipos de salud la sostienen.",
+    fecha: "3 de abril de 2026",
+    enlace: "../articulos/articulo_IVE_ed_1_2026.html",
+    imagen: "../assets/img/notas_img/8M_CABA.png"
+  },
+  {
+    id: 5,
+    titulo: "Defender los glaciares en Argentina: cuestión de 'vida' o 'muerte'",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Argentina tiene más de 16.000 glaciares, reservas estratégicas de agua dulce. La modificación de la Ley de Glaciares pone en riesgo la vida en territorios áridos y la justicia ambiental. Casi 1 millón de firmas acompañan un amparo judicial para frenarlo.",
+    fecha: "27 de abril de 2026",
+    enlace: "../articulos/glaciares_ed_1_2026.html",
+    imagen: "../assets/img/notas_img/glaciares.png"
+  },
+  {
+    id: 6,
+    titulo: "La ideología de género: la hidra del gobierno libertario",
+    seccion: "Artículo",
+    categoria: "articulo",
+    excerpt: "El discurso de Javier Milei en Davos 2025 construye la 'ideología de género' como un monstruo de múltiples cabezas: una amenaza latente, un virus mental, un cáncer a extirpar. A través de operaciones retóricas de condensación, patologización y criminalización, el presidente configura a feminismos y diversidades como un enemigo interno, legitimando respuestas violentas. Los crímenes de odio aumentaron un 62% entre 2024 y 2025. Contra la ofensiva patriarcal, organización feminista.",
+    fecha: "28 de abril de 2026",
+    enlace: "../articulos/ideologia_de_genero_ed_1_2026.html",
+    imagen: "../assets/img/notas_img/genero_banner.png"
+  },
+  {
+    id: 7,
     titulo: "Fundamentos Filosóficos Contra El Constructivismo Social",
     seccion: "Artículo",
     categoria: "notas",
@@ -62,7 +92,18 @@ const ultimasPublicaciones = [
     fecha: "28 Mayo 2026",
     enlace: "./articulos/constructivismo_social_ed_2_2026.html",
     imagen: "../assets/img/notas_img/constructivismo_social.jpeg"
-  }
+  },
+  {
+    id: 8,
+    titulo: "Arauco avanza, la selva resiste: entrevista",
+    seccion: "Entrevista",
+    categoria: "entrevistas",
+    excerpt: "Desde la Gaceta Clara Zetkin dialogamos con Clarisa Neztor, activista socioambiental e integrante de Extinction Rebellion Misiones, y Santiago Ramos, mboruvixa (cacique) de la comunidad Mbya Guaraní de Puente Quemado II, en Garuhapé, Misiones. Denuncian el hostigamiento policial, las detenciones arbitrarias y el avance de la transnacional chilena Arauco, cuyos monocultivos de pino ya asfixian el 80% de su territorio ancestral. <strong> Una conversación sobre ecocidio, criminalización de la resistencia, el rol de la ciencia comprometida y las estrategias concretas de lucha.",
+    fecha: "28 Mayo 2026",
+    enlace: "./articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/fuera_arauco_banner.png"
+  },
+
 ];
 
 // ===== FUNCIONES PRINCIPALES =====
