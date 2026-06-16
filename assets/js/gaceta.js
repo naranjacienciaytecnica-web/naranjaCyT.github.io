@@ -28,7 +28,7 @@ const ultimasPublicaciones = [
     "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
     "seccion": "Nota",
     "categoria": "notas",
-    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos y el rol fundamental del científico Andrés Carrasco, que con su investigación marcó un hito en la ciencia comprometida con los pueblos.",
+    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos, una gesta que interpeló al sistema academico y abrió el camino para la construcción de la Ciencia Digna: aquella que no se hace para la memoria de una ciencia que ya no está, ni al servicio de las grandes corporaciones, sino para beneficio concreto de quienes luchan por una naturaleza menos degradada y una menor inequidad social.",
     "fecha": "16 Junio 2026",
     "enlace": "./articulos/ciencia_digna_ed_3_2026.html",
     "imagen": "../assets/img/notas_img/ituzaingo.jpg"
