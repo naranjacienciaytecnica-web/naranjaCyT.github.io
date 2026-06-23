@@ -210,6 +210,16 @@ const newsData = [
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/decla_CNEA_Saleh.html"
 },
+{
+  id: 23,
+  title: "Basta de despidos y ajuste en CONICET",
+  description: "El gobierno de Milei y las autoridades del CONICET profundizan el vaciamiento con la anulación de 502 cargos concursados para Personal de Apoyo y quieren dejar en la calle a 400 becarios postdoctorales. El ajuste golpea a todo el sector con salarios se derrumban y sin acceso a la salud. Prearemos una gran jornada nacional de lucha este 1 de Julio para enfrentar el ajuste y defender el sistema científico nacional. ¡Continuidad laboral para becaries y CPAs!",
+  tag: "CONICET",
+  date: "2026-23-06",
+  dateDisplay: "23 jun 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/despidos_CONICET.html"
+},
 ];
 
 newsData.sort((a, b) => new Date(b.date) - new Date(a.date));
