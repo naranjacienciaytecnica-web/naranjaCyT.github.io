@@ -653,6 +653,54 @@ sup {
   clear: both;
 }
 
+.pull-quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 500;
+  border-left: 4px solid #be6901;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: #444;
+  background: #f9f6ef;
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
+}
+
+.pull-quote .fa-quote-left {
+  margin-right: 0.5rem;
+  color: #b37b2e;
+  font-size: 1.2rem;
+}
+
+.pull-quote-source {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-style: normal;
+  text-align: right;
+  color: #666;
+}
+
+.pull-quote-source em {
+  font-style: italic;
+}
+
+
+.pull-quote:first-of-type {
+  margin-bottom: 1.8rem;
+}
+
+/* Ajuste para móviles */
+@media (max-width: 600px) {
+  .pull-quote {
+    font-size: 1.1rem;
+    padding: 1rem 1.25rem;
+  }
+  
+  .pull-quote-source {
+    font-size: 0.75rem;
+  }
+}
+
 @media (max-width: 700px) {
   .float-right-img {
     float: none;
@@ -740,6 +788,10 @@ sup {
   
   .headline {
     font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
   }
   
   .gaceta-title {
