@@ -28,7 +28,7 @@ const ultimasPublicaciones = [
     "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
     "seccion": "Nota",
     "categoria": "notas",
-    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos, una gesta que interpeló al sistema academico y abrió el camino para la construcción de la Ciencia Digna: aquella que no se hace para la memoria de una ciencia que ya no está, ni al servicio de las grandes corporaciones, sino para beneficio concreto de quienes luchan por una naturaleza menos degradada y una menor inequidad social.",
+    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos, una gesta que interpeló al sistema academico y abrió el camino para la construcción de la Ciencia Digna.",
     "fecha": "16 Junio 2026",
     "enlace": "./articulos/ciencia_digna_ed_3_2026.html",
     "imagen": "../assets/img/notas_img/ituzaingo.jpg"
@@ -78,7 +78,7 @@ const ultimasPublicaciones = [
     titulo: "La ideología de género: la hidra del gobierno libertario",
     seccion: "Artículo",
     categoria: "articulo",
-    excerpt: "El discurso de Javier Milei en Davos 2025 construye la 'ideología de género' como un monstruo de múltiples cabezas: una amenaza latente, un virus mental, un cáncer a extirpar. A través de operaciones retóricas de condensación, patologización y criminalización, el presidente configura a feminismos y diversidades como un enemigo interno, legitimando respuestas violentas. Los crímenes de odio aumentaron un 62% entre 2024 y 2025. Contra la ofensiva patriarcal, organización feminista.",
+    excerpt: "El discurso de Javier Milei en Davos 2025 construye la 'ideología de género' como un monstruo de múltiples cabezas: una amenaza latente, un virus mental, un cáncer a extirpar. El presidente configura a feminismos y diversidades como un enemigo interno, legitimando respuestas violentas.",
     fecha: "28 de abril de 2026",
     enlace: "../articulos/ideologia_de_genero_ed_1_2026.html",
     imagen: "../assets/img/notas_img/genero_banner.png"
@@ -98,7 +98,7 @@ const ultimasPublicaciones = [
     titulo: "Arauco avanza, la selva resiste: entrevista",
     seccion: "Entrevista",
     categoria: "entrevistas",
-    excerpt: "Desde la Gaceta Clara Zetkin dialogamos con Clarisa Neztor, activista socioambiental e integrante de Extinction Rebellion Misiones, y Santiago Ramos, mboruvixa (cacique) de la comunidad Mbya Guaraní de Puente Quemado II, en Garuhapé, Misiones. Denuncian el hostigamiento policial, las detenciones arbitrarias y el avance de la transnacional chilena Arauco, cuyos monocultivos de pino ya asfixian el 80% de su territorio ancestral. <strong> Una conversación sobre ecocidio, criminalización de la resistencia, el rol de la ciencia comprometida y las estrategias concretas de lucha.",
+    excerpt: "Entrevistamos a Santiago Ramos, mboruvixa (cacique) de la comunidad Mbya Guaraní de Puente Quemado II, en Garuhapé, Misiones. <strong> Una conversación sobre ecocidio, criminalización de la resistencia, el rol de la ciencia comprometida y las estrategias concretas de lucha.",
     fecha: "28 Mayo 2026",
     enlace: "./articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html",
     imagen: "../assets/img/notas_img/fuera_arauco_banner.png"
