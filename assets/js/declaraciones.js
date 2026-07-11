@@ -1,6 +1,16 @@
 // Declas database
 const newsData = [
   {
+  id: 0,
+  title: "Carta abierta contra el ajuste en CyT",
+  description: "¡La ciencia no se rinde, lucha! A nuestros compañerxs trabajadorxs del sistema científico-tecnológico. el sistema que sostenemos día a día con nuestro trabajo atraviesa una situación de extrema gravedad que venimos denunciando desde hace tiempo. El financiamiento público en ciencia y tecnología alcanza hoy el nivel más bajo en más de dos décadas, por debajo incluso de la crisis de 2002.Todo lo que hoy defendemos fue conquistado y defendido gracias a la organización y la lucha de quienes nos precedieron.",
+  tag: "CONICET",
+  date: "2026-23-06",
+  dateDisplay: "23 jun 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/carta_abierta_contra_el_ajuste_en_cyt.html"
+  },
+  {
     id: 1,
     title: "Alertan por despidos en la CNEA y se intensifica la lucha",
     description: "Exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Más de 330 contratos vencen el 31 de marzo sin confirmación de renovación.",
@@ -219,7 +229,7 @@ const newsData = [
   dateDisplay: "23 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/despidos_CONICET.html"
-},
+}
 ];
 
 newsData.sort((a, b) => new Date(b.date) - new Date(a.date));
