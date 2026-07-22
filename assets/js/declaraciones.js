@@ -8,7 +8,7 @@ const newsData = [
   date: "2026-22-07",
   dateDisplay: "23 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
-  link: "./notas/carta_abierta_contra_el_ajuste_en_cyt.html"
+  link: "./notas/decla_400_despidos.html"
   },
   {
   id: 1,
