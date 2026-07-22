@@ -2,6 +2,16 @@
 const newsData = [
   {
   id: 0,
+  title: "¡En CONICET no sobra nadie!",
+  description: "En cuestión de días, 400 compañerxs quedan en la calle por la falta de prórroga de sus becas. No es un recorte menor, ni es un problema administrativo, es la puerta de entrada a la destrucción masiva del sistema científico. Aún estamos a tiempo de torcerle el brazo al ajuste, pero debemos unirnos en una única lucha, sin distinciones de cargo. Por eso, convocamos a declarar el estado de alerta y vigilia, de cara a una movilización el 29 de Julio en el Polo Científico Tecnológico y todos los CCTs del país. ",
+  tag: "CONICET",
+  date: "2026-22-07",
+  dateDisplay: "23 jun 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/carta_abierta_contra_el_ajuste_en_cyt.html"
+  },
+  {
+  id: 1,
   title: "Carta abierta contra el ajuste en CyT",
   description: "¡La ciencia no se rinde, lucha! A nuestros compañerxs trabajadorxs del sistema científico-tecnológico. el sistema que sostenemos día a día con nuestro trabajo atraviesa una situación de extrema gravedad que venimos denunciando desde hace tiempo. El financiamiento público en ciencia y tecnología alcanza hoy el nivel más bajo en más de dos décadas, por debajo incluso de la crisis de 2002.Todo lo que hoy defendemos fue conquistado y defendido gracias a la organización y la lucha de quienes nos precedieron.",
   tag: "CONICET",
@@ -11,7 +21,7 @@ const newsData = [
   link: "./notas/carta_abierta_contra_el_ajuste_en_cyt.html"
   },
   {
-    id: 1,
+    id: 2,
     title: "Alertan por despidos en la CNEA y se intensifica la lucha",
     description: "Exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Más de 330 contratos vencen el 31 de marzo sin confirmación de renovación.",
     tag: "CNEA",
@@ -21,7 +31,7 @@ const newsData = [
     link: "../notas/decla_CNEA_marzo_2026.html"  
   },
   {
-    id: 2,
+    id: 3,
     title: "Crisis en la Obra Social UP: basta de ajuste sobre nuestra salud",
     description: "Lxs trabajadorxs del CONICET sufren recortes sistemáticos, cobros irregulares y negativas a coberturas esenciales. La justicia falló a favor pero UP se niega a acatar.",
     tag: "CONICET",
@@ -31,7 +41,7 @@ const newsData = [
     link: "./notas/declaracion_CONICET_UP_nov_2025.html"  
   },
   {
-    id: 3,
+    id: 4,
     title: "Por una ciencia al servicio del pueblo, no del capital",
     description: "Rechazamos los 'Lineamientos Estratégicos en Innovación, Ciencia y Tecnología 2025-2027' que subordinan la ciencia pública a los intereses del capital bajo el discurso de la eficiencia.",
     tag: "CONICET",
@@ -41,7 +51,7 @@ const newsData = [
     link: "declaraciones.html"  
   },
   {
-    id: 4,
+    id: 5,
     title: "Censura en CONICET y el avance del lobby minero",
     description: "Denunciamos las presiones que llevaron a reemplazar un informe del CONICET sobre riesgos ambientales del Proyecto Minero San Jorge por un comunicado alineado al gobierno y las mineras.",
     tag: "CONICET",
@@ -51,7 +61,7 @@ const newsData = [
     link: "declaraciones.html"  
   },
   {
-    id: 5,
+    id: 6,
     title: "La lucha de lxs trabajadorxs de CyT debe radicalizarse",
     description: "CONICET recortó de 845 a solo 400 ingresos a la carrera de investigador. 2000 trabajadorxs menos desde 2023, pérdida del 35% salarial y convocatorias paralizadas.",
     tag: "CONICET",
@@ -61,7 +71,7 @@ const newsData = [
     link: "declaraciones.html"  
   },
   {
-    id: 6,
+    id: 7,
     title: "Presupuesto 2026: ajuste estructural para el sistema científico",
     description: "El proyecto de Presupuesto 2026 deroga la ley que garantizaba financiamiento progresivo para CyT, dejando al sistema público sin piso de inversión mínima.",
     tag: "CONICET",
@@ -71,7 +81,7 @@ const newsData = [
     link: "declaraciones.html"  
   },
   {
-    id: 7,
+    id: 8,
     title: "Nuevos financiamientos de AGENCIA I+D+i: ciencia al servicio del capital",
     description: "Denunciamos el desvío de fondos del BID destinados a CyT hacia empresas privadas, mientras las convocatorias PICT 2022 y 2023 quedaron en una farsa testimonial.",
     tag: "AGENCIA",
