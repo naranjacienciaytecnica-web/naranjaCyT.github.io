@@ -25,23 +25,23 @@ const defaultConfig = {
 const ultimasPublicaciones = [ 
   {
     "id": 1,
-    "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
+    "titulo": "La tierra que supimos conseguir",
     "seccion": "Nota",
     "categoria": "notas",
-    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos, una gesta que interpeló al sistema academico y abrió el camino para la construcción de la Ciencia Digna.",
-    "fecha": "16 Junio 2026",
-    "enlace": "./articulos/ciencia_digna_ed_3_2026.html",
-    "imagen": "../assets/img/notas_img/ituzaingo.jpg"
+    "excerpt": "Quién es el dueño de Argentina? La histórica pregunta volvió a ocupar el centro de la escena a partir del proyecto de Ley de Inviolabilidad de la Propiedad Privada impulsado por el gobierno actual de Javier Milei. Presentada como una 'herramienta destinada a fortalecer la seguridad jurídica y estimular las inversiones', la iniciativa viene a reabrir una discusión mucho más profunda que la mera protección del derecho de propiedad.",
+    "fecha": "26 Julio 2026",
+    "enlace": "./articulos/la_tierra_que_supimos_conseguir_ed_4_2026.html",
+    "imagen": "../assets/img/notas_img/propiedad_privada.png"
   },
   {
     id: 2,
-    titulo: "Asambleas de Chapadmalal",
+    titulo: "¿La muerte como horizonte? Cartografiando un porvenir posible",
     seccion: "Artículo",
-    categoria: "notas",
-    excerpt: "La experiencia de 'Luna Roja' y 'Bienes Comunes de Chapadmalal' muestra las potencialidades y tensiones de la contrademocracia en la defensa del territorio.",
-    fecha: "22 Mayo 2026",
-    enlace: "./articulos/asambleas_ciudadanas_ed_2_2026.html",
-    imagen: "../assets/img/notas_img/Asamblea_chapadmalal_1.png"
+    categoria: "articulo",
+    excerpt: "Las lógicas del mercado dejan a los pueblos cada vez más pobres, a los ricos cada vez más cínicos. En este terreno sombrío, la cultura nos presta sus narrativas apocalípticas, y la tarea clínica hoy se vuelve imaginativa y colectiva. A las guardias de los hospitales llegan las explosiones de los padeceres, pero el horizonte no está cerrado; está en disputa.",
+    fecha: "26 Julio 2026",
+    enlace: "./articulos/catografiando_un_futuro_posible_ed_4_2026.html",
+    imagen: "../assets/img/notas_img/cartografeando_futuros_banner.png"
   },
   {
     id: 3,
@@ -55,13 +55,13 @@ const ultimasPublicaciones = [
   },
   {
     id: 4,
-    titulo: "¿Con la IVE cómo andamos?",
-    seccion: "Nota",
-    categoria: "Nota",
-    excerpt: "Desde la asunción de Javier Milei, el Ministerio de Salud dejó de producir información sobre el acceso a la interrupción voluntaria del embarazo. A pesar del desfinanciamiento, la ley sigue vigente y los equipos de salud la sostienen.",
-    fecha: "3 de abril de 2026",
-    enlace: "../articulos/articulo_IVE_ed_1_2026.html",
-    imagen: "../assets/img/notas_img/8M_CABA.png"
+    titulo: "LA FOTOGRAFÍA 51: Retratos de la invisibilización de ayer y de hoy",
+    seccion: "Artículo",
+    categoria: "articulo",
+    excerpt: "En 1952, Rosalind Franklin capturó la imagen que descifraría el secreto de la vida. Pero su nombre quedó fuera de la historia. La Fotografía 51 es hoy el símbolo del avance de la ciencia y la persistencia de un sistema que sigue relegando a las mujeres al pie de página de sus propios descubrimientos.",
+    fecha: "28 de Julio de 2026",
+    enlace: "../articulos/foto_51_ed_4_2026.html",
+    imagen: "../assets/img/notas_img/foto_51_rosalind.png"
   },
   {
     id: 5,
@@ -85,13 +85,13 @@ const ultimasPublicaciones = [
   },
   {
     id: 7,
-    titulo: "Fundamentos Filosóficos Contra El Constructivismo Social",
+    titulo: "Iglesia Católica y Educación: de la Ley 1420 a la Ley de Educación Nacional",
     seccion: "Artículo",
-    categoria: "notas",
+    categoria: "articulo",
     excerpt: "Una crítica al uso político del conocimiento que niega la episteme para imponer la doxa en el mundo académico y social actual.",
     fecha: "28 Mayo 2026",
-    enlace: "./articulos/constructivismo_social_ed_2_2026.html",
-    imagen: "../assets/img/notas_img/constructivismo_social.jpeg"
+    enlace: "./articulos/iglesia_y_escuela_ed_4_2026.html",
+    imagen: "../assets/img/notas_img/laica_libre.png"
   },
   {
     id: 8,
@@ -103,7 +103,46 @@ const ultimasPublicaciones = [
     enlace: "./articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html",
     imagen: "../assets/img/notas_img/fuera_arauco_banner.png"
   },
-
+  {
+    id: 9,
+    titulo: "Asambleas de Chapadmalal",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "La experiencia de 'Luna Roja' y 'Bienes Comunes de Chapadmalal' muestra las potencialidades y tensiones de la contrademocracia en la defensa del territorio.",
+    fecha: "22 Mayo 2026",
+    enlace: "./articulos/asambleas_ciudadanas_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/Asamblea_chapadmalal_1.png"
+  },
+  {
+    id: 10,
+    titulo: "¿Con la IVE cómo andamos?",
+    seccion: "Nota",
+    categoria: "Nota",
+    excerpt: "Desde la asunción de Javier Milei, el Ministerio de Salud dejó de producir información sobre el acceso a la interrupción voluntaria del embarazo. A pesar del desfinanciamiento, la ley sigue vigente y los equipos de salud la sostienen.",
+    fecha: "3 de abril de 2026",
+    enlace: "../articulos/articulo_IVE_ed_1_2026.html",
+    imagen: "../assets/img/notas_img/8M_CABA.png"
+  },
+    {
+    "id": 11,
+    "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
+    "seccion": "Nota",
+    "categoria": "notas",
+    "excerpt": "Un recorrido por la lucha de las madres de Ituzaingó Anexo contra los agrotóxicos, una gesta que interpeló al sistema academico y abrió el camino para la construcción de la Ciencia Digna.",
+    "fecha": "16 Junio 2026",
+    "enlace": "./articulos/ciencia_digna_ed_3_2026.html",
+    "imagen": "../assets/img/notas_img/ituzaingo.jpg"
+  },
+  {
+    id: 12,
+    titulo: "Fundamentos Filosóficos Contra El Constructivismo Social",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Una crítica al uso político del conocimiento que niega la episteme para imponer la doxa en el mundo académico y social actual.",
+    fecha: "28 Mayo 2026",
+    enlace: "./articulos/constructivismo_social_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/constructivismo_social.jpeg"
+  },
 ];
 
 // ===== FUNCIONES PRINCIPALES =====
