@@ -689,6 +689,13 @@ sup {
   margin-bottom: 1.8rem;
 }
 
+.text-right {
+  margin-top: 0.3rem; 
+  font-weight: 500; 
+  font-size: 0.9rem; 
+  text-align: right;
+}
+
 /* Ajuste para móviles */
 @media (max-width: 600px) {
   .pull-quote {
