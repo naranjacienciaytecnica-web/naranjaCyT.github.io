@@ -25,6 +25,16 @@ const defaultConfig = {
 const ultimasPublicaciones = [ 
   {
     "id": 1,
+    "titulo": "Territorio ancestral Mbya en resistencia",
+    "seccion": "Nota",
+    "categoria": "notas",
+    "excerpt": "Una nueva ofensiva judicial mantiene bajo amenaza a la comunidad Mbya Guaraní Puente Quemado II, ubicada en el paraje Cañafístola, en Garuhapé, Misiones. La lucha de Puente Quemado II es por la permanencia en su territorio, por el futuro de la selva, del agua, acuíferos, de la biodiversidad.",
+    "fecha": "26 Julio 2026",
+    "enlace": "./articulos/territorio_en_resistencia_ed_5_2026.html",
+    "imagen": "../assets/img/notas_img/puente_quemado_gallo_bn.jpeg"
+  },
+  {
+    "id": 2,
     "titulo": "La tierra que supimos conseguir",
     "seccion": "Nota",
     "categoria": "notas",
@@ -34,7 +44,7 @@ const ultimasPublicaciones = [
     "imagen": "../assets/img/notas_img/propiedad_privada.png"
   },
   {
-    id: 2,
+    id: 3,
     titulo: "¿La muerte como horizonte? Cartografiando un porvenir posible",
     seccion: "Artículo",
     categoria: "articulo",
@@ -43,18 +53,19 @@ const ultimasPublicaciones = [
     enlace: "./articulos/catografiando_un_futuro_posible_ed_4_2026.html",
     imagen: "../assets/img/notas_img/cartografeando_futuros_banner.png"
   },
-  {
-    id: 3,
-    titulo: "¿Fragmentación sectorial como estrategia política?",
-    seccion: "Artículo",
-    categoria: "notas",
-    excerpt: "Guillermo Folguera analiza los límites de la fragmentación como táctica política dominante y propone construir puentes desde los territorios.",
-    fecha: "18 Mayo 2026",
-    enlace: "./articulos/territorio_estrategia_politica_ed_2_2026.html",
-    imagen: "../assets/img/notas_img/territorios_estrategia_politica_2.png"
-  },
+  ,
   {
     id: 4,
+    titulo: "Sweet Tooth: los espejismos del pasado y otros mundos posibles",
+    seccion: "RESEÑA",
+    categoria: "resenia",
+    excerpt: "¿Se acuerdan cuando pensamos que la pandemia nos iba a hacer mejores? Sweet Tooth nos habla de ese mismo espejismo. Esta bella historia nos propone la organización y la comunidad, aprender a vivir con nuestras heridas, a cuidarnos mutuamente desde nuestras miradas parciales y finitas.",
+    fecha: "29 Julio 2026",
+    enlace: "./articulos/resenia_sweet_tooth_ed_4_2026.html",
+    imagen: "../assets/img/notas_img/sweet_tooth_gus_banner.png"
+  },
+  {
+    id: 5,
     titulo: "LA FOTOGRAFÍA 51: Retratos de la invisibilización de ayer y de hoy",
     seccion: "Artículo",
     categoria: "articulo",
@@ -64,7 +75,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/foto_51_rosalind.png"
   },
   {
-    id: 5,
+    id: 6,
     titulo: "Defender los glaciares en Argentina: cuestión de 'vida' o 'muerte'",
     seccion: "Artículo",
     categoria: "notas",
@@ -74,7 +85,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/glaciares.png"
   },
   {
-    id: 6,
+    id: 7,
     titulo: "La ideología de género: la hidra del gobierno libertario",
     seccion: "Artículo",
     categoria: "articulo",
@@ -84,7 +95,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/genero_banner.png"
   },
   {
-    id: 7,
+    id: 8,
     titulo: "Iglesia Católica y Educación: de la Ley 1420 a la Ley de Educación Nacional",
     seccion: "Artículo",
     categoria: "articulo",
@@ -94,7 +105,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/laica_libre.png"
   },
   {
-    id: 8,
+    id: 9,
     titulo: "Arauco avanza, la selva resiste: entrevista",
     seccion: "Entrevista",
     categoria: "entrevistas",
@@ -104,7 +115,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/fuera_arauco_banner.png"
   },
   {
-    id: 9,
+    id: 10,
     titulo: "Asambleas de Chapadmalal",
     seccion: "Artículo",
     categoria: "notas",
@@ -114,7 +125,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/Asamblea_chapadmalal_1.png"
   },
   {
-    id: 10,
+    id: 11,
     titulo: "¿Con la IVE cómo andamos?",
     seccion: "Nota",
     categoria: "Nota",
@@ -124,7 +135,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/8M_CABA.png"
   },
     {
-    "id": 11,
+    "id": 12,
     "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
     "seccion": "Nota",
     "categoria": "notas",
@@ -134,7 +145,7 @@ const ultimasPublicaciones = [
     "imagen": "../assets/img/notas_img/ituzaingo.jpg"
   },
   {
-    id: 12,
+    id: 13,
     titulo: "Fundamentos Filosóficos Contra El Constructivismo Social",
     seccion: "Artículo",
     categoria: "notas",
@@ -142,6 +153,36 @@ const ultimasPublicaciones = [
     fecha: "28 Mayo 2026",
     enlace: "./articulos/constructivismo_social_ed_2_2026.html",
     imagen: "../assets/img/notas_img/constructivismo_social.jpeg"
+  },
+  {
+    id: 14,
+    titulo: "Construir un nosotros frente al capital",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Cuando varios trabajadores funcionan juntos hacia un objetivo común en el mismo proceso de producción o en procesos distintos, pero conexos, su trabajo adopta la forma cooperativa. No se trata únicamente de aumentar las fuerzas productivas individuales, sino de crear por medio de la cooperación, una nueva fuerza, que funcione como fuerza colectiva. Los desafíos de la identidad cooperativa en la realidad.",
+    fecha: "29 Junio 2026",
+    enlace: "./articulos/nosotros_frente_al_capital_ed_3_2026.html",
+    imagen: "../assets/img/notas_img/canto_al_trabajo.jpg"
+  },  
+  {
+    id: 16,
+    titulo: "¿Fragmentación sectorial como estrategia política?",
+    seccion: "Artículo",
+    categoria: "notas",
+    excerpt: "Guillermo Folguera analiza los límites de la fragmentación como táctica política dominante y propone construir puentes desde los territorios.",
+    fecha: "18 Mayo 2026",
+    enlace: "./articulos/territorio_estrategia_politica_ed_2_2026.html",
+    imagen: "../assets/img/notas_img/territorios_estrategia_politica_2.png"
+  },
+  {
+    id: 17,
+    titulo: "Atención por alienación: La economía política de las tecnologías de la información",
+    seccion: "RESEÑA",
+    categoria: "resenia",
+    excerpt: "Una lectura del libro de Aarushi Bhandari (2025) Attention and alienation. La tesis de Bhandari afirma que la economía de la Web 2.0 crea las condiciones para un intercambio desigual: las corporaciones de plataformas capturan atención y devuelven alienación. Un análisis sobre economía política de la atención que también es una autobiografía: desde su etapa como entusiasta ciberoptimista en 2002 hasta una crítica radical sin perder las esperanzas de transformación.",
+    fecha: "29 Junio 2026",
+    enlace: "./articulos/resenia_atencion_por_alienacion_ed_3_2026.html",
+    imagen: "../assets/img/notas_img/Atencion_3.png"
   },
 ];
 
