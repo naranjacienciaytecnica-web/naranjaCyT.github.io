@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naranja · Manifiesto Urgente · CONICET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* ----- base & reset (igual que template) ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fcf9f5;
+      color: #1e1e1e;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      width: 100%;
+    }
+    /* ----- header (template) ----- */
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e8e0d8;
+      padding: 0.6rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .brand .logo img {
+      height: 44px;
+      width: auto;
+      display: block;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.8rem;
+      font-weight: 500;
+      font-size: 0.95rem;
+      flex-wrap: wrap;
+    }
+    nav ul li a {
+      color: #2d2a26;
+      transition: color 0.1s;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+    }
+    nav ul li a:hover {
+      color: #d97c2b;
+      border-bottom-color: #d97c2b;
+    }
+    .cta .btn {
+      background: #d97c2b;
+      color: #fff;
+      padding: 0.5rem 1.4rem;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background 0.15s;
+    }
+    .cta .btn:hover {
+      background: #b8651f;
+    }
+    /* ----- main article (template adaptado) ----- */
+    main.wrap {
+      flex: 1;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1.8rem;
+      font-weight: 500;
+      color: #9e7a5a;
+      font-size: 0.95rem;
+    }
+    .back-link i {
+      margin-right: 0.4rem;
+    }
+    .back-link:hover {
+      color: #d97c2b;
+    }
+    .declaracion-card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 2.2rem 2.8rem;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+      border: 1px solid #eee7e0;
+    }
+    .declaracion-header {
+      border-bottom: 1px solid #ede6de;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.8rem;
+    }
+    .tag {
+      display: inline-block;
+      background: #f0e8de;
+      padding: 0.2rem 1rem;
+      border-radius: 30px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #9e7a5a;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+    .declaracion-header h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #1e1a16;
+      letter-spacing: -0.02em;
+    }
+    .declaracion-header h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #7b6350;
+      margin-top: 0.2rem;
+    }
+    .date {
+      margin-top: 1rem;
+      color: #7f6b5a;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .date i {
+      color: #d97c2b;
+    }
+    .declaracion-body p {
+      margin-bottom: 1.4rem;
+      font-size: 1.04rem;
+      color: #2b2621;
+    }
+    .lead {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #3b3128;
+      border-left: 4px solid #d97c2b;
+      padding-left: 1.2rem;
+      background: #faf6f1;
+      padding: 0.8rem 1.2rem;
+      border-radius: 8px;
+    }
+    .signature {
+      margin-top: 2rem;
+      font-weight: 600;
+      color: #2d2a26;
+      border-top: 1px solid #e8e0d8;
+      padding-top: 1.8rem;
+      text-align: right;
+    }
+    .signature span {
+      display: block;
+      font-weight: 400;
+      font-size: 0.9rem;
+      color: #8a7868;
+    }
+    .share {
+      margin-top: 2.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #ede6de;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .share span {
+      font-weight: 600;
+      color: #3f352e;
+      margin-right: 0.3rem;
+    }
+    .share a {
+      background: #f2ede8;
+      padding: 0.3rem 1rem;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      color: #3b3128;
+      transition: background 0.1s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .share a i {
+      color: #d97c2b;
+    }
+    .share a:hover {
+      background: #e3dad2;
+    }
+    /* bloque exigencias (estilo template) */
+    .exigencias-block {
+      margin: 2rem 0;
+      padding: 1.8rem 2rem;
+      background: #f5f0ea;
+      border-left: 6px solid #d97c2b;
+      border-radius: 8px;
+    }
+    .exigencias-block h3 {
+      font-weight: 700;
+      font-size: 1.3rem;
+      margin-top: 0;
+      margin-bottom: 0.8rem;
+      color: #1e1a16;
+    }
+    .exigencias-block ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      line-height: 1.9;
+    }
+    .exigencias-block ul li {
+      margin-bottom: 0.2rem;
+    }
+    .closing p {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #b37b2e;
+    }
+    /* ----- footer (template) ----- */
+    footer {
+      background: #ffffff;
+      border-top: 1px solid #e8e0d8;
+      padding: 1.8rem 0;
+      margin-top: 1.5rem;
+    }
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+    }
+    .footer-title img {
+      height: 38px;
+      width: auto;
+    }
+    .footer-contact {
+      display: flex;
+      align-items: center;
+      gap: 1.8rem;
+      flex-wrap: wrap;
+    }
+    .footer-contact small {
+      color: #5f5244;
+      font-size: 0.9rem;
+    }
+    .social-icons {
+      display: flex;
+      gap: 0.8rem;
+    }
+    .social-icons a {
+      background: #f0ebe6;
+      color: #3b3128;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.1s;
+      font-size: 1rem;
+    }
+    .social-icons a:hover {
+      background: #d97c2b;
+      color: #fff;
+    }
+
+    /* responsive */
+    @media (max-width: 768px) {
+      .topbar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.8rem;
+      }
+      nav ul {
+        gap: 1rem;
+        font-size: 0.9rem;
+        justify-content: center;
+      }
+      .cta {
+        text-align: center;
+      }
+      .declaracion-card {
+        padding: 1.5rem;
+      }
+      .declaracion-header h1 {
+        font-size: 1.8rem;
+      }
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .footer-contact {
+        justify-content: center;
+      }
+    }
+    @media (max-width: 480px) {
+      .declaracion-header h1 {
+        font-size: 1.5rem;
+      }
+      .lead {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+      }
+      .exigencias-block {
+        padding: 1.2rem;
+      }
+      .share {
+        gap: 0.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo">
+          <a href="#">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23d97c2b'/%3E%3Ctext x='50' y='64' font-family='Inter, sans-serif' font-size='40' font-weight='800' fill='white' text-anchor='middle'%3ENC%3C/text%3E%3C/svg%3E" alt="Naranja CyT" style="height:44px; width:auto;">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Declaraciones</a></li>
+          <li><a href="#">Prensa</a></li>
+          <li><a href="#">Charlas y Talleres</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Gaceta Clara Zetkin</a></li>
+        </ul>
+      </nav>
+      <div class="cta">
+        <a class="btn" href="#">Suscribirse</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <a href="#" class="back-link">
+      <i class="fas fa-arrow-left"></i> Volver a todas las declaraciones
+    </a>
+
+    <article class="declaracion-card">
+      <div class="declaracion-header">
+        <span class="tag">MANIFIESTO URGENTE</span>
+        <h1>Manifiesto Urgente ante los despidos en CONICET</h1>
+        <h2>Hoy 1 de Agosto el gobierno nacional, con la complicidad del interventor Daniel Salamone, ha despedido a 379 científicos y científicas</h2>
+        <div class="date">
+          <i class="far fa-calendar-alt"></i> 1 de agosto de 2026
+        </div>
+      </div>
+
+      <div class="declaracion-body">
+        <p class="lead">
+          Este hecho forma parte de un plan sistemático de desmantelamiento del sistema científico nacional. Los síntomas son claros: salarios de hambre, centenares de trabajadores despedidos, concursos paralizados o anulados, organismos vaciados, cierre de todo financiamiento a proyectos en curso.
+        </p>
+
+        <p>
+          Todo eso ocurre y golpea cotidianamente a miles de trabajadores y trabajadoras de la ciencia. Pero detrás de cada una de esas medidas existe una orientación política consciente: <strong>destruir la capacidad del Estado argentino para producir conocimiento, desarrollar tecnología, planificar estratégicamente y responder a las necesidades sociales de la población con recursos propios.</strong>
+        </p>
+
+        <p>
+          Por eso la defensa de la ciencia no puede quedar encerrada en los laboratorios, en las oficinas, en los equipos de trabajo, ni limitarse al reclamo sectorial. La ciencia pública no pertenece exclusivamente a quienes trabajan en ella. También le pertenece al conjunto del pueblo trabajador que necesita de sus resultados para mejorar sus condiciones de vida.
+        </p>
+
+        <p>
+          Frente a semejante ofensiva, limitarse a “administrar” los daños constituye una estrategia condenada al fracaso. La “oposición” peronista le ha votado en el Congreso leyes claves como la “Ley de Bases” que asestó un duro golpe a lxs trabajadorxs estatales. Las burocracias sindicales enquistadas en los principales gremios estatales hace décadas están en esa línea de “aguantar” (ATE) o negociar (UPCN) a la expectativa de un cargo o de un lugar en una lista, mientras se condena a miles de trabajadores del sector a padecer salarios de miseria, renunciar, dedicarse a otros trabajos o emigrar.
+        </p>
+
+        <p>
+          La experiencia reciente demuestra que únicamente la organización desde las bases, las asambleas, la coordinación nacional y la movilización lograron imponer límites parciales al gobierno (como la rebelión universitaria o la lucha del Hospital Garrahan) y romper el aislamiento que distintas conducciones burocráticas pretendieron imponer sobre los conflictos.
+        </p>
+
+        <p>
+          <strong>Este Manifiesto es Urgente</strong> porque entendemos que lo que está en la discusión de fondo es qué proyecto de país necesita la mayoría trabajadora y qué papel debe ocupar la ciencia dentro de ese proyecto. Esa discusión no puede quedar postergada para un futuro gobierno. Debe comenzar ahora. Por esa razón, desde la <strong>Agrupación Naranja Ciencia y Técnica</strong> entendemos que es necesario impulsar ámbitos permanentes de organización y deliberación sin distinción de cargos. Necesitamos espacios donde los trabajadores de ciencia y técnica discutamos colectivamente cómo derrotar al gobierno de Milei, pero también qué política científica necesita la Argentina de los trabajadores.
+        </p>
+
+        <p>
+          Nos negamos a resignar la lucha. No nos da igual los despidos y necesitamos de cada unx para torcerle el brazo al ajuste.
+        </p>
+
+        <!-- Bloque exigencias (igual template pero con el texto del manifiesto) -->
+        <div class="exigencias-block">
+          <h3>¡Abajo los despidos! ¡Reincorporación ya de los 379 despedidxs!</h3>
+          <ul>
+            <li><i class="fas fa-circle" style="color:#d97c2b; font-size:0.5rem; vertical-align:middle; margin-right:0.5rem;"></i> No a la anulación de los concursos y efectivización de todos los concursos ganados.</li>
+            <li><i class="fas fa-circle" style="color:#d97c2b; font-size:0.5rem; vertical-align:middle; margin-right:0.5rem;"></i> Recomposición salarial urgente y acceso a la salud garantizado.</li>
+            <li><i class="fas fa-circle" style="color:#d97c2b; font-size:0.5rem; vertical-align:middle; margin-right:0.5rem;"></i> Cese inmediato de los despidos en CONICET, CNEA, INTA, INTI y demás organismos.</li>
+            <li><i class="fas fa-circle" style="color:#d97c2b; font-size:0.5rem; vertical-align:middle; margin-right:0.5rem;"></i> Prórroga para los becarios posdoctorales y apertura de concursos de ingreso a la Carrera del Investigador.</li>
+            <li><i class="fas fa-circle" style="color:#d97c2b; font-size:0.5rem; vertical-align:middle; margin-right:0.5rem;"></i> Basta de represión y criminalización de la protesta de trabajadoras y trabajadores de la ciencia.</li>
+          </ul>
+        </div>
+
+        <div class="closing">
+          <p>¡Fuera Milei y Salamone y todos los vaciadores del sistema público de CyT!</p>
+          <div class="signature">
+            Agrupación Naranja Ciencia y Técnica
+            <span>1 de julio de 2026 · Buenos Aires, Argentina</span>
+          </div>
+        </div>
+
+        <div class="share">
+          <span>Compartir:</span>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap footer-content">
+      <div class="footer-title">
+        <a href="#">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 40'%3E%3Crect width='120' height='40' rx='8' fill='%23d97c2b'/%3E%3Ctext x='12' y='27' font-family='Inter, sans-serif' font-weight='800' font-size='20' fill='white'%3ENARANJA CyT%3C/text%3E%3C/svg%3E" alt="Naranja CyT" style="height:36px;">
+        </a>
+      </div>
+      <div class="footer-contact">
+        <small>Contacto: naranjacienciaytecnica@gmail.com</small>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

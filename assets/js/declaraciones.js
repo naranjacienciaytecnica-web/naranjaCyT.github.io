@@ -239,6 +239,16 @@ const newsData = [
   dateDisplay: "23 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/despidos_CONICET.html"
+},
+{
+  id: 24,
+  title: "Manifiesto Urgente ante los despidos en CONICET",
+  description: "Hoy 1 de Julio el gobierno nacional, con la complicidad del interventor del organismo Daniel Salamone, ha despedido a 379 científicos y científicas del CONICET. Este hecho forma parte de un plan sistemático de desmantelamiento del sistema científico nacional. Los síntomas son claros, salarios de hambre, pulverizados en pisos históricos; centenares de trabajadores despedidos que quedan en la calle; concursos paralizados o anulados, y los ganados dados de baja; organismos vaciados con presupuestos tan reducidos que impiden el funcionamiento mínimo; cierre de toda fuente de financiamiento a proyectos de investigación en curso; el desarmado de equipos y líneas de trabajo que han llevado décadas construirlas. Todo eso ocurre y golpea cotidianamente a miles de trabajadores y trabajadoras de la ciencia. Pero detrás de cada una de esas medidas existe una orientación política consciente: destruir la capacidad del Estado argentino para producir conocimiento, desarrollar tecnología, planificar estratégicamente y responder a las necesidades sociales de la población con recursos propios.",
+  tag: "CONICET",
+  date: "2026-01-08",
+  dateDisplay: "01 ago 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/decla_despidos_urgente.html"
 }
 ];
 
