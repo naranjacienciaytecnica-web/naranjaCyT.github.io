@@ -5,7 +5,7 @@ const newsData = [
   title: "¡En CONICET no sobra nadie!",
   description: "En cuestión de días, 400 compañerxs quedan en la calle por la falta de prórroga de sus becas. No es un recorte menor, ni es un problema administrativo, es la puerta de entrada a la destrucción masiva del sistema científico. Aún estamos a tiempo de torcerle el brazo al ajuste, pero debemos unirnos en una única lucha, sin distinciones de cargo. Por eso, convocamos a declarar el estado de alerta y vigilia, de cara a una movilización el 29 de Julio en el Polo Científico Tecnológico y todos los CCTs del país. ",
   tag: "CONICET",
-  date: "2026-22-07",
+  date: "2026-07-22",
   dateDisplay: "23 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/decla_400_despidos.html"
@@ -15,7 +15,7 @@ const newsData = [
   title: "Carta abierta contra el ajuste en CyT",
   description: "¡La ciencia no se rinde, lucha! A nuestros compañerxs trabajadorxs del sistema científico-tecnológico. el sistema que sostenemos día a día con nuestro trabajo atraviesa una situación de extrema gravedad que venimos denunciando desde hace tiempo. El financiamiento público en ciencia y tecnología alcanza hoy el nivel más bajo en más de dos décadas, por debajo incluso de la crisis de 2002.Todo lo que hoy defendemos fue conquistado y defendido gracias a la organización y la lucha de quienes nos precedieron.",
   tag: "CONICET",
-  date: "2026-23-06",
+  date: "2026-06-23",
   dateDisplay: "23 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/carta_abierta_contra_el_ajuste_en_cyt.html"
@@ -25,7 +25,7 @@ const newsData = [
     title: "Alertan por despidos en la CNEA y se intensifica la lucha",
     description: "Exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Más de 330 contratos vencen el 31 de marzo sin confirmación de renovación.",
     tag: "CNEA",
-    date: "2026-03-01",
+    date: "2026-01-03",
     dateDisplay: "1 mar 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "../notas/decla_CNEA_marzo_2026.html"  
@@ -35,7 +35,7 @@ const newsData = [
     title: "Crisis en la Obra Social UP: basta de ajuste sobre nuestra salud",
     description: "Lxs trabajadorxs del CONICET sufren recortes sistemáticos, cobros irregulares y negativas a coberturas esenciales. La justicia falló a favor pero UP se niega a acatar.",
     tag: "CONICET",
-    date: "2025-11-25",
+    date: "2025-25-11",
     dateDisplay: "25 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "./notas/declaracion_CONICET_UP_nov_2025.html"  
@@ -215,7 +215,7 @@ const newsData = [
   title: "Baja masiva de becaries y la falsa elección impuesta por CONICET: Ni un paso atrás con la salud de les becaries: el ajuste no puede disfrazarse de 'opción'",
   description: "En las últimas horas se confirmó lo que veníamos advirtiendo: la Obra Social Unión Personal (UP) y las autoridades del CONICET han lanzado una maniobra brutal contra les becaries de todo el país. Bajo el ropaje de una supuesta “adecuación administrativa”, UP está notificando la baja masiva, sin fundamentos, de la cobertura de salud de decenas de compañeres becaries. Al mismo tiempo, les presentan una falsa opción: aceptar un ridículo bono de apenas 90 mil pesos, que no cubre ni una sola consulta médica, o “elegir” seguir en la obra social en crisis, en condiciones que se modifican unilateralmente, de manera discrecional y sin garantías. Esta maniobra vulnera el derecho a la salud de todo un sector de trabajadores de la ciencia, precarizados estructuralmente, que conquistaron esta obra social con más de una década de lucha ininterrumpida.",
   tag: "CONICET",
-  date: "2026-03-06",
+  date: "2026-06-03",
   dateDisplay: "3 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/declaracion_baja_masiva_de_becaries_UP.html"
@@ -225,7 +225,7 @@ const newsData = [
   title: "Con Mariano Saleh y contra persecución en el sector Nuclear",
   description: "Desde la Naranja Ciencia y Técnica expresamos toda nuestra solidaridad con el compañero Mariano Saleh, trabajador de NA-SA en Atucha donde trabaja desde hace 14 años.No es perseguido por falta de compromiso ni por falta de capacidad. Todo lo contrario: lo atacan porque se puso al frente, junto a sus compañeros y compañeras, de las asambleas contra la privatización de Nucleoeléctrica Argentina y porque viene denunciando el vaciamiento del sector nuclear nacional.Por eso el intento de despido de Mariano tiene un mensaje claro: quieren disciplinar. ¡Reincorporación inmediata de Mariano Saleh!. Abajo la privatización de NA-SA.",
   tag: "CNEA",
-  date: "2026-03-06",
+  date: "2026-06-03",
   dateDisplay: "12 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/decla_CNEA_Saleh.html"
@@ -235,7 +235,7 @@ const newsData = [
   title: "Basta de despidos y ajuste en CONICET",
   description: "El gobierno de Milei y las autoridades del CONICET profundizan el vaciamiento con la anulación de 502 cargos concursados para Personal de Apoyo y quieren dejar en la calle a 400 becarios postdoctorales. El ajuste golpea a todo el sector con salarios se derrumban y sin acceso a la salud. Prearemos una gran jornada nacional de lucha este 1 de Julio para enfrentar el ajuste y defender el sistema científico nacional. ¡Continuidad laboral para becaries y CPAs!",
   tag: "CONICET",
-  date: "2026-23-06",
+  date: "2026-06-23",
   dateDisplay: "23 jun 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/despidos_CONICET.html"
@@ -243,7 +243,7 @@ const newsData = [
 {
   id: 24,
   title: "Manifiesto Urgente ante los despidos en CONICET",
-  description: "Hoy 1 de Agosto el gobierno nacional, con la complicidad del interventor del organismo Daniel Salamone, ha despedido a 379 científicos y científicas del CONICET. Este hecho forma parte de un plan sistemático de desmantelamiento del sistema científico nacional. Los síntomas son claros, salarios de hambre, pulverizados en pisos históricos; centenares de trabajadores despedidos que quedan en la calle; concursos paralizados o anulados, y los ganados dados de baja; organismos vaciados con presupuestos tan reducidos que impiden el funcionamiento mínimo; cierre de toda fuente de financiamiento a proyectos de investigación en curso; el desarmado de equipos y líneas de trabajo que han llevado décadas construirlas. Todo eso ocurre y golpea cotidianamente a miles de trabajadores y trabajadoras de la ciencia. Pero detrás de cada una de esas medidas existe una orientación política consciente: destruir la capacidad del Estado argentino para producir conocimiento, desarrollar tecnología, planificar estratégicamente y responder a las necesidades sociales de la población con recursos propios.",
+  description: "Hoy 1 de Agosto el gobierno nacional, con la complicidad del interventor del organismo Daniel Salamone, ha despedido a 379 científicos y científicas del CONICET. Este hecho forma parte de un plan sistemático de desmantelamiento del sistema científico nacional. Todo eso ocurre y golpea cotidianamente a miles de trabajadores y trabajadoras de la ciencia. Pero detrás de cada una de esas medidas existe una orientación política consciente: destruir la capacidad del Estado argentino para producir conocimiento, desarrollar tecnología, planificar estratégicamente y responder a las necesidades sociales de la población con recursos propios.",
   tag: "CONICET",
   date: "2026-08-01",
   dateDisplay: "01 ago 2026",
