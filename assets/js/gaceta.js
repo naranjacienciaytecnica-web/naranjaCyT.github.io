@@ -25,6 +25,16 @@ const defaultConfig = {
 const ultimasPublicaciones = [ 
   {
     "id": 1,
+    "titulo": "Carta abierta de una becaria del CONICET al Presidente",
+    "seccion": "Nota",
+    "categoria": "notas",
+    "excerpt": "Yo no soy lo que este gobierno quiere hacer de mí. Me rehúso a aceptar imperturbable el ostracismo al que pretende arrojarme. Hoy, viernes 31 de julio, es mi último día como Becaria Posdoctoral del CONICET. Esta noche, cuando el reloj marque las 00, seré una desempleada más, otro nombre que se suma a la interminable lista de personas que día tras día se quedan en la calle en este glorioso país.",
+    "fecha": "26 Julio 2026",
+    "enlace": "./articulos/carta_abierta_de_una_becaria.html",
+    "imagen": "../assets/img/notas_img/carta_debora.png"
+  },
+  {
+    "id": 2,
     "titulo": "Territorio ancestral Mbya en resistencia",
     "seccion": "Nota",
     "categoria": "notas",
@@ -34,7 +44,7 @@ const ultimasPublicaciones = [
     "imagen": "../assets/img/notas_img/puente_quemado_gallo_bn.jpeg"
   },
   {
-    "id": 2,
+    "id": 3,
     "titulo": "La tierra que supimos conseguir",
     "seccion": "Nota",
     "categoria": "notas",
@@ -44,7 +54,7 @@ const ultimasPublicaciones = [
     "imagen": "../assets/img/notas_img/propiedad_privada.png"
   },
   {
-    id: 3,
+    id: 4,
     titulo: "¿La muerte como horizonte? Cartografiando un porvenir posible",
     seccion: "Artículo",
     categoria: "articulo",
@@ -55,7 +65,7 @@ const ultimasPublicaciones = [
   },
   ,
   {
-    id: 4,
+    id: 5,
     titulo: "Sweet Tooth: los espejismos del pasado y otros mundos posibles",
     seccion: "RESEÑA",
     categoria: "resenia",
@@ -65,7 +75,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/sweet_tooth_gus_banner.png"
   },
   {
-    id: 5,
+    id: 6,
     titulo: "LA FOTOGRAFÍA 51: Retratos de la invisibilización de ayer y de hoy",
     seccion: "Artículo",
     categoria: "articulo",
@@ -75,7 +85,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/foto_51_rosalind.png"
   },
   {
-    id: 6,
+    id: 7,
     titulo: "Defender los glaciares en Argentina: cuestión de 'vida' o 'muerte'",
     seccion: "Artículo",
     categoria: "notas",
@@ -85,7 +95,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/glaciares.png"
   },
   {
-    id: 7,
+    id: 8,
     titulo: "La ideología de género: la hidra del gobierno libertario",
     seccion: "Artículo",
     categoria: "articulo",
@@ -95,7 +105,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/genero_banner.png"
   },
   {
-    id: 8,
+    id: 9,
     titulo: "Iglesia Católica y Educación: de la Ley 1420 a la Ley de Educación Nacional",
     seccion: "Artículo",
     categoria: "articulo",
@@ -105,7 +115,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/laica_libre.png"
   },
   {
-    id: 9,
+    id: 10,
     titulo: "Arauco avanza, la selva resiste: entrevista",
     seccion: "Entrevista",
     categoria: "entrevistas",
@@ -115,7 +125,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/fuera_arauco_banner.png"
   },
   {
-    id: 10,
+    id: 11,
     titulo: "Asambleas de Chapadmalal",
     seccion: "Artículo",
     categoria: "notas",
@@ -125,7 +135,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/Asamblea_chapadmalal_1.png"
   },
   {
-    id: 11,
+    id: 12,
     titulo: "¿Con la IVE cómo andamos?",
     seccion: "Nota",
     categoria: "Nota",
@@ -135,7 +145,7 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/8M_CABA.png"
   },
     {
-    "id": 12,
+    "id": 13,
     "titulo": "Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna",
     "seccion": "Nota",
     "categoria": "notas",
@@ -145,17 +155,17 @@ const ultimasPublicaciones = [
     "imagen": "../assets/img/notas_img/ituzaingo.jpg"
   },
   {
-    id: 13,
-    titulo: "Fundamentos Filosóficos Contra El Constructivismo Social",
-    seccion: "Artículo",
-    categoria: "notas",
-    excerpt: "Una crítica al uso político del conocimiento que niega la episteme para imponer la doxa en el mundo académico y social actual.",
-    fecha: "28 Mayo 2026",
-    enlace: "./articulos/constructivismo_social_ed_2_2026.html",
-    imagen: "../assets/img/notas_img/constructivismo_social.jpeg"
+    id: 14,
+    titulo: "Atención por alienación: La economía política de las tecnologías de la información",
+    seccion: "RESEÑA",
+    categoria: "resenia",
+    excerpt: "Una lectura del libro de Aarushi Bhandari (2025) Attention and alienation. La tesis de Bhandari afirma que la economía de la Web 2.0 crea las condiciones para un intercambio desigual: las corporaciones de plataformas capturan atención y devuelven alienación. Un análisis sobre economía política de la atención que también es una autobiografía: desde su etapa como entusiasta ciberoptimista en 2002 hasta una crítica radical sin perder las esperanzas de transformación.",
+    fecha: "29 Junio 2026",
+    enlace: "./articulos/resenia_atencion_por_alienacion_ed_3_2026.html",
+    imagen: "../assets/img/notas_img/Atencion_3.png"
   },
   {
-    id: 14,
+    id: 15,
     titulo: "Construir un nosotros frente al capital",
     seccion: "Artículo",
     categoria: "notas",
@@ -173,17 +183,7 @@ const ultimasPublicaciones = [
     fecha: "18 Mayo 2026",
     enlace: "./articulos/territorio_estrategia_politica_ed_2_2026.html",
     imagen: "../assets/img/notas_img/territorios_estrategia_politica_2.png"
-  },
-  {
-    id: 17,
-    titulo: "Atención por alienación: La economía política de las tecnologías de la información",
-    seccion: "RESEÑA",
-    categoria: "resenia",
-    excerpt: "Una lectura del libro de Aarushi Bhandari (2025) Attention and alienation. La tesis de Bhandari afirma que la economía de la Web 2.0 crea las condiciones para un intercambio desigual: las corporaciones de plataformas capturan atención y devuelven alienación. Un análisis sobre economía política de la atención que también es una autobiografía: desde su etapa como entusiasta ciberoptimista en 2002 hasta una crítica radical sin perder las esperanzas de transformación.",
-    fecha: "29 Junio 2026",
-    enlace: "./articulos/resenia_atencion_por_alienacion_ed_3_2026.html",
-    imagen: "../assets/img/notas_img/Atencion_3.png"
-  },
+  }
 ];
 
 // ===== FUNCIONES PRINCIPALES =====
