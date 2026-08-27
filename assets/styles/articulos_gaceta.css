@@ -335,8 +335,24 @@ body {
 }
 
 .image-caption {
+  font-size: 0.4rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.image-caption-left {
   font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
+  color: #666;
+  margin-top: 0.5rem;
+  text-align: right;
+  font-style: italic;
+}
+
+.image-caption-right {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.5rem;
   color: #666;
   margin-top: 0.5rem;
   text-align: right;
@@ -628,7 +644,6 @@ sup {
   width: 300px;
   margin: 0 0 1rem 1.8rem;
   border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   background: #fff;
 }
 
