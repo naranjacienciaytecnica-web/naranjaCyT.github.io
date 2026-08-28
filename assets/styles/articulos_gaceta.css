@@ -711,6 +711,122 @@ sup {
   text-align: right;
 }
 
+.article-text {
+  overflow: auto;
+}
+
+.instagram-embed-wrapper {
+  float: right;
+  margin: 0.3rem 0 1rem 1.5rem;
+  max-width: 360px;
+  width: 100%;
+}
+
+.instagram-embed-wrapper blockquote {
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);
+  margin: 0;
+  max-width: 360px;
+  min-width: 280px;
+  padding: 0;
+  width: 100%;
+}
+
+.instagram-embed-wrapper .embed-inner {
+  padding: 16px;
+}
+
+.instagram-embed-wrapper .embed-link {
+  background: #FFFFFF;
+  line-height: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.instagram-embed-wrapper .embed-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.instagram-embed-wrapper .embed-avatar {
+  background-color: #F4F4F4;
+  border-radius: 50%;
+  flex-grow: 0;
+  height: 40px;
+  margin-right: 14px;
+  width: 40px;
+}
+
+.instagram-embed-wrapper .embed-user {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.instagram-embed-wrapper .embed-user .line1 {
+  background-color: #F4F4F4;
+  border-radius: 4px;
+  flex-grow: 0;
+  height: 14px;
+  margin-bottom: 6px;
+  width: 100px;
+}
+
+.instagram-embed-wrapper .embed-user .line2 {
+  background-color: #F4F4F4;
+  border-radius: 4px;
+  flex-grow: 0;
+  height: 14px;
+  width: 60px;
+}
+
+.instagram-embed-wrapper .embed-spacer {
+  padding: 19% 0;
+}
+
+.instagram-embed-wrapper .embed-icon {
+  display: block;
+  margin: 0 auto 12px;
+  text-align: center;
+  color: #000;
+}
+
+.instagram-embed-wrapper .embed-cta {
+  padding-top: 8px;
+}
+
+.instagram-embed-wrapper .embed-cta-text {
+  color: #3897f0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 18px;
+}
+
+.instagram-embed-credit {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.instagram-embed-credit a {
+  color: #b37b2e;
+  text-decoration: none;
+}
+
+.instagram-embed-credit a:hover {
+  text-decoration: underline;
+}
+
 /* Ajuste para móviles */
 @media (max-width: 600px) {
   .pull-quote {
@@ -773,6 +889,18 @@ sup {
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .instagram-embed-wrapper {
+    float: none !important;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+
+  .instagram-embed-wrapper blockquote {
+    max-width: 100%;
+    min-width: auto;
+  }
+}
 
 @media (max-width: 800px) {
   .main-content {
