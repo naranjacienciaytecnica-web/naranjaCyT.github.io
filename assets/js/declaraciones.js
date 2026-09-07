@@ -249,6 +249,16 @@ const newsData = [
   dateDisplay: "01 ago 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/decla_despidos_urgente.html"
+},
+{
+  id: 25,
+  title: "Tres años esperando las altas: una lucha que exige un balance urgente",
+  description: "A tres años de la publicación de los resultados de la CIC 2022, el debate sobre cómo superar la fragmentación de las luchas dentro de CONICET y del campo científico y tecnológico nacional.Una movilización no comienza el día en que nos encontramos frente congregadxs en el Polo Científico y Tecnológico: se construye con tiempo. Una movilización aislada o una actividad performática aislada no constituyen un plan de lucha para torcer la partida ajustadora que se lleva adelante en el CONICET. Cuando las condiciones objetivas hacen difícil movilizar a cada colectivo por separado, la respuesta no puede ser subdividir nuestras fuerzas. Preparemos una gran asamblea de todos los sectores de CyT. Y vayamos por una gran movilización junto con la universidad por el conjunto de nuestras reivindicaciones.",
+  tag: "CONICET",
+  date: "2026-09-07",
+  dateDisplay: "07 sept 2026",
+  image: "./assets/img/ncyt_icono_b_comb.png",
+  link: "./notas/tres_anios_esperando_las_altas.html"
 }
 ];
 
