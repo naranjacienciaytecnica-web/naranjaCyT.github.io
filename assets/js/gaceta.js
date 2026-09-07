@@ -44,14 +44,14 @@ const ultimasPublicaciones = [
     "imagen": "../assets/img/notas_img/puente_quemado_gallo_bn.jpeg"
   },
   {
-    "id": 3,
-    "titulo": "La tierra que supimos conseguir",
-    "seccion": "Nota",
-    "categoria": "notas",
-    "excerpt": "Quién es el dueño de Argentina? La histórica pregunta volvió a ocupar el centro de la escena a partir del proyecto de Ley de Inviolabilidad de la Propiedad Privada impulsado por el gobierno actual de Javier Milei. Presentada como una 'herramienta destinada a fortalecer la seguridad jurídica y estimular las inversiones', la iniciativa viene a reabrir una discusión mucho más profunda que la mera protección del derecho de propiedad.",
-    "fecha": "26 Julio 2026",
-    "enlace": "./articulos/la_tierra_que_supimos_conseguir_ed_4_2026.html",
-    "imagen": "../assets/img/notas_img/propiedad_privada.png"
+    id: 3,
+    titulo: "Colonización, educación y resistencia: el boicot académico como herramienta contra el genocidio en Palestina",
+    seccion: "Artículo",
+    categoria: "articulo",
+    excerpt: "La Comisión por el Boicot Académico a Israel denuncia la complicidad de las universidades israelíes en el genocidio y escolasticidio en Palestina, y revela que al menos catorce universidades argentinas mantienen convenios vigentes con esas instituciones. Una lectura necesaria para entender el rol de la academia en el apartheid y sumarse a la resistencia global.",
+    fecha: "26 Agosto 2026",
+    enlace: "./articulos/colonizacion_educacion_resistencia_ed_5_2026",
+    imagen: "../assets/img/notas_img/palestina_flags_banner.png"
   },
   {
     id: 4,
@@ -63,7 +63,6 @@ const ultimasPublicaciones = [
     enlace: "./articulos/catografiando_un_futuro_posible_ed_4_2026.html",
     imagen: "../assets/img/notas_img/cartografeando_futuros_banner.png"
   },
-  ,
   {
     id: 5,
     titulo: "Sweet Tooth: los espejismos del pasado y otros mundos posibles",
@@ -75,14 +74,14 @@ const ultimasPublicaciones = [
     imagen: "../assets/img/notas_img/sweet_tooth_gus_banner.png"
   },
   {
-    id: 6,
-    titulo: "LA FOTOGRAFÍA 51: Retratos de la invisibilización de ayer y de hoy",
-    seccion: "Artículo",
-    categoria: "articulo",
-    excerpt: "En 1952, Rosalind Franklin capturó la imagen que descifraría el secreto de la vida. Pero su nombre quedó fuera de la historia. La Fotografía 51 es hoy el símbolo del avance de la ciencia y la persistencia de un sistema que sigue relegando a las mujeres al pie de página de sus propios descubrimientos.",
-    fecha: "28 de Julio de 2026",
-    enlace: "../articulos/foto_51_ed_4_2026.html",
-    imagen: "../assets/img/notas_img/foto_51_rosalind.png"
+    "id": 6,
+    "titulo": "La tierra que supimos conseguir",
+    "seccion": "Nota",
+    "categoria": "notas",
+    "excerpt": "Quién es el dueño de Argentina? La histórica pregunta volvió a ocupar el centro de la escena a partir del proyecto de Ley de Inviolabilidad de la Propiedad Privada impulsado por el gobierno actual de Javier Milei. Presentada como una 'herramienta destinada a fortalecer la seguridad jurídica y estimular las inversiones', la iniciativa viene a reabrir una discusión mucho más profunda que la mera protección del derecho de propiedad.",
+    "fecha": "26 Julio 2026",
+    "enlace": "./articulos/la_tierra_que_supimos_conseguir_ed_4_2026.html",
+    "imagen": "../assets/img/notas_img/propiedad_privada.png"
   },
   {
     id: 7,
@@ -114,15 +113,15 @@ const ultimasPublicaciones = [
     enlace: "./articulos/iglesia_y_escuela_ed_4_2026.html",
     imagen: "../assets/img/notas_img/laica_libre.png"
   },
-  {
+    {
     id: 10,
-    titulo: "Arauco avanza, la selva resiste: entrevista",
-    seccion: "Entrevista",
-    categoria: "entrevistas",
-    excerpt: "Entrevistamos a Santiago Ramos, mboruvixa (cacique) de la comunidad Mbya Guaraní de Puente Quemado II, en Garuhapé, Misiones. <strong> Una conversación sobre ecocidio, criminalización de la resistencia, el rol de la ciencia comprometida y las estrategias concretas de lucha.",
-    fecha: "28 Mayo 2026",
-    enlace: "./articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html",
-    imagen: "../assets/img/notas_img/fuera_arauco_banner.png"
+    titulo: "LA FOTOGRAFÍA 51: Retratos de la invisibilización de ayer y de hoy",
+    seccion: "Artículo",
+    categoria: "articulo",
+    excerpt: "En 1952, Rosalind Franklin capturó la imagen que descifraría el secreto de la vida. Pero su nombre quedó fuera de la historia. La Fotografía 51 es hoy el símbolo del avance de la ciencia y la persistencia de un sistema que sigue relegando a las mujeres al pie de página de sus propios descubrimientos.",
+    fecha: "28 de Julio de 2026",
+    enlace: "../articulos/foto_51_ed_4_2026.html",
+    imagen: "../assets/img/notas_img/foto_51_rosalind.png"
   },
   {
     id: 11,
