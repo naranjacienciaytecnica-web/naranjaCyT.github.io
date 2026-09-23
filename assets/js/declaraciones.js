@@ -259,7 +259,27 @@ const newsData = [
   dateDisplay: "07 sept 2026",
   image: "./assets/img/ncyt_icono_b_comb.png",
   link: "./notas/tres_anios_esperando_las_altas.html"
-}
+},
+  {
+    id: 26,
+    title: "La ciencia argentina, bajo supervisión diplomática y militar",
+    description: "Rechazamos los decretos que subordinan el sistema científico al alineamiento del Gobierno con Estados Unidos. El Gobierno nacional avanza en la construcción de un dispositivo de control político, diplomático y militar sobre la ciencia y la tecnología argentinas. Dos decretos publicados con apenas once días de diferencia permiten advertir con claridad esta orientación.",
+    tag: "MOVILIZACIÓN • ANÁLISIS",
+    date: "2026-09-22",
+    dateDisplay: "22 sept 2026",
+    image: "./assets/img/ncyt_icono_b_comb.png",
+    link: "./notas/decla_sub_secretario_cyt.html"
+  },
+  {
+    id: 27,
+    title: "Persecución política en la ciencia",
+    description: "Ataque a la investigadora Virginia Aparicio, responsable de la investigación SPRINT que expone contaminación por agrotóxicos. Desde la Naranja CyT repudiamos la persecución política de nuestra compañera, y denunciamos este ataque como parte del plan de desmantelamiento de cualquier instancia de control científico y ambiental que pueda oponerse a la intensificación del modelo agroindustrial con agrotóxicos.",
+    tag: "URGENTE • PERSECUCIÓN POLÍTICA",
+    date: "2026-09-17",
+    dateDisplay: "17 sept 2026",
+    image: "./assets/img/ncyt_icono_b_comb.png",
+    link: "./notas/declaracioon_virginia_aparicio.html"
+  }
 ];
 
 newsData.sort((a, b) => new Date(b.date) - new Date(a.date));
