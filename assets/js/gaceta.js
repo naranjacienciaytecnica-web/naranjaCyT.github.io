@@ -65,13 +65,13 @@ const ultimasPublicaciones = [
   },
   {
     id: 5,
-    titulo: "Sweet Tooth: los espejismos del pasado y otros mundos posibles",
-    seccion: "RESEÑA",
-    categoria: "resenia",
-    excerpt: "¿Se acuerdan cuando pensamos que la pandemia nos iba a hacer mejores? Sweet Tooth nos habla de ese mismo espejismo. Esta bella historia nos propone la organización y la comunidad, aprender a vivir con nuestras heridas, a cuidarnos mutuamente desde nuestras miradas parciales y finitas.",
-    fecha: "29 Julio 2026",
-    enlace: "./articulos/resenia_sweet_tooth_ed_4_2026.html",
-    imagen: "../assets/img/notas_img/sweet_tooth_gus_banner.png"
+    titulo: "Escritoras en Argentina de los años 70’s: investigar un pasado que aún interpela",
+    seccion: "ENTREVISTA",
+    categoria: "entrevista",
+    excerpt: "Entrevista de Silvana Rodriguez Oro a la investigadora Agustina Catalano para la Gaceta Clara Zetkin, una de las 400 becarias postdoctorales despedidos por el CONICET en julio de este año. Durante su beca, radicada en la Universidad Nacional de Mar del Plata, investigó las escrituras y producciones artísticas de mujeres que fueron secuestradas y desaparecidas por la última dictadura militar en nuestro país.",
+    fecha: "29 Spetiembre 2026",
+    enlace: "./articulos/entrevista_escritoras_de_los_70_ed_6_2026.html",
+    imagen: "../assets/img/notas_img/escritoras_2_banner_grande_previz.png"
   },
   {
     "id": 6,
@@ -192,6 +192,36 @@ const ultimasPublicaciones = [
     "fecha": "26 Julio 2026",
     "enlace": "./articulos/carta_abierta_de_una_becaria.html",
     "imagen": "../assets/img/notas_img/carta_debora.png"
+  },
+  {
+    id: 18,
+    titulo: "Sweet Tooth: los espejismos del pasado y otros mundos posibles",
+    seccion: "RESEÑA",
+    categoria: "resenia",
+    excerpt: "¿Se acuerdan cuando pensamos que la pandemia nos iba a hacer mejores? Sweet Tooth nos habla de ese mismo espejismo. Esta bella historia nos propone la organización y la comunidad, aprender a vivir con nuestras heridas, a cuidarnos mutuamente desde nuestras miradas parciales y finitas.",
+    fecha: "29 Julio 2026",
+    enlace: "./articulos/resenia_sweet_tooth_ed_4_2026.html",
+    imagen: "../assets/img/notas_img/sweet_tooth_gus_banner.png"
+  },
+  {
+    id: 19,
+    titulo: "Mujeres al poder: ¿qué mujeres y para qué?",
+    seccion: "ARTÍCULO",
+    categoria: "articulo",
+    excerpt: "Ariadna Gallo, investigadora del CONICET en el IEALC, analiza la representación femenina en el Congreso argentino con una mirada de clase, poniendo el foco en la disputa por el aborto legal. El artículo nos propone pensar el perfil de las mujeres que llegan a las bancas. Este perfil homogéneo que persiste incluso después de la Ley de Paridad de 2017, evidenciando que la puerta se abrió pero no para todas.",
+    fecha: "29 Septiembre 2026",
+    enlace: "./articulos/mujeres_al_poder_ed_6_2026.html",
+    imagen: "../assets/img/notas_img/mujeres_al_poder_verde_banner_.png"
+  },
+  {
+    id: 20,
+    titulo: "El anarcocapitalismo contra las mujeres migrantes: sus derechos en jaque",
+    seccion: "ARTÍCULO",
+    categoria: "articulo",
+    excerpt: "Marta Guerreño Lopez y Ana Paula Penchaszadeh analizan cómo el DNU 366 de mayo de 2025 firmado por Javier Milei desmanteló el derecho universal a la salud que garantizaba la Ley de Migraciones 25.871. A partir de un diálogo de más de una década, las autoras repasan las restricciones provinciales previas y muestran cómo la combinación de barreras nacionales y provinciales golpea con especial crudeza a las mujeres migrantes, que enfrentan mayores tasas de informalidad, peores salarios y sobrecarga de cuidados.",
+    fecha: "29 Spetiembre 2026",
+    enlace: "./articulos/anarco_capitalismo_contra_mujeres_migrantes_ed_6_2026.html",
+    imagen: "../assets/img/notas_img/marcha_migrante_banner.png"
   }
 ];
 
