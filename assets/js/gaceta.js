@@ -25,13 +25,13 @@ const defaultConfig = {
 const ultimasPublicaciones = [ 
   {
     "id": 1,
-    "titulo": "Carta abierta de una becaria del CONICET al Presidente",
-    "seccion": "Nota",
-    "categoria": "notas",
-    "excerpt": "Yo no soy lo que este gobierno quiere hacer de mí. Me rehúso a aceptar imperturbable el ostracismo al que pretende arrojarme. Hoy, viernes 31 de julio, es mi último día como Becaria Posdoctoral del CONICET. Esta noche, cuando el reloj marque las 00, seré una desempleada más, otro nombre que se suma a la interminable lista de personas que día tras día se quedan en la calle en este glorioso país.",
-    "fecha": "26 Julio 2026",
-    "enlace": "./articulos/carta_abierta_de_una_becaria.html",
-    "imagen": "../assets/img/notas_img/carta_debora.png"
+    "titulo": "Cuando medir se vuelve incómodo: SPRINT, bioética y el deber de defender una ciencia digna",
+    "seccion": "Artículo",
+    "categoria": "articulo",
+    "excerpt": "Nair fue voluntaria del proyecto internacional SPRINT, financiado por la Unión Europea para estudiar la exposición a plaguicidas desde una perspectiva de Una Salud, entendiendo que la salud humana, animal y ambiental son dimensiones inseparables de un mismo problema. Ella fué una de los 73 voluntarios Argentinos, con presencia de múltiples pesticidas en sangre. Hoy frente a la persecución de la Dra. Virginia Aparicio, Nair nos invita a pensar la importancia de construir una ciencia digna.",
+    "fecha": "29 Spetiembre 2026",
+    "enlace": "./articulos/cuando_medir_se_vuelve_incomodo_ed_2026.html",
+    "imagen": "../assets/img/notas_img/agrotoxicos_cartel_rosa.png"
   },
   {
     "id": 2,
@@ -182,6 +182,16 @@ const ultimasPublicaciones = [
     fecha: "18 Mayo 2026",
     enlace: "./articulos/territorio_estrategia_politica_ed_2_2026.html",
     imagen: "../assets/img/notas_img/territorios_estrategia_politica_2.png"
+  },
+    {
+    "id": 17,
+    "titulo": "Carta abierta de una becaria del CONICET al Presidente",
+    "seccion": "Nota",
+    "categoria": "notas",
+    "excerpt": "Yo no soy lo que este gobierno quiere hacer de mí. Me rehúso a aceptar imperturbable el ostracismo al que pretende arrojarme. Hoy, viernes 31 de julio, es mi último día como Becaria Posdoctoral del CONICET. Esta noche, cuando el reloj marque las 00, seré una desempleada más, otro nombre que se suma a la interminable lista de personas que día tras día se quedan en la calle en este glorioso país.",
+    "fecha": "26 Julio 2026",
+    "enlace": "./articulos/carta_abierta_de_una_becaria.html",
+    "imagen": "../assets/img/notas_img/carta_debora.png"
   }
 ];
 
