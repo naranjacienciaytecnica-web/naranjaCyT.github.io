@@ -35,13 +35,13 @@ const ultimasPublicaciones = [
   },
   {
     "id": 2,
-    "titulo": "Territorio ancestral Mbya en resistencia",
+    "titulo": "El Proyecto SPRINT en la voz de los voluntarios",
     "seccion": "Nota",
     "categoria": "notas",
-    "excerpt": "Una nueva ofensiva judicial mantiene bajo amenaza a la comunidad Mbya Guaraní Puente Quemado II, ubicada en el paraje Cañafístola, en Garuhapé, Misiones. La lucha de Puente Quemado II es por la permanencia en su territorio, por el futuro de la selva, del agua, acuíferos, de la biodiversidad.",
-    "fecha": "26 Julio 2026",
-    "enlace": "./articulos/territorio_en_resistencia_ed_5_2026.html",
-    "imagen": "../assets/img/notas_img/puente_quemado_gallo_bn.jpeg"
+    "excerpt": "El martes 6 de Octubre en Mar del Plata se realizó una conferencia de prensa que contó con la lectura pública de los resultados del Proyecto SPRINT, el estudio internacional sobre presencia y exposición a plaguicidas más importante realizado en el país, cuyos datos fueron censurados en 2023 tras la salida del INTA del proyecto y por el que actualmente la Dra. Aparicio enfrenta un pedido de exoneración.",
+    "fecha": "8 Octubre 2026",
+    "enlace": "./articulos/voluntarios_sprint_ed_7_2026.html",
+    "imagen": "../assets/img/notas_img/conferencia_voluntarios.png"
   },
   {
     id: 3,
