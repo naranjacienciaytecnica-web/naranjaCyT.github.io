@@ -304,10 +304,10 @@ function generarTarjetasPrevisualizacion() {
     card.style.animationDelay = `${index * 0.1}s`;
     
     card.innerHTML = `
-      <div class="preview-card-image">
+      <a class="preview-card-image" href="${pub.enlace}">
         <img src="${pub.imagen}" alt="${pub.seccion}">
         <span class="preview-card-category">${pub.seccion}</span>
-      </div>
+      </a>
       <div class="preview-card-content">
         <h3 class="preview-card-title">${pub.titulo}</h3>
         <p class="preview-card-excerpt">${pub.excerpt}</p>

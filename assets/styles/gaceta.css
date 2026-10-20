@@ -463,6 +463,8 @@ body { box-sizing: border-box; }
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 .preview-card-image {
   height: 220px;
