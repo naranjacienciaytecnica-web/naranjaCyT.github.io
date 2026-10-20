@@ -25,7 +25,7 @@ const newsData = [
     title: "Alertan por despidos en la CNEA y se intensifica la lucha",
     description: "Exigimos la renovación de todos los contratos, aumento salarial de emergencia y no a la minería de uranio sin licencia social. Más de 330 contratos vencen el 31 de marzo sin confirmación de renovación.",
     tag: "CNEA",
-    date: "2026-01-03",
+    date: "2026-03-01",
     dateDisplay: "1 mar 2026",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "../notas/decla_CNEA_marzo_2026.html"  
@@ -35,7 +35,7 @@ const newsData = [
     title: "Crisis en la Obra Social UP: basta de ajuste sobre nuestra salud",
     description: "Lxs trabajadorxs del CONICET sufren recortes sistemáticos, cobros irregulares y negativas a coberturas esenciales. La justicia falló a favor pero UP se niega a acatar.",
     tag: "CONICET",
-    date: "2025-25-11",
+    date: "2025-11-25",
     dateDisplay: "25 nov 2025",
     image: "./assets/img/ncyt_icono_b_comb.png",
     link: "./notas/declaracion_CONICET_UP_nov_2025.html"  
