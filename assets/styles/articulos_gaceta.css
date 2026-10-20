@@ -45,21 +45,42 @@ body {
   color: #e8a84c;
 }
 
-.back-home {
-  display: inline-block;
+.breadcrumb {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
   margin: 1rem 2rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-gcz {
+  font-weight: bold;
+  font-size: 0.875rem;
   color: #be6901;
   text-decoration: none;
 }
 
-.back-home i {
-  margin-right: 0.3rem;
+.breadcrumb-gcz:hover {
+  text-decoration: underline;
 }
 
-.back-home:hover {
+.breadcrumb-sep {
+  color: #aaa;
+}
+
+.breadcrumb-edition {
+  color: #be6901;
+  text-decoration: none;
+}
+
+.breadcrumb-edition:hover {
   text-decoration: underline;
+}
+
+.breadcrumb-current {
+  color: #666;
 }
 
 .gaceta-header {
@@ -238,6 +259,7 @@ body {
   height: 200px;
   object-fit: cover;
   display: block;
+  cursor: pointer;
 }
 
 .card-content {
