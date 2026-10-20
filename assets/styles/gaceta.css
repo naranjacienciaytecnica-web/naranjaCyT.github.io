@@ -569,6 +569,7 @@ body { box-sizing: border-box; }
   border-radius: 0.5rem;
   overflow: hidden;
   transition: var(--transition);
+  position: relative;
 }
 .edicion-card:hover {
   transform: translateY(-4px);
@@ -581,6 +582,8 @@ body { box-sizing: border-box; }
   align-items: center;
   justify-content: center;
   position: relative;
+  cursor: pointer;
+  text-decoration: none;
 }
 .edicion-number {
   color: var(--naranja);
