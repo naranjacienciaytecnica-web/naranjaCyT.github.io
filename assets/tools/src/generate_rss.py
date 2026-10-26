@@ -17,14 +17,19 @@ MESES = {
     "spetiembre": 9,  # typo present in one article
 }
 
-RE_FULL = re.compile(r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', re.IGNORECASE)
-RE_FULL_ALT = re.compile(r'(\d{1,2})\s+(\w+)\s+de\s+(\d{4})', re.IGNORECASE)
-RE_MONTH_YR = re.compile(
+RE_FULL      = re.compile(r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', re.IGNORECASE)
+RE_FULL_ALT  = re.compile(r'(\d{1,2})\s+(\w+)\s+de\s+(\d{4})', re.IGNORECASE)
+RE_NO_DE     = re.compile(r'(\d{1,2})\s+(\w+)\s+(\d{4})', re.IGNORECASE)
+RE_MONTH_YR  = re.compile(
     r'\b(enero|febrero|marzo|abril|mayo|junio|julio|agosto|'
     r'septiembre|octubre|noviembre|diciembre|spetiembre)\s+de\s+(\d{4})',
     re.IGNORECASE
 )
 
+
+# =====================
+# Article parser
+# =====================
 
 class ArticleParser(HTMLParser):
     def __init__(self):
@@ -100,6 +105,69 @@ class ArticleParser(HTMLParser):
             self.meta_text += data
 
 
+# =====================
+# Nota parser
+# =====================
+
+class NotaParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.title_raw = ""
+        self.h1 = ""
+        self.tags_raw = ""
+        self.date_text = ""
+        self._in_title = False
+        self._in_h1 = False
+        self._h1_done = False
+        self._in_tag = False
+        self._in_date = False
+        self._date_depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        attrs_dict = dict(attrs)
+        classes = attrs_dict.get("class", "").split()
+
+        if tag == "title":
+            self._in_title = True
+        elif tag == "h1" and not self._h1_done:
+            self._in_h1 = True
+        elif tag == "span" and classes == ["tag"]:
+            self._in_tag = True
+
+        if tag == "div" and "date" in classes:
+            self._in_date = True
+            self._date_depth = 1
+        elif self._in_date and tag == "div":
+            self._date_depth += 1
+
+    def handle_endtag(self, tag):
+        if tag == "title":
+            self._in_title = False
+        if tag == "h1" and self._in_h1:
+            self._in_h1 = False
+            self._h1_done = True
+        if tag == "span" and self._in_tag:
+            self._in_tag = False
+        if tag == "div" and self._in_date:
+            self._date_depth -= 1
+            if self._date_depth == 0:
+                self._in_date = False
+
+    def handle_data(self, data):
+        if self._in_title:
+            self.title_raw += data
+        if self._in_h1:
+            self.h1 += data
+        if self._in_tag:
+            self.tags_raw += data
+        if self._in_date:
+            self.date_text += data
+
+
+# =====================
+# Shared helpers
+# =====================
+
 def _clean_author(raw):
     author = raw.strip()
     while author.lower().startswith("por "):
@@ -110,29 +178,36 @@ def _clean_author(raw):
 def _parse_tags(tags_raw):
     if not tags_raw.strip():
         return []
-    return [t.strip() for t in tags_raw.split('·') if t.strip()]
+    # Articles use · (U+00B7), notas use • (U+2022)
+    return [t.strip() for t in re.split(r'[·•]', tags_raw) if t.strip()]
 
 
-def _extract_date(time_attr, meta_text, filepath):
+def _extract_date(time_attr, text, filepath):
     if time_attr:
         try:
             return datetime.strptime(time_attr[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc), None
         except ValueError:
             pass
 
-    m = RE_FULL.search(meta_text)
+    m = RE_FULL.search(text)
     if m:
         month_n = MESES.get(m.group(2).lower())
         if month_n:
             return datetime(int(m.group(3)), month_n, int(m.group(1)), tzinfo=timezone.utc), None
 
-    m = RE_FULL_ALT.search(meta_text)
+    m = RE_FULL_ALT.search(text)
     if m:
         month_n = MESES.get(m.group(2).lower())
         if month_n:
             return datetime(int(m.group(3)), month_n, int(m.group(1)), tzinfo=timezone.utc), None
 
-    m = RE_MONTH_YR.search(meta_text)
+    m = RE_NO_DE.search(text)
+    if m:
+        month_n = MESES.get(m.group(2).lower())
+        if month_n:
+            return datetime(int(m.group(3)), month_n, int(m.group(1)), tzinfo=timezone.utc), None
+
+    m = RE_MONTH_YR.search(text)
     if m:
         month_n = MESES.get(m.group(1).lower())
         if month_n:
@@ -145,7 +220,11 @@ def _extract_date(time_attr, meta_text, filepath):
     return dt, warn
 
 
-def parse_article(filepath, base_url):
+# =====================
+# Parse functions
+# =====================
+
+def parse_article(filepath):
     with open(filepath, encoding="utf-8") as f:
         html = f.read()
 
@@ -191,19 +270,67 @@ def parse_article(filepath, base_url):
     }
 
 
-def build_rss(items, base_url):
+def parse_nota(filepath):
+    with open(filepath, encoding="utf-8") as f:
+        html = f.read()
+
+    parser = NotaParser()
+    parser.feed(html)
+
+    filename = os.path.basename(filepath)
+    url = f"{base_url}/notas/{filename}"
+    warnings = []
+
+    if parser.h1.strip():
+        title = parser.h1.strip()
+    elif parser.title_raw.strip():
+        raw = parser.title_raw.strip()
+        # Strip "Naranja - " prefix and " | Ciencia y Técnica" suffix
+        if " - " in raw:
+            raw = raw.split(" - ", 1)[1]
+        if " | " in raw:
+            raw = raw.split(" | ")[0]
+        title = raw.strip()
+    else:
+        title = filename
+        warnings.append("no title found — using filename as fallback")
+
+    tags = _parse_tags(parser.tags_raw)
+    if not tags:
+        warnings.append("no tags found — zero <category> elements")
+
+    pub_dt, date_warn = _extract_date("", parser.date_text, filepath)
+    if date_warn:
+        warnings.append(date_warn)
+
+    return {
+        "title": title,
+        "link": url,
+        "author": "Naranja Ciencia y Técnica",
+        "pubDate": pub_dt,
+        "tags": tags,
+        "guid": url,
+        "filename": filename,
+        "warnings": warnings,
+    }
+
+
+# =====================
+# RSS builder
+# =====================
+
+def build_rss(items, channel_title, channel_description, feed_url):
     now_rfc = email.utils.format_datetime(datetime.now(tz=timezone.utc))
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
         '  <channel>',
-        '    <title>Gaceta Clara Zetkin</title>',
+        f'    <title>{escape(channel_title)}</title>',
         f'    <link>{base_url}</link>',
-        '    <description>Revista de la Naranja Ciencia y Técnica</description>',
+        f'    <description>{escape(channel_description)}</description>',
         '    <language>es-AR</language>',
         f'    <lastBuildDate>{now_rfc}</lastBuildDate>',
-        '    <generator>generate_rss.sh</generator>',
-        f'    <atom:link href="{base_url}/feed.xml" rel="self" type="application/rss+xml"/>',
+        f'    <atom:link href="{feed_url}" rel="self" type="application/rss+xml"/>',
     ]
 
     for item in items:
@@ -227,22 +354,56 @@ def build_rss(items, base_url):
     return '\n'.join(lines)
 
 
-pattern = os.path.join(project_root, "articulos", "*.html")
-files = sorted(glob.glob(pattern))
+# =====================
+# Main
+# =====================
 
-if not files:
-    print(f"ERROR: no HTML files found in {os.path.join(project_root, 'articulos')}", file=sys.stderr)
-    sys.exit(1)
+def collect(glob_pattern, parse_fn, label):
+    files = sorted(glob.glob(glob_pattern))
+    if not files:
+        print(f"ERROR: no HTML files found matching {glob_pattern}", file=sys.stderr)
+        sys.exit(1)
+    items = []
+    for filepath in files:
+        try:
+            item = parse_fn(filepath)
+            for w in item["warnings"]:
+                print(f"WARNING: [{item['filename']}] {w}", file=sys.stderr)
+            items.append(item)
+        except Exception as e:
+            print(f"ERROR: skipping {os.path.basename(filepath)}: {e}", file=sys.stderr)
+    items.sort(key=lambda x: x["pubDate"], reverse=True)
+    return items
 
-items = []
-for filepath in files:
-    try:
-        item = parse_article(filepath, base_url)
-        for w in item["warnings"]:
-            print(f"WARNING: [{item['filename']}] {w}", file=sys.stderr)
-        items.append(item)
-    except Exception as e:
-        print(f"ERROR: skipping {os.path.basename(filepath)}: {e}", file=sys.stderr)
 
-items.sort(key=lambda x: x["pubDate"], reverse=True)
-print(build_rss(items, base_url))
+articulos = collect(
+    os.path.join(project_root, "articulos", "*.html"),
+    parse_article,
+    "articulos",
+)
+
+notas = collect(
+    os.path.join(project_root, "notas", "*.html"),
+    parse_nota,
+    "notas",
+)
+
+feed_xml = build_rss(
+    articulos,
+    channel_title="Gaceta Clara Zetkin",
+    channel_description="Revista de la Naranja Ciencia y Técnica",
+    feed_url=f"{base_url}/gacetaZetkin.xml",
+)
+
+declaraciones_xml = build_rss(
+    notas,
+    channel_title="Declaraciones",
+    channel_description="Declaraciones y comunicados de la Naranja Ciencia y Técnica",
+    feed_url=f"{base_url}/declaraciones.xml",
+)
+
+with open(os.path.join(project_root, "gacetaZetkin.xml"), "w", encoding="utf-8") as f:
+    f.write(feed_xml)
+
+with open(os.path.join(project_root, "declaraciones.xml"), "w", encoding="utf-8") as f:
+    f.write(declaraciones_xml)
