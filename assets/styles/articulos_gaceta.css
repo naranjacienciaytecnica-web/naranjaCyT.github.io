@@ -656,6 +656,13 @@ body {
   border-bottom: 1px solid #8a4c00;
 }
 
+
+.references {
+  font-size: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
 .ul-notas {
   font-size: 0.95rem; 
   line-height: 1.5; 
