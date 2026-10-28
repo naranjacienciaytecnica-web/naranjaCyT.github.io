@@ -215,14 +215,54 @@ const ultimasPublicaciones = [
   },
   {
     id: 20,
-    titulo: "El anarcocapitalismo contra las mujeres migrantes: sus derechos en jaque",
-    seccion: "ARTÍCULO",
-    categoria: "articulo",
-    excerpt: "Marta Guerreño Lopez y Ana Paula Penchaszadeh analizan cómo el DNU 366 de mayo de 2025 firmado por Javier Milei desmanteló el derecho universal a la salud que garantizaba la Ley de Migraciones 25.871. A partir de un diálogo de más de una década, las autoras repasan las restricciones provinciales previas y muestran cómo la combinación de barreras nacionales y provinciales golpea con especial crudeza a las mujeres migrantes, que enfrentan mayores tasas de informalidad, peores salarios y sobrecarga de cuidados.",
-    fecha: "29 Spetiembre 2026",
-    enlace: "./articulos/anarco_capitalismo_contra_mujeres_migrantes_ed_6_2026.html",
-    imagen: "../assets/img/notas_img/marcha_migrante_banner.png"
-  }
+    titulo: "Sesgos en tecnología",
+    seccion: "Nota",
+    categoria: "notas",
+    excerpt: "La idea de que las nuevas tecnologías son imparciales parece provenir de la confianza general que tenemos en las mismas. Pero no debemos confundir precisión con objetividad. Todas las tecnologías contienen los sesgos de quienes las diseñan, las implementan y las revisan, y ahora, con estos modelos estadísticos, de quienes las entrenan. En este artículo de Nicky se analiza la problemática, para abrir al debate en torno a lo que sí está en nuestras manos.",
+    fecha: "Octubre 2026",
+    enlace: "../articulos/sesgos_en_tecnologia_ed_7_2026.html",
+    imagen: "../assets/img/notas_img/sesgos_banner_2.png"
+  },
+  {
+  "id": 21,
+  "titulo": "No fué la \"Inteligencia Artificial\" la que exoneró a Virginia Aparicio",
+  "seccion": "Editorial",
+  "categoria": "editorial",
+  "excerpt": "Desde hace meses escuchamos por cadena nacional e internacional las advertencias de los directivos de las principales empresas tecnológicas sobre las posibles pérdidas de puestos de trabajo que podría generar la \"Inteligencia Artificial\". Sin embargo, las calles de todo el mundo se inundan de reclamos contra el ajuste sobre el pueblo trabajador. Es por ello que en este número de la Gaceta nos proponemos poner en debate la premisa \"La IA nos va a dejar sin trabajo\". A nuestra compañera no la evaluó un algoritmo, la exoneró un Consejo Directivo capturado por los intereses del agronegocio. ¡No a la exoneración de Virginia Aparicio! ¡Basta de persecución en Ciencia y Técnica!",
+  "fecha": "27 Octubre 2026",
+  "enlace": "../articulos/inteligencia_capital_ed_7_2026.html",
+  "imagen": "../assets/img/notas_img/ciencia_digna_banner_2.png"
+},
+{
+  "id": 22,
+  "titulo": "Ciencia digna y datos abiertos para decidir",
+  "seccion": "Artículo",
+  "categoria": "articulo",
+  "excerpt": "La información se ha convertido en un recurso estratégico del capitalismo contemporáneo. En este artículo la autora analiza cómo el extractivismo, la invisibilización del trabajo de curación y la concentración de la infraestructura digital sostienen la desigualdad entre quienes producen los datos y quienes se apropian de su valor. Frente a un capitalismo que convierte la información en mercancía, la apuesta es construir datos abiertos para decidir colectivamente y ciencia digna para empoderar.",
+  "fecha": "Octubre 2026",
+  "enlace": "../articulos/ciencia_digna_y_datos_abiertos_para_decidir_ed_7_2026.html",
+  "imagen": "../assets/img/notas_img/ciencia_digna_banner_sin_texto.png"
+},
+{
+  "id": 23,
+  "titulo": "TransferencIA: un saber sin espacio para el sujeto, un modelo de lenguaje sin palabras, la inteligencia que no escucha",
+  "seccion": "Artículo",
+  "categoria": "articulo",
+  "excerpt": "Matias Aldo Di Matteo, licenciado en Psicología de la UBA, analiza el uso de los chatbots de Inteligencia Artificial como consejeros terapéuticos. Los modelos de lenguaje no responden al malestar subjetivo: están programados para estimular la interacción y acrecentar el banco de datos de la empresa. El artículo recorre el fenómeno de la \"Psicosis IA\" y reivindica la importancia del lazo y la escucha humana frente al hechizo fetichista de la tecnología.",
+  "fecha": "Octubre 2026",
+  "enlace": "../articulos/transferencIA_ed_7_2026.html",
+  "imagen": "../assets/img/notas_img/terapia_virtua_violeta.png"
+},
+{
+  "id": 24,
+  "titulo": "Impactos ambientales de los centros de datos que alimentan la Inteligencia Artificial",
+  "seccion": "Nota",
+  "categoria": "notas",
+  "excerpt": "El desarrollo exponencial de la IA multiplica los mega data centers, cuyo enorme consumo eléctrico e hídrico, la generación de residuos electrónicos y la contaminación por PFAS impactan gravemente sobre los bienes comunes y las comunidades cercanas. Ante las protestas y regulaciones en los países desarrollados, las empresas trasladan estas instalaciones a países periféricos con escasa normativa, donde los impactos se suman a los de otras industrias extractivas, haciendo urgente la organización de las comunidades y los trabajadores para planificar la economía en función de las necesidades humanas.",
+  "fecha": "Octubre 2026",
+  "enlace": "../articulos/data_centers_impacto_ambiental_ed_7_2026.html",
+  "imagen": "../assets/img/notas_img/data_centers_banner.png"
+}
 ];
 
 // ===== FUNCIONES PRINCIPALES =====
