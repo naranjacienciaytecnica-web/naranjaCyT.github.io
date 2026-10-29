@@ -178,6 +178,9 @@
 
 .news-thumb {
   position: relative;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .news-thumb img {

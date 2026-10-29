@@ -325,10 +325,10 @@ function renderNews() {
   
   newsGrid.innerHTML = filteredNews.map(news => `
     <article class="news-card" role="listitem" aria-labelledby="n${news.id}">
-      <div class="news-thumb">
+      <a class="news-thumb" href="${news.link}" target="_blank">
         <span class="tag" style="position: absolute; top: 12px; left: 12px; z-index: 2;">${news.tag}</span>
         <img src="${news.image}" alt="${news.title}">
-      </div>
+      </a>
       <div class="news-body">
         <h4 id="n${news.id}">${news.title}</h4>
         <p class="muted">${news.description}</p>
