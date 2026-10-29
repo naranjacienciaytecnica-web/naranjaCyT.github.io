@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaceta Clara Zetkin</title>
+    <link>https://www.naranjacyt.org</link>
+    <description>Revista de la Naranja Ciencia y Técnica</description>
+    <language>es-AR</language>
+    <lastBuildDate>Thu, 29 Oct 2026 16:16:39 +0000</lastBuildDate>
+    <atom:link href="https://www.naranjacyt.org/gacetaZetkin.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>El Mayo Francés y su manifiesto universitario vigente</title>
+      <link>https://www.naranjacyt.org/articulos/mayo_frances_ed_2_2026.html</link>
+      <author>Redacción de la Gaceta Clara Zetkin</author>
+      <pubDate>Thu, 29 Oct 2026 16:14:48 +0000</pubDate>
+      <category>EDITORIAL</category>
+      <category>HISTÓRICO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/mayo_frances_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>No fué la "Inteligencia Artificial" la que exoneró a Virginia Aparicio, fué la Inteligencia Capital</title>
+      <link>https://www.naranjacyt.org/articulos/inteligencia_capital_ed_7_2026.html</link>
+      <author>la Gaceta Clara Zetkin</author>
+      <pubDate>Thu, 29 Oct 2026 16:14:48 +0000</pubDate>
+      <category>EDITORIAL</category>
+      <category>INTELIGENCIA ARTIFICIAL Y TRABAJO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/inteligencia_capital_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>¿Democracia para quién?: La Mirada Abolicionista de Angela Davis</title>
+      <link>https://www.naranjacyt.org/articulos/democracia_para_quien_ed_3_2026.html</link>
+      <author>la Gaceta Clara Zetkin</author>
+      <pubDate>Thu, 29 Oct 2026 16:14:48 +0000</pubDate>
+      <category>EDITORIAL</category>
+      <category>DEMOCRACIA EN COLAPSO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/democracia_para_quien_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Agrotóxicos: la banalidad del mal y el rol de la ciencia argentina</title>
+      <link>https://www.naranjacyt.org/articulos/banalidad_del_mal_la_ciencia_argentina_ed_5_2026.html</link>
+      <author>GCZ</author>
+      <pubDate>Thu, 29 Oct 2026 16:14:48 +0000</pubDate>
+      <category>EDITORIAL</category>
+      <category>CIENCIA Y EXTRACTIVISMO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/banalidad_del_mal_la_ciencia_argentina_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>El Proyecto SPRINT en la voz de los voluntarios</title>
+      <link>https://www.naranjacyt.org/articulos/voluntarios_sprint_ed_7_2026.html</link>
+      <author>la Redacción de Gaceta Clara Zetkin</author>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>INVESTIGACIÓN</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/voluntarios_sprint_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Ciencia digna y datos abiertos para decidir</title>
+      <link>https://www.naranjacyt.org/articulos/ciencia_digna_y_datos_abiertos_para_decidir_ed_7_2026.html</link>
+      <author>Ana Julia Velez Rueda</author>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>ARTÍCULO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/ciencia_digna_y_datos_abiertos_para_decidir_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Impactos ambientales de los centros de datos que alimentan la Inteligencia Artificial</title>
+      <link>https://www.naranjacyt.org/articulos/data_centers_impacto_ambiental_ed_7_2026.html</link>
+      <author>Alicia Rodriguez</author>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>NOTA</category>
+      <category>TECNOLOGÍA Y AMBIENTE</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/data_centers_impacto_ambiental_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>La "IA" no existe: sobre cómo desmontar el relato de una falsa tecnología</title>
+      <link>https://www.naranjacyt.org/articulos/la_IA_no_existe_ed_7_2026.html</link>
+      <author>Franco Bulgarelli</author>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>ARTÍCULO</category>
+      <category>TECNOLOGÍA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/la_IA_no_existe_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Monopolios del mundo: una lectura de Teoría de la dependencia digital</title>
+      <link>https://www.naranjacyt.org/articulos/monopolios_del_mundo_ed_6_2026.html</link>
+      <author>Santiago Gándara</author>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>RESEÑA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/monopolios_del_mundo_ed_6_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Sesgos en tecnología</title>
+      <link>https://www.naranjacyt.org/articulos/sesgos_en_tecnologia_ed_7_2026.html</link>
+      <author>Nicky Donna</author>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>NOTA</category>
+      <category>TECNOLOGÍA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/sesgos_en_tecnologia_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>TransferencIA: un saber sin espacio para el sujeto, un modelo de lenguaje sin palabras, la inteligencia que no escucha</title>
+      <link>https://www.naranjacyt.org/articulos/transferencIA_ed_7_2026.html</link>
+      <author>Matias Aldo Di Matteo</author>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>ARTÍCULO</category>
+      <category>TECNOLOGÍA</category>
+      <category>SALUD MENTAL</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/transferencIA_ed_7_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Más que nunca encontrarnos</title>
+      <link>https://www.naranjacyt.org/articulos/mas_que_nunca_encontrarnos_ed_6_2026.html</link>
+      <author>la Gaceta Clara Zetkin</author>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>EDITORIAL</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/mas_que_nunca_encontrarnos_ed_6_2026.html</guid>
+    </item>
+
+    <item>
+      <title>De la mala magia al aquelarre</title>
+      <link>https://www.naranjacyt.org/articulos/resenia_de_la_mala_magia_al_aquelarre_ed_2026.html</link>
+      <author>AJ. Velez Rueda</author>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>RESEÑA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/resenia_de_la_mala_magia_al_aquelarre_ed_2026.html</guid>
+    </item>
+
+    <item>
+      <title>ABORTO LEGAL, SEGURO Y GRATUITO: MÁS DE 30 AÑOS DE LUCHA</title>
+      <link>https://www.naranjacyt.org/articulos/aborto_legal_seguro_y_gratuito_ed_6_2026.html</link>
+      <author>Ro Sal &amp; Alu S</author>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>GÉNERO</category>
+      <category>DERECHOS</category>
+      <category>HISTORIA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/aborto_legal_seguro_y_gratuito_ed_6_2026.html</guid>
+    </item>
+
+    <item>
+      <title>El anarcocapitalismo contra las mujeres migrantes: sus derechos en jaque</title>
+      <link>https://www.naranjacyt.org/articulos/anarco_capitalismo_contra_mujeres_migrantes_ed_6_2026.html</link>
+      <author>Marta Guerreño Lopez y Ana Paula Penchaszadeh</author>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>MIGRACIÓN</category>
+      <category>GÉNERO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/anarco_capitalismo_contra_mujeres_migrantes_ed_6_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Cuando medir se vuelve incómodo: SPRINT, bioética y el deber de defender una ciencia digna</title>
+      <link>https://www.naranjacyt.org/articulos/cuando_medir_se_vuelve_incomodo_ed_2026.html</link>
+      <author>Dra. Nair de los Ángeles Pereira</author>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>CIENCIA</category>
+      <category>AMBIENTE</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/cuando_medir_se_vuelve_incomodo_ed_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Escritoras en la Argentina de los años 70: investigar un pasado que aún interpela</title>
+      <link>https://www.naranjacyt.org/articulos/entrevista_escritoras_de_los_70_ed_6_2026.html</link>
+      <author>Silvana Rodriguez Oro</author>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Entrevista</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/entrevista_escritoras_de_los_70_ed_6_2026.html</guid>
+    </item>
+
+    <item>
+      <title>MUJERES AL PODER: ¿QUÉ MUJERES Y PARA QUÉ?</title>
+      <link>https://www.naranjacyt.org/articulos/mujeres_al_poder_ed_6_2026.html</link>
+      <author>Ariadna Gallo</author>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>GÉNERO</category>
+      <category>POLÍTICA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/mujeres_al_poder_ed_6_2026.html</guid>
+    </item>
+
+    <item>
+      <title>La Tierra Explota: construir el futuro sobre las cenizas del saqueo</title>
+      <link>https://www.naranjacyt.org/articulos/resenia_la_tierra_explota_ed_5_2026.html</link>
+      <author>Redacción GCZ</author>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>RESEÑA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/resenia_la_tierra_explota_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Resistencia de la comunidad Diaguita Kallchakí de Las Pailas</title>
+      <link>https://www.naranjacyt.org/articulos/cachi_resistencia_ed_5_2026.html</link>
+      <author>Alejandra Pastor para la GCZ</author>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Entrevista</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/cachi_resistencia_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Hacer(se) con otros</title>
+      <link>https://www.naranjacyt.org/articulos/hacer(se)_con_otros_ed_5_2026.html</link>
+      <author>Yésica Zampieri</author>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>COMUNIDAD</category>
+      <category>CONOCIMIENTO</category>
+      <category>POLÍTICA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/hacer(se)_con_otros_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Colonización, educación y resistencia:el boicot académico como herramienta contra el genocidio en Palestina</title>
+      <link>https://www.naranjacyt.org/articulos/colonizacion_educacion_resistencia_ed_5_2026.html</link>
+      <author>Comisión por el Boicot Académico a Israel del Comité Argentino de Solidaridad con el Pueblo Palestino</author>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <category>PALESTINA</category>
+      <category>EDUCACIÓN</category>
+      <category>BOICOT</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/colonizacion_educacion_resistencia_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>¿Quién decide qué comemos?</title>
+      <link>https://www.naranjacyt.org/articulos/quien_decide_que_comemos_ed_5_2026.html</link>
+      <author>AJ Velez Rueda</author>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <category>ALIMENTOS</category>
+      <category>SALUD</category>
+      <category>POLÍTICA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/quien_decide_que_comemos_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Carta abierta de una becaria del CONICET al Presidente</title>
+      <link>https://www.naranjacyt.org/articulos/carta_abierta_de_una_becaria.html</link>
+      <author>Débora, becaria del CONICET</author>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <category>CARTA ABIERTA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/carta_abierta_de_una_becaria.html</guid>
+    </item>
+
+    <item>
+      <title>La Fotografía 51:retratos de la invisibilización de ayer y de hoy</title>
+      <link>https://www.naranjacyt.org/articulos/foto_51_ed_4_2026.html</link>
+      <author>Matias Luis Pidre</author>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <category>CIENCIA</category>
+      <category>GÉNERO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/foto_51_ed_4_2026.html</guid>
+    </item>
+
+    <item>
+      <title>La tierra que supimos conseguir:El proyecto de Milei y el debate sobre la propiedad de la tierra</title>
+      <link>https://www.naranjacyt.org/articulos/la_tierra_que_supimos_conseguir_ed_4_2026.html</link>
+      <author>Antonio Monjes</author>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <category>TERRITORIO</category>
+      <category>POLÍTICA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/la_tierra_que_supimos_conseguir_ed_4_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Sweet Tooth: los espejismos del pasado y otros mundos posibles</title>
+      <link>https://www.naranjacyt.org/articulos/resenia_sweet_tooth_ed_4_2026.html</link>
+      <author>AJ Velez Rueda</author>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <category>RESEÑA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/resenia_sweet_tooth_ed_4_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Iglesia Católica y EducaciónDe la Ley 1420 a la Ley de Educación Nacional</title>
+      <link>https://www.naranjacyt.org/articulos/iglesia_y_escuela_ed_4_2026.html</link>
+      <author>Rocío Salgueiro</author>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <category>EDUCACIÓN</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/iglesia_y_escuela_ed_4_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Territorio ancestral Mbyaen resistencia</title>
+      <link>https://www.naranjacyt.org/articulos/territorio_en_resistencia_ed_5_2026.html</link>
+      <author>Clarisa Néztor</author>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <category>AMBIENTAL</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/territorio_en_resistencia_ed_5_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Zona de sacrificio</title>
+      <link>https://www.naranjacyt.org/articulos/entrevista_jachal_ed_4_2026.html</link>
+      <author>Gaceta Clara Zetkin</author>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Entrevista</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/entrevista_jachal_ed_4_2026.html</guid>
+    </item>
+
+    <item>
+      <title>¿La muerte como horizonte? Cartografiando un porvenir posible</title>
+      <link>https://www.naranjacyt.org/articulos/catografiando_un_futuro_posible_ed_4_2026.html</link>
+      <author>Marcela Verónica Rositto</author>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <category>SALUD MENTAL</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/catografiando_un_futuro_posible_ed_4_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Los Cruces: un holobionte audiovisual</title>
+      <link>https://www.naranjacyt.org/articulos/entrevista_los_cruces_ed_3_2026.html</link>
+      <author>Gaceta Clara Zetkin</author>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>CINE Y CIENCIA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/entrevista_los_cruces_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Crónica de un desguace anunciado</title>
+      <link>https://www.naranjacyt.org/articulos/cronica_de_un_desguace_anunciado_ed_3_2026.html</link>
+      <author>Gustavo Asenzo y Gabriel Pinto</author>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>DENUNCIA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/cronica_de_un_desguace_anunciado_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Construir un nosotros frente al capital: los desafíos de la identidad cooperativa en la actualidad</title>
+      <link>https://www.naranjacyt.org/articulos/nosotros_frente_al_capital_ed_3_2026.html</link>
+      <author>Melissa Scz</author>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>ECONOMÍA SOCIAL</category>
+      <category>TRABAJO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/nosotros_frente_al_capital_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Nuevo régimen penal juvenil: la mentira, la deuda y la trampa</title>
+      <link>https://www.naranjacyt.org/articulos/regimen_penal_juvenil_una_trampa_ed_3_2026.html</link>
+      <author>Mariana Galvani, Karina Mouzo, Alina Ríos y Analía Suárez</author>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>JUSTICIA</category>
+      <category>DERECHOS HUMANOS</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/regimen_penal_juvenil_una_trampa_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>ATENCIÓN POR ALIENACIÓN</title>
+      <link>https://www.naranjacyt.org/articulos/resenia_atencion_por_alienacion_ed_3_2026.html</link>
+      <author>Santiago Gándara (UBA y UNLPam)</author>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>RESEÑA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/resenia_atencion_por_alienacion_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Pararse en la dignidad: las madres de Ituzaingó Anexo y su impronta en la génesis de la ciencia digna</title>
+      <link>https://www.naranjacyt.org/articulos/ciencia_digna_ed_3_2026.html</link>
+      <author>María Soledad Iparraguirre</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <category>CIENCIA DIGNA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/ciencia_digna_ed_3_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Las pasiones sindicales según Raymundo Gleyzer</title>
+      <link>https://www.naranjacyt.org/articulos/gleyzer_cineasta_ed_2_2026.html</link>
+      <author>Pedro Berardi</author>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <category>CINE MILITANTE</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/gleyzer_cineasta_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Fundamentos Filosóficos Contra El Constructivismo Social</title>
+      <link>https://www.naranjacyt.org/articulos/constructivismo_social_ed_2_2026.html</link>
+      <author>Carolina García Curilaf</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <category>ARTÍCULO</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/constructivismo_social_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>BAILAR ENTRE LAS RUINAS: Una reseña de The Get Down (2016)</title>
+      <link>https://www.naranjacyt.org/articulos/resenia_The_Get_Down_ed_2_2026.html</link>
+      <author>Camila Trenco</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <category>RESEÑA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/resenia_The_Get_Down_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>La acción política autónoma en tensión: asambleas ciudadanas y compromiso político</title>
+      <link>https://www.naranjacyt.org/articulos/asambleas_ciudadanas_ed_2_2026.html</link>
+      <author>Mariangel Cacciutto</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <category>ENSAYO POLÍTICO</category>
+      <category>MOVIMIENTOS SOCIALES</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/asambleas_ciudadanas_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>¿La exacerbación de la fragmentación sectorial y territorial como estrategia política?</title>
+      <link>https://www.naranjacyt.org/articulos/territorio_estrategia_politica_ed_2_2026.html</link>
+      <author>Guillermo Folguera</author>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <category>ENSAYO POLÍTICO</category>
+      <category>ESTRATEGIA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/territorio_estrategia_politica_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>La institucionalidad del fútbol y los torneos comerciales: dos caras burguesas de un mismo negocio</title>
+      <link>https://www.naranjacyt.org/articulos/futbol_ed_1_2026.html</link>
+      <author>Pablo Fusetti</author>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>FÚTBOL</category>
+      <category>POLÍTICA</category>
+      <category>ECONOMÍA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/futbol_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Arauco avanza, la selva resiste: la lucha del Pueblo Mbya Guaraní</title>
+      <link>https://www.naranjacyt.org/articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html</link>
+      <author>Gaceta Clara Zetkin</author>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <category>TERRITORIO Y RESISTENCIA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/arauco_avanza_el_monte_resiste_ed_2_2026.html</guid>
+    </item>
+
+    <item>
+      <title>El Hospital Garrahan desde adentro: resistencia, ciencia y ajuste</title>
+      <link>https://www.naranjacyt.org/articulos/entrevista_Ale_Lipco_ed_1_2026.html</link>
+      <author>Gaceta Clara Zetkin</author>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <category>SALUD</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/entrevista_Ale_Lipco_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>La ideología de género: la hidra del gobierno libertario</title>
+      <link>https://www.naranjacyt.org/articulos/ideologia_de_genero_ed_1_2026.html</link>
+      <author>Camila Montaño</author>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <category>GÉNERO</category>
+      <category>POLÍTICA</category>
+      <category>DERECHOS</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/ideologia_de_genero_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>El código de guerra: la responsabilidad de las tecnológicas en el horror global y el silencio en las aulas</title>
+      <link>https://www.naranjacyt.org/articulos/codigo_de_guerra_ed_1_2026.html</link>
+      <author>AJ Velez Rueda</author>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <category>TECNOLOGÍA</category>
+      <category>DERECHOS HUMANOS</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/codigo_de_guerra_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>"Emergencia radiactiva": el desastre no empieza con el cesio, sino con la desigualdad</title>
+      <link>https://www.naranjacyt.org/articulos/emergencia_radioactiva_ed_1_2026.html</link>
+      <author>CMR</author>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <category>CINE</category>
+      <category>CIENCIA Y SOCIEDAD</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/emergencia_radioactiva_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Defender los glaciares en Argentina: cuestión de "vida" o "muerte"</title>
+      <link>https://www.naranjacyt.org/articulos/glaciares_ed_1_2026.html</link>
+      <author>Analía Di Bona</author>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <category>AMBIENTE</category>
+      <category>DERECHOS HUMANOS</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/glaciares_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>¿Con la IVE cómo andamos?</title>
+      <link>https://www.naranjacyt.org/articulos/articulo_IVE_ed_1_2026.html</link>
+      <author>Mercedes Krause</author>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>SALUD PÚBLICA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/articulo_IVE_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>Precariedad programada: cómo la reforma laboral afecta al sector de informática</title>
+      <link>https://www.naranjacyt.org/articulos/precariedad_programada_ed_1_2026.html</link>
+      <author>Franco Bulgarelli</author>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>REFORMA LABORAL</category>
+      <category>TECNOLOGÍA</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/precariedad_programada_ed_1_2026.html</guid>
+    </item>
+
+    <item>
+      <title>¡Por la liberación de la mujer!</title>
+      <link>https://www.naranjacyt.org/articulos/clara_zetkin_ed_1_2026.html</link>
+      <author>Clara Zetkin</author>
+      <pubDate>Fri, 19 Jul 1889 00:00:00 +0000</pubDate>
+      <category>EDITORIAL</category>
+      <category>PRESENTACIÓN</category>
+      <guid isPermaLink="true">https://www.naranjacyt.org/articulos/clara_zetkin_ed_1_2026.html</guid>
+    </item>
+
+  </channel>
+</rss>
