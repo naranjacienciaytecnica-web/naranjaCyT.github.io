@@ -271,7 +271,6 @@ function initGaceta() {
   initMobileMenu();
   initSmoothScroll();
   initActiveNav();
-  initLucideIcons();
 }
 
 function initMobileMenu() {
@@ -325,12 +324,6 @@ function initActiveNav() {
   });
 }
 
-function initLucideIcons() {
-  if (typeof lucide !== 'undefined') {
-    lucide.createIcons();
-  }
-}
-
 // ===== FUNCIÓN PARA GENERAR TARJETAS DE PREVISUALIZACIÓN =====
 function generarTarjetasPrevisualizacion() {
   const container = document.getElementById('preview-cards-container');
@@ -353,11 +346,11 @@ function generarTarjetasPrevisualizacion() {
         <p class="preview-card-excerpt">${pub.excerpt}</p>
         <div class="preview-card-meta">
           <span class="preview-card-date">
-            <i data-lucide="calendar" style="width: 12px; height: 12px;"></i>
+            <i class="far fa-calendar-alt" style="font-size: 12px;"></i>
             ${pub.fecha}
           </span>
           <a href="${pub.enlace}" class="preview-card-link">
-            Leer más <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+            Leer más <i class="fas fa-arrow-right" style="font-size: 14px;"></i>
           </a>
         </div>
       </div>
@@ -365,10 +358,6 @@ function generarTarjetasPrevisualizacion() {
     
     container.appendChild(card);
   });
-  
-  if (typeof lucide !== 'undefined') {
-    lucide.createIcons();
-  }
 }
 
 // ===== FUNCIONES DEL SDK =====
