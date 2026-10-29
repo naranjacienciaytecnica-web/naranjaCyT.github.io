@@ -304,20 +304,9 @@ body { box-sizing: border-box; }
   margin-bottom: 1rem;
 }
 .magazine-date {
+  margin-top: 6px;
   color: var(--gris-light);
   font-size: 0.75rem;
-}
-.magazine-badge {
-  background: rgba(139, 138, 138, 0.15);
-  border: 1px solid #1a1a1a;
-  padding: 0.25rem 0.75rem;
-  border-radius: 0.25rem;
-  margin-top: 1.5rem;
-}
-.magazine-badge span {
-  color: #1a1a1a;
-  font-size: 0.75rem;
-  font-weight: bold;
 }
 .magazine-shadow {
   position: absolute;
