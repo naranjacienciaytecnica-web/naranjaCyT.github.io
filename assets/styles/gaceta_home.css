@@ -1,14 +1,14 @@
 /* Styles specific to the Gaceta Clara Zetkin home page (gacetaZetkin.html) */
 
 .ver-mas-btn {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-family: var(--gaceta-font-sans);
+  font-size: var(--gaceta-fs-sm);
+  font-weight: var(--gaceta-fw-semibold);
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #be6901;
+  letter-spacing: var(--gaceta-tracking-wide);
+  color: var(--gaceta-color-main);
   text-decoration: none;
-  border: 1px solid #be6901;
+  border: 1px solid var(--gaceta-color-main);
   padding: 0.6rem 1.4rem;
   display: inline-block;
   background: transparent;
@@ -21,8 +21,8 @@
 }
 
 .ver-mas-btn:hover {
-  background: #be6901;
-  color: #fffef7;
+  background: var(--gaceta-color-main);
+  color: var(--gaceta-background-paper);
 }
 
 .ver-mas-btn:hover i {
@@ -31,12 +31,12 @@
 
 .ver-mas-wrap {
   text-align: center;
-  margin: 1.5rem 0 2.5rem;
+  margin: var(--gaceta-space-md) 0 2.5rem;
 }
 
 .ultima-edicion-wrap {
-  margin-top: 1rem;
-  font-family: 'Inter', sans-serif;
+  margin-top: var(--gaceta-space-sm);
+  font-family: var(--gaceta-font-sans);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,17 +44,17 @@
 }
 
 .ultima-edicion-wrap .edicion-meta {
-  font-size: 0.75rem;
-  letter-spacing: 0.15em;
+  font-size: var(--gaceta-fs-sm);
+  letter-spacing: var(--gaceta-tracking-wider);
   text-transform: uppercase;
-  color: #666;
+  color: var(--gaceta-color-text-dim);
 }
 
 .pilares-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-top: 1rem;
+  gap: var(--gaceta-space-md);
+  margin-top: var(--gaceta-space-sm);
   margin-bottom: 3rem;
 }
 
@@ -63,7 +63,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 0.5rem;
+  gap: var(--gaceta-space-xs);
 }
 
 .pilares-grid .pilar img {
@@ -72,17 +72,17 @@
 }
 
 .pilares-grid .pilar h4 {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-family: var(--gaceta-font-sans);
+  font-size: var(--gaceta-fs-base);
+  font-weight: var(--gaceta-fw-bold);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--gaceta-tracking-tight);
   margin: 0;
-  color: #1a1a1a;
+  color: var(--gaceta-color-text-main);
 }
 
 .pilares-grid .pilar p {
-  font-size: 0.9rem;
+  font-size: var(--gaceta-fs-base);
   margin: 0;
   color: #4a4a4a;
 }
@@ -90,7 +90,7 @@
 @media (max-width: 700px) {
   .pilares-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: var(--gaceta-space-sm);
   }
 }
 
@@ -100,31 +100,31 @@
 }
 
 .section-title.spaced {
-  margin-top: 0.5rem;
+  margin-top: var(--gaceta-space-xs);
 }
 
 .editorial-section.participa-gaceta {
-  margin-top: 2rem;
-  border-bottom: 0px;
-  margin-bottom: 0px;
+  margin-top: var(--gaceta-space-lg);
+  border-bottom: 0;
+  margin-bottom: 0;
 }
 
 .gaceta-footer .footer-small {
-  margin-top: 0.5rem;
+  margin-top: var(--gaceta-space-xs);
 }
 
 .gaceta-footer .footer-fine {
-  margin-top: 0.5rem;
-  font-size: 0.7rem;
+  margin-top: var(--gaceta-space-xs);
+  font-size: var(--gaceta-fs-xs);
 }
 
 .footer-heart {
-  color: #c41e3a;
+  color: var(--gaceta-color-gander);
 }
 
 .search-wrap {
   text-align: center;
-  margin: 1rem 0 1.5rem;
+  margin: var(--gaceta-space-sm) 0 var(--gaceta-space-md);
 }
 
 .search-field {
@@ -139,43 +139,43 @@
   left: 0.75rem;
   top: 50%;
   transform: translateY(-50%);
-  color: #999;
+  color: var(--gaceta-color-text-placeholder);
   pointer-events: none;
-  font-size: 0.9rem;
+  font-size: var(--gaceta-fs-base);
 }
 
 .search-input {
   width: 100%;
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-family: var(--gaceta-font-sans);
+  font-size: var(--gaceta-fs-base);
   padding: 0.55rem 0.95rem 0.55rem 2.1rem;
-  border: 1px solid #d7d2c8;
-  background: #fffef7;
-  color: #1a1a1a;
+  border: 1px solid var(--gaceta-border-input);
+  background: var(--gaceta-background-paper);
+  color: var(--gaceta-color-text-main);
   box-sizing: border-box;
 }
 
 .search-input:focus {
   outline: none;
-  border-color: #be6901;
+  border-color: var(--gaceta-color-main);
 }
 
 .search-input:focus + .search-icon,
 .search-field:focus-within .search-icon {
-  color: #be6901;
+  color: var(--gaceta-color-main);
 }
 
 .search-input::placeholder {
-  color: #999;
+  color: var(--gaceta-color-text-placeholder);
 }
 
 .search-empty {
   display: none;
   text-align: center;
-  padding: 2rem 1rem;
-  font-family: 'Inter', sans-serif;
+  padding: var(--gaceta-space-lg) var(--gaceta-space-sm);
+  font-family: var(--gaceta-font-sans);
   font-size: 0.95rem;
-  color: #666;
+  color: var(--gaceta-color-text-dim);
   letter-spacing: 0.02em;
 }
 
@@ -186,6 +186,6 @@
 .search-empty i {
   display: block;
   font-size: 1.6rem;
-  color: #be6901;
+  color: var(--gaceta-color-main);
   margin-bottom: 0.6rem;
 }

@@ -1,0 +1,57 @@
+:root {
+  /* Fonts */
+  --gaceta-font-serif: 'Cormorant Garamond', Georgia, serif;
+  --gaceta-font-sans: 'Inter', sans-serif;
+
+  /* Palette — brand */
+  --gaceta-color-main:   #be6901;
+  --gaceta-color-hover:  #e8a84c;
+  --gaceta-color-link:   #b37b2e;
+  --gaceta-color-strong: #8a4c00;
+  --gaceta-color-gander: #c41e3a;
+
+  /* Palette — text */
+  --gaceta-color-text-main:        #1a1a1a;
+  --gaceta-color-text-soft:        #2c2c2c;
+  --gaceta-color-text-muted:       #555;
+  --gaceta-color-text-dim:         #666;
+  --gaceta-color-text-faint:       #888;
+  --gaceta-color-text-placeholder: #999;
+
+  /* Palette — surfaces */
+  --gaceta-background-page:      #f5f3ef;
+  --gaceta-background-paper:     #fffef7;
+  --gaceta-background-sand:      #f0ede5;
+  --gaceta-background-sand-soft: #f8f6f0;
+  --gaceta-background-featured:  #faf8f4;
+
+  /* Palette — borders */
+  --gaceta-border:       #e0dcd5;
+  --gaceta-border-soft:  #ddd;
+  --gaceta-border-input: #d7d2c8;
+  --gaceta-border-faint: #aaa;
+
+  /* Spacing */
+  --gaceta-space-xs: 0.5rem;
+  --gaceta-space-sm: 1rem;
+  --gaceta-space-md: 1.5rem;
+  --gaceta-space-lg: 2rem;
+
+  /* Typography sizes */
+  --gaceta-fs-xs:   0.7rem;
+  --gaceta-fs-sm:   0.75rem;
+  --gaceta-fs-base: 0.9rem;
+  --gaceta-fs-md:   1rem;
+  --gaceta-fs-lg:   1.3rem;
+  --gaceta-fs-xl:   1.5rem;
+
+  /* Typography weights */
+  --gaceta-fw-medium:   500;
+  --gaceta-fw-semibold: 600;
+  --gaceta-fw-bold:     700;
+
+  /* Letter spacing (uppercase Inter presets) */
+  --gaceta-tracking-tight: 0.08em;
+  --gaceta-tracking-wide:  0.12em;
+  --gaceta-tracking-wider: 0.15em;
+}
