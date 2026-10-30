@@ -1,350 +1,286 @@
-<!doctype html>
-<html lang="es" class="h-full">
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gaceta Clara Zetkin · Naranja Ciencia y Técnica</title>
-  <link rel="icon" type="image/png" href="./assets/img/naranja.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script data-goatcounter="https://naranjacyt.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/styles/gaceta.css">
-  <script data-goatcounter="https://naranjacyt.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <link rel="icon" type="image/png" href="./assets/img/naranja.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/styles/articulos_gaceta.css">
+  <link rel="stylesheet" href="./assets/styles/gaceta_home.css">
 </head>
-<body class="h-full">
-  <div class="app-root" id="app-root">
-    <header class="glass-header">
-      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <a href="index.html" class="flex items-center gap-3">
-            <div class="logo-bg">
-              <img src="./assets/img/ncyt_icono_b.png" alt="Naranja Ciencia y Técnica">
-            </div>
-            <div class="hidden sm:block">
-              <p class="logo-title">Gaceta Clara Zetkin</p>
-            </div>
+
+<body>
+  <div class="newspaper-container">
+    <div class="top-nav">
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="declaraciones.html">DECLARACIONES</a></li>
+        <li><a href="noticias.html">PRENSA</a></li>
+        <li><a href="ediciones.html">EDICIONES</a></li>
+        <li><a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeoDjhK5pIuNJ-frQALCyhfO73gRy6luWhTlIPikAZUPzQQYQ/viewform"
+            target="_blank">RECIBIR GACETA</a></li>
+      </ul>
+    </div>
+
+    <div class="gaceta-header">
+      <img src="./assets/img/logo_gaceta_banner_.png" alt="Logo Gaceta Clara Zetkin">
+      <div class="gaceta-subtitle">Una Revista de la Naranja Ciencia y Técnica</div>
+
+      <div class="ultima-edicion-wrap">
+        <a class="ver-mas-btn" href="./ediciones/GCZNum7.html">Leer Última Edición <i
+            class="fas fa-arrow-right"></i></a>
+        <span class="edicion-meta">Edición Nº 7 · Octubre 2026</span>
+      </div>
+    </div>
+
+
+    <div class="main-content full-width">
+      <div class="editorial-section">
+        <div class="section-title"><i class="fas fa-feather"></i> CIENCIA, CRÍTICA Y LUCHA SOCIAL</div>
+        <div class="article-text">
+          <p><span class="dropcap">L</span>a Gaceta Clara Zetkin es un espacio de divulgación y reflexión impulsado por
+            trabajadorxs de la ciencia y la técnica, activistas por diversos derechos y luchadores sociales. Su objetivo
+            es difundir textos con espíritu crítico que promuevan el debate, el pensamiento transformador y la
+            construcción colectiva del conocimiento.</p>
+
+        </div>
+
+
+        <div class="pilares-grid">
+          <div class="pilar">
+            <img src="./assets/img/naranja.png" alt="">
+            <h4>Espíritu Crítico</h4>
+            <p>Pensamiento transformador y debate</p>
+          </div>
+          <div class="pilar">
+            <img src="./assets/img/naranja.png" alt="">
+            <h4>Construcción Colectiva</h4>
+            <p>Conocimiento desde las bases</p>
+          </div>
+          <div class="pilar">
+            <img src="./assets/img/naranja.png" alt="">
+            <h4>Divulgación</h4>
+            <p>Ciencia accesible para todxs</p>
+          </div>
+        </div>
+
+        <div class="ver-mas-wrap">
+          <a class="ver-mas-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeoDjhK5pIuNJ-frQALCyhfO73gRy6luWhTlIPikAZUPzQQYQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Recibir la Gaceta <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+
+      <div class="section-title spaced" id="articulos"><i class="far fa-newspaper"></i> ARTÍCULOS
+      </div>
+
+      <div class="articles-grid">
+        <div class="article-card">
+          <a href="./articulos/ciencia_digna_y_datos_abiertos_para_decidir_ed_7_2026.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/ciencia_digna_banner_sin_texto.png"
+              alt="Ciencia digna y datos abiertos para decidir"
+              onerror="this.src='https://placehold.co/400x250/2c3e2c/d4e6d4?text=CIENCIA+DIGNA'">
           </a>
+          <div class="card-content">
+            <div class="card-tag">ARTÍCULO</div>
+            <h3 class="card-title"><a
+                href="./articulos/ciencia_digna_y_datos_abiertos_para_decidir_ed_7_2026.html">Ciencia digna y datos
+                abiertos para decidir</a></h3>
+            <div class="card-excerpt">La información se ha convertido en un recurso estratégico del capitalismo
+              contemporáneo. Un análisis del extractivismo de datos, la invisibilización del trabajo de curación y la
+              concentración de la infraestructura digital.</div>
+            <div class="card-meta">
+              <span><i class="far fa-user"></i> Por AJ Velez Rueda</span>
+              <span><i class="far fa-calendar-alt"></i> Octubre de 2026</span>
+              <a href="./articulos/ciencia_digna_y_datos_abiertos_para_decidir_ed_7_2026.html" class="read-more">LEER
+                ARTÍCULO COMPLETO <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
         </div>
 
-        <nav aria-label="Menú principal" class="hidden md:flex items-center gap-6">
-          <a href="index.html#quienes" class="link-underline nav-link">Quiénes somos</a>
-          <a href="declaraciones.html" class="link-underline nav-link">Declaraciones</a>
-          <a href="noticias.html" class="link-underline nav-link">Prensa</a>
-          <a href="index.html#charlas" class="link-underline nav-link">Charlas</a>
-          <a href="index.html#youtube" class="link-underline nav-link">YouTube</a>
-          <a href="gacetaZetkin.html" class="link-underline nav-link active">Gaceta</a>
-        </nav>
-
-        <div class="flex items-center gap-3">
-          <a href="https://forms.gle/VPDCjJuHjpry31bi9" target="_blank" rel="noopener noreferrer"
-             class="btn-primary small" id="nav-subscribe-btn">
-            <span id="nav-subscribe-text">Recibir Gaceta</span>
+        <div class="article-card">
+          <a href="./articulos/transferencIA_ed_7_2026.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/terapia_virtua_violeta.png"
+              alt="TransferencIA: un saber sin espacio para el sujeto"
+              onerror="this.src='https://placehold.co/400x250/1a2a3a/c9d4e6?text=TransferencIA'">
           </a>
-          <button id="mobile-menu-btn" class="mobile-menu-btn md:hidden" aria-label="Abrir menú">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
-
-      <div id="mobile-menu" class="mobile-menu hidden">
-        <nav aria-label="Menú móvil" class="flex flex-col gap-3">
-          <a href="index.html#quienes" class="nav-link-mobile">Quiénes somos</a>
-          <a href="declaraciones.html" class="nav-link-mobile">Declaraciones</a>
-          <a href="noticias.html" class="nav-link-mobile">Prensa</a>
-          <a href="index.html#charlas" class="nav-link-mobile">Charlas</a>
-          <a href="index.html#youtube" class="nav-link-mobile">YouTube</a>
-          <a href="#" class="nav-link-mobile active">Gaceta</a>
-        </nav>
-      </div>
-    </header>
-
-    <section class="hero-gradient relative">
-      <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <div class="hero-badge anim-slide-1">
-              <span class="hero-badge-dot"></span> GCZ
-            </div>
-            <h1 id="hero-title" class="hero-title anim-slide-2">
-              Gaceta<br><span>Clara Zetkin</span>
-            </h1>
-            <p id="hero-subtitle" class="hero-subtitle anim-slide-3">
-              Ciencia, crítica y lucha social — un espacio de divulgación y reflexión impulsado por trabajadorxs de la ciencia y la técnica
-            </p>
-            <div class="hero-actions anim-slide-4">
-              <a href="#ediciones" class="btn-primary">
-                <i class="fas fa-book-open"></i> Leer Ediciones
-              </a>
-              <a href="https://forms.gle/iyDx42kKJXf5XRqJ8" target="_blank" rel="noopener noreferrer"
-                 class="btn-secondary" id="hero-publish-btn">
-                <i class="fas fa-pen-nib"></i>
-                <span id="hero-publish-text">Proponer Publicación</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="anim-fade flex justify-center">
-            <div class="relative">
-              <div class="magazine-cover">
-                <img src="./assets/img/logo_zk_grey_small.png" alt="zetkin">
-                <div class="magazine-line"></div>
-                <span class="magazine-label">Gaceta</span>
-                <span class="magazine-name">Clara Zetkin</span>
-                <a class="btn btn-primary" href="./ediciones/GCZNum7.html"><span>Leer Última Edición</span></a>
-                <span class="magazine-date">Edición Nº 7 · Octubre 2026</span>
-              </div>
-              <div class="magazine-shadow"></div>
+          <div class="card-content">
+            <div class="card-tag">ARTÍCULO</div>
+            <h3 class="card-title"><a href="./articulos/transferencIA_ed_7_2026.html">TransferencIA: un saber sin
+                espacio para el sujeto</a></h3>
+            <div class="card-excerpt">Matias Aldo Di Matteo, licenciado en Psicología de la UBA, analiza el uso de los
+              chatbots de Inteligencia Artificial como consejeros terapéuticos y reivindica la importancia del lazo y la
+              escucha humana.</div>
+            <div class="card-meta">
+              <span><i class="far fa-user"></i> Por Matias Aldo Di Matteo</span>
+              <span><i class="far fa-calendar-alt"></i> Octubre de 2026</span>
+              <a href="./articulos/transferencIA_ed_7_2026.html" class="read-more">LEER ARTÍCULO COMPLETO <i
+                  class="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section id="about" class="about-bg">
-      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
-        <div class="grid md:grid-cols-3 gap-8 items-start">
-          <div class="md:col-span-1">
-            <h2 class="section-title">Sobre la Gaceta</h2>
-            <div class="line-accent left"></div>
-          </div>
-          <div class="md:col-span-2">
-            <p id="about-text" class="about-text">
-              La revista es un espacio de divulgación y reflexión impulsado por trabajadores y trabajadoras de la ciencia y la técnica, activistas por diversos derechos y luchadores sociales. Su objetivo es difundir textos con espíritu crítico que promuevan el debate, el pensamiento transformador y la construcción colectiva del conocimiento.
-            </p>
-            <div class="grid sm:grid-cols-3 gap-6">
-              <div class="flex items-start gap-3">
-                <div class="feature-icon">
-                  <img src="./assets/img/naranja.png" alt="">
-                </div>
-                <div>
-                  <h4 class="feature-title">Espíritu Crítico</h4>
-                  <p class="feature-desc">Pensamiento transformador y debate</p>
-                </div>
-              </div>
-              <div class="flex items-start gap-3">
-                <div class="feature-icon">
-                  <img src="./assets/img/naranja.png" alt="">
-                </div>
-                <div>
-                  <h4 class="feature-title">Construcción Colectiva</h4>
-                  <p class="feature-desc">Conocimiento desde las bases</p>
-                </div>
-              </div>
-              <div class="flex items-start gap-3">
-                <div class="feature-icon">
-                  <img src="./assets/img/naranja.png" alt="">
-                </div>
-                <div>
-                  <h4 class="feature-title">Divulgación</h4>
-                  <p class="feature-desc">Ciencia accesible para todxs</p>
-                </div>
-              </div>
+        <div class="article-card">
+          <a href="./articulos/sesgos_en_tecnologia_ed_7_2026.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/sesgos_banner_2.png" alt="Sesgos en tecnología"
+              onerror="this.src='https://placehold.co/400x250/2c3e2c/d4e6d4?text=SESGOS+EN+TECNOLOGÍA'">
+          </a>
+          <div class="card-content">
+            <div class="card-tag">NOTA</div>
+            <h3 class="card-title"><a href="./articulos/sesgos_en_tecnologia_ed_7_2026.html">Sesgos en tecnología</a>
+            </h3>
+            <div class="card-excerpt">La idea de que las nuevas tecnologías son imparciales proviene de la confianza
+              general que tenemos en ellas. Pero no debemos confundir precisión con objetividad: todas las tecnologías
+              contienen los sesgos de quienes las diseñan.</div>
+            <div class="card-meta">
+              <span><i class="far fa-user"></i> Por Nicky Donna</span>
+              <span><i class="far fa-calendar-alt"></i> Octubre de 2026</span>
+              <a href="./articulos/sesgos_en_tecnologia_ed_7_2026.html" class="read-more">LEER NOTA COMPLETA <i
+                  class="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section id="secciones" class="secciones-bg">
-      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
-        <div class="text-center mb-12">
-          <h2 class="section-title">Publicaciones</h2>
-          <div class="line-accent"></div>
-        </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6" id="preview-cards-container">
-        </div>
-      </div>
-    </section>
-
-    <section id="ediciones" class="ediciones-bg">
-      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
-        <div class="text-center mb-12">
-          <h2 class="section-title">Ediciones</h2>
-          <div class="line-accent"></div>
-        </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum7.html">
-              <div class="text-center">
-                <span class="edicion-number">Octubre</span>
-                <p>2026</p>
-              </div>
-              <div class="edicion-badge badge-pulse">
-                <span>NUEVA</span>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Séptima Edición</h3>
-              <p>La "IA" y los monopolios digitales: ciencia digna, datos abiertos, sesgos tecnológicos, impacto ambiental y psicológico y la búsqueda de alternativas.</p>
-              <a href="./ediciones/GCZNum7.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum6.html">
-              <div class="text-center">
-                <span class="edicion-number">Septiembre</span>
-                <p>2026</p>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Sexta Edición</h3>
-              <p>Edición especial de la Gaceta Clara Zetkin con textos y voces diversas para reflexionar de cara al encuentro.</p>
-              <a href="./ediciones/GCZNum6.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum5.html">
-              <div class="text-center">
-                <span class="edicion-number">Agosto</span>
-                <p>2026</p>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Quinta Edición</h3>
-              <p>Agrotóxicos, resistencia indígena, soberanía alimentaria y el rol político de la ciencia frente al modelo extractivista.</p>
-              <a href="./ediciones/GCZNum5.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum4.html">
-              <div class="text-center">
-                <span class="edicion-number">Julio</span>
-                <p>2026</p>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Cuarta Edición</h3>
-              <p>Mujeres invisibilizadas en la ciencia, disputas por la tierra y la educación, y comunidades sacrificadas por la minería.</p>
-              <a href="./ediciones/GCZNum4.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum3.html">
-              <div class="text-center">
-                <span class="edicion-number">Junio</span>
-                <p>2026</p>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Tercera Edición</h3>
-              <p>Abolicionismo penal, alienación digital, salud comunitaria y la defensa del INTA frente al desguace.</p>
-              <a href="./ediciones/GCZNum3.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum2.html">
-              <div class="text-center">
-                <span class="edicion-number">Mayo</span>
-                <p>2026</p>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Segunda Edición</h3>
-              <p>Resistencia territorial en el Chaco y la costa bonaerense, fragmentación política y el arte como herramienta de lucha.</p>
-              <a href="./ediciones/GCZNum2.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-
-          <article class="edicion-card section-card">
-            <a class="edicion-header" href="./ediciones/GCZNum1.html">
-              <div class="text-center">
-                <span class="edicion-number">Abril</span>
-                <p>2026</p>
-              </div>
-            </a>
-            <div class="edicion-content">
-              <h3>Edición Inaugural</h3>
-              <p>Primera edición de la Gaceta Clara Zetkin con textos fundacionales y voces diversas.</p>
-              <a href="./ediciones/GCZNum1.html" class="edicion-link">
-                <i class="fas fa-arrow-right"></i> Leer edición
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="participar" class="cta-section">
-      <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
-        <div class="max-w-2xl mx-auto text-center">
-          <h2 class="cta-title">Participá de la Gaceta</h2>
-          <p class="cta-text">
-            Invitamos a todxs lxs trabajadorxs, activistas e investigadorxs a enviar sus textos. La Gaceta es un espacio abierto y colectivo.
-          </p>
-          <div class="cta-actions">
-            <a href="https://forms.gle/iyDx42kKJXf5XRqJ8" target="_blank" rel="noopener noreferrer"
-               class="btn-primary" id="cta-publish-btn">
-              <i class="fas fa-pen-nib"></i>
-              <span id="cta-publish-text">Proponer Publicación</span>
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoDjhK5pIuNJ-frQALCyhfO73gRy6luWhTlIPikAZUPzQQYQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer"
-               class="btn-secondary" id="cta-subscribe-btn">
-              <i class="fa-regular fa-envelope"></i>
-              <span id="cta-subscribe-text">Recibir la Gaceta</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer-border">
-      <div class="max-w-6xl mx-auto px-4 py-10">
-        <div class="grid sm:grid-cols-3 gap-8 items-start">
-          <div>
-            <div class="flex items-center gap-2 mb-3">
-              <a href="index.html" class="flex items-center gap-2">
-                <img src="./assets/img/logo_zk.png" alt="zetkin" class="logo-icon">
-                <span class="footer-subtitle">Gaceta Clara Zetkin</span>
-              </a>
-            </div>
-            <p class="footer-text"> Revista de Divulgación de la Naranja Ciencia y Técnica</p>
-          </div>
-          <div>
-            <h4 class="footer-heading">Contacto</h4>
-            <p class="footer-text mb-3">naranjacienciaytecnica@gmail.com</p>
-            <div class="flex gap-3">
-              <a href="https://www.instagram.com/gacetazetkin" target="_blank" rel="noopener noreferrer"
-                 class="social-icon" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="mailto:naranjacienciaytecnica@gmail.com"
-                 class="social-icon" aria-label="Email">
-                <i class="fa-regular fa-envelope"></i>
-              </a>
-              <a href="https://www.instagram.com/gacetazetkin" target="_blank" rel="noopener noreferrer"
-                 class="social-icon" aria-label="YouTube">
-                <i class="fab fa-youtube"></i>
-              </a>
+        <div class="article-card">
+          <a href="./articulos/data_centers_impacto_ambiental_ed_7_2026.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/data_centers_banner.png"
+              alt="Impactos ambientales de los centros de datos"
+              onerror="this.src='https://placehold.co/400x250/2c2c2c/d4c9b0?text=Data+Centers'">
+          </a>
+          <div class="card-content">
+            <div class="card-tag">NOTA</div>
+            <h3 class="card-title"><a href="./articulos/data_centers_impacto_ambiental_ed_7_2026.html">Impactos
+                ambientales de los centros de datos</a></h3>
+            <div class="card-excerpt">El desarrollo exponencial de la IA multiplica los mega data centers, cuyo consumo
+              eléctrico e hídrico, residuos electrónicos y contaminación por PFAS impactan gravemente sobre los bienes
+              comunes.</div>
+            <div class="card-meta">
+              <span><i class="far fa-user"></i> Por Alicia Rodriguez</span>
+              <span><i class="far fa-calendar-alt"></i> Octubre de 2026</span>
+              <a href="./articulos/data_centers_impacto_ambiental_ed_7_2026.html" class="read-more">LEER NOTA COMPLETA
+                <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <p>© 2026 Naranja Ciencia y Técnica · Gaceta Clara Zetkin</p>
+
+      </div>
+
+      <div class="ver-mas-wrap">
+        <a href="articulos.html" class="ver-mas-btn">VER MÁS ARTÍCULOS <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="section-title spaced" id="ediciones"><i class="far fa-newspaper"></i> EDICIONES
+      </div>
+
+      <div class="articles-grid">
+
+        <div class="article-card">
+          <a href="./ediciones/GCZNum7.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/ciencia_digna_banner_2.png"
+              alt="Séptima Edición · Octubre 2026"
+              onerror="this.src='https://placehold.co/600x400/2c2c2c/d4c9b0?text=Octubre+2026'">
+          </a>
+          <div class="card-content">
+            <div class="card-tag">GCZ Nº 7</div>
+            <h3 class="card-title"><a href="./ediciones/GCZNum7.html">Séptima Edición</a></h3>
+            <div class="card-excerpt">La "IA" y los monopolios digitales: ciencia digna, datos abiertos, sesgos
+              tecnológicos, impacto ambiental y psicológico y la búsqueda de alternativas.</div>
+            <div class="card-meta">
+              <a href="./ediciones/GCZNum7.html" class="read-more">LEER EDICIÓN COMPLETA <i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <a href="./ediciones/GCZNum6.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/editorial_encuentrobanner.png"
+              alt="Sexta Edición · Septiembre 2026"
+              onerror="this.src='https://placehold.co/600x400/2c2c2c/d4c9b0?text=Septiembre+2026'">
+          </a>
+          <div class="card-content">
+            <div class="card-tag">GCZ Nº 6</div>
+            <h3 class="card-title"><a href="./ediciones/GCZNum6.html">Sexta Edición</a></h3>
+            <div class="card-excerpt">Edición especial de la Gaceta Clara Zetkin con textos y voces diversas para
+              reflexionar de cara al encuentro.</div>
+            <div class="card-meta">
+              <a href="./ediciones/GCZNum6.html" class="read-more">LEER EDICIÓN COMPLETA <i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <a href="./ediciones/GCZNum5.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/collage_fumigacion_oscuro_banner.png"
+              alt="Quinta Edición · Agosto 2026"
+              onerror="this.src='https://placehold.co/600x400/2c2c2c/d4c9b0?text=Agosto+2026'">
+          </a>
+          <div class="card-content">
+            <div class="card-tag">GCZ Nº 5</div>
+            <h3 class="card-title"><a href="./ediciones/GCZNum5.html">Quinta Edición</a></h3>
+            <div class="card-excerpt">Agrotóxicos, resistencia indígena, soberanía alimentaria y el rol político de la
+              ciencia frente al modelo extractivista.</div>
+            <div class="card-meta">
+              <a href="./ediciones/GCZNum5.html" class="read-more">LEER EDICIÓN COMPLETA <i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <a href="./ediciones/GCZNum4.html" class="card-img-link">
+            <img class="card-image" src="./assets/img/notas_img/collage_no_al_ajuste_banner_2.png"
+              alt="Cuarta Edición · Julio 2026"
+              onerror="this.src='https://placehold.co/600x400/2c2c2c/d4c9b0?text=Julio+2026'">
+          </a>
+          <div class="card-content">
+            <div class="card-tag">GCZ Nº 4</div>
+            <h3 class="card-title"><a href="./ediciones/GCZNum4.html">Cuarta Edición</a></h3>
+            <div class="card-excerpt">Mujeres invisibilizadas en la ciencia, disputas por la tierra y la educación, y
+              comunidades sacrificadas por la minería.</div>
+            <div class="card-meta">
+              <a href="./ediciones/GCZNum4.html" class="read-more">LEER EDICIÓN COMPLETA <i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ver-mas-wrap">
+        <a href="ediciones.html" class="ver-mas-btn">VER MÁS EDICIONES <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="editorial-section participa-gaceta">
+        <div class="section-title"><i class="fas fa-pen-nib"></i> PARTICIPÁ DE LA GACETA</div>
+        <div class="article-text">
+          <p>Invitamos a todxs lxs trabajadorxs, activistas e investigadorxs a enviar sus textos. La Gaceta es un
+            espacio abierto y colectivo.</p>
+        </div>
+        <div class="ver-mas-wrap">
+          <a class="ver-mas-btn" href="https://forms.gle/iyDx42kKJXf5XRqJ8" target="_blank" rel="noopener noreferrer">Proponer publicación <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
-    </footer>
+
+      <div class="gaceta-footer">
+        <p><i class="far fa-newspaper"></i> GACETA CLARA ZETKIN - Publicación de Naranja Ciencia y Técnica</p>
+        <p class="footer-small">Contacto: naranjacienciaytecnica@gmail.com | Seguinos en <i
+            class="fab fa-instagram"></i> <a href="https://www.instagram.com/gacetazetkin"
+            target="_blank">gacetazetkin</a></p>
+        <p class="footer-fine">© 2026 - Todos los derechos reservados | Hecho con <i
+            class="fas fa-heart footer-heart"></i> para difundir libremente.</p>
+      </div>
+    </div>
   </div>
-
-  <script src="./assets/js/gaceta.js"></script>
 </body>
+
 </html>
