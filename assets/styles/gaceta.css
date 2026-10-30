@@ -354,7 +354,6 @@ body { box-sizing: border-box; }
   margin-bottom: 2rem;
 }
 .feature-icon {
-  background: rgba(243, 111, 33, 0.12);
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.25rem;
