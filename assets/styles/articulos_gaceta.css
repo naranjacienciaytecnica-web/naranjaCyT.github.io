@@ -93,7 +93,6 @@ body {
 .gaceta-header img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 0.5rem;
 }
 
 .gaceta-subtitle {
@@ -105,7 +104,7 @@ body {
   border-bottom: 1px solid #ddd;
   display: inline-block;
   padding: 0.5rem 1rem;
-  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .issue-info {
@@ -117,7 +116,6 @@ body {
   color: #666;
   margin-top: 1rem;
   padding-top: 0.5rem;
-  border-top: 1px solid #eee;
 }
 
 .main-content {
@@ -142,7 +140,7 @@ body {
 .editorial-section {
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 2px solid #f0ede5;
+  border-bottom: 1px solid #f0ede5;
 }
 
 .section-title {
@@ -153,7 +151,6 @@ body {
   color: #be6901;
   margin-bottom: 1rem;
   font-weight: 600;
-  padding-left: 2rem;
 }
 
 .featured-card {
@@ -233,11 +230,9 @@ body {
 .articles-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .article-card {
@@ -357,7 +352,7 @@ body {
 }
 
 .image-caption {
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: #666;
   margin-top: 0.5rem;
   font-style: italic;
@@ -539,7 +534,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 2px solid #be6901;
+  border-bottom: 1px solid #be6901;
   display: inline-block;
   margin-bottom: 1rem;
   font-family: 'Inter', sans-serif;
@@ -589,11 +584,12 @@ body {
   margin-top: 3rem;
   padding: 1.5rem 2rem;
   border-top: 1px solid #e0dcd5;
-  background: #faf8f4;
   font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   color: #666;
   text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .gaceta-footer p {
@@ -603,6 +599,11 @@ body {
 .gaceta-footer a {
   color: #be6901;
   text-decoration: none;
+}
+
+.full-width .gaceta-footer {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .gaceta-footer a:hover {
