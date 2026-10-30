@@ -99,10 +99,6 @@
   display: block;
 }
 
-.section-title.spaced {
-  margin-top: var(--gaceta-space-xs);
-}
-
 .editorial-section.participa-gaceta {
   margin-top: var(--gaceta-space-lg);
   border-bottom: 0;
@@ -116,10 +112,6 @@
 .gaceta-footer .footer-fine {
   margin-top: var(--gaceta-space-xs);
   font-size: var(--gaceta-fs-xs);
-}
-
-.footer-heart {
-  color: var(--gaceta-color-gander);
 }
 
 .search-wrap {

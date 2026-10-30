@@ -729,7 +729,7 @@ sup {
   font-weight: var(--gaceta-fw-medium);
   border-left: 4px solid var(--gaceta-color-main);
   padding-left: var(--gaceta-space-md);
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 1.8rem;
   color: #444;
   background: #f9f6ef;
   padding: 1.5rem 2rem;
@@ -1044,4 +1044,40 @@ sup {
   .card-title {
     font-size: 1.2rem;
   }
+}
+/* ======= Shared utilities (moved from inline styles) ======= */
+
+.article-card > a:first-of-type,
+.featured-card > a:first-of-type {
+  display: block;
+}
+
+.footer-heart {
+  color: var(--gaceta-color-gander);
+}
+
+.pull-quote .fa-quote-left {
+  color: var(--gaceta-color-link);
+  margin-right: var(--gaceta-space-xs);
+}
+
+.section-title.spaced {
+  margin-top: var(--gaceta-space-xs);
+}
+
+.reading-time {
+  display: inline-block;
+  margin-left: var(--gaceta-space-sm);
+}
+
+.article-list {
+  font-size: var(--gaceta-fs-base);
+  line-height: 1.6;
+  margin-left: 1.2rem;
+  margin-bottom: var(--gaceta-space-sm);
+  list-style: square;
+}
+
+.pull-quote.alt {
+  background: #f3efe8;
 }
