@@ -1067,7 +1067,6 @@ sup {
 
 .reading-time {
   display: inline-block;
-  margin-left: var(--gaceta-space-sm);
 }
 
 .article-list {
