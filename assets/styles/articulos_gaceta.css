@@ -596,6 +596,23 @@ body {
   text-align: center;
 }
 
+.gaceta-footer p {
+  margin-top: 0.25rem;
+}
+
+.gaceta-footer a {
+  color: #be6901;
+  text-decoration: none;
+}
+
+.gaceta-footer a:hover {
+  text-decoration: underline;
+}
+
+.gaceta-copyright {
+  font-size: 0.7rem;
+}
+
 .article-text ul,
 .article-text .bibliografia,
 .bibliografia-list {
@@ -664,10 +681,10 @@ body {
 }
 
 .ul-notas {
-  font-size: 0.95rem; 
-  line-height: 1.5; 
-  margin-left: 1.2rem; 
-  margin-bottom: 1.5rem; 
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-left: 1.2rem;
+  margin-bottom: 1.5rem;
   list-style: square;
 }
 
@@ -742,9 +759,9 @@ sup {
 }
 
 .text-right {
-  margin-top: 0.3rem; 
-  font-weight: 500; 
-  font-size: 0.9rem; 
+  margin-top: 0.3rem;
+  font-weight: 500;
+  font-size: 0.9rem;
   text-align: right;
 }
 
@@ -870,7 +887,7 @@ sup {
     font-size: 1.1rem;
     padding: 1rem 1.25rem;
   }
-  
+
   .pull-quote-source {
     font-size: 0.75rem;
   }
@@ -882,7 +899,7 @@ sup {
     width: 100%;
     margin: 1.5rem 0;
   }
-  
+
   .float-right-img img {
     width: 100%;
   }
@@ -951,28 +968,28 @@ sup {
     margin: 1rem 0;
   }
 
-  
+
   .main-content.single-column {
     padding: 0 1rem 1rem;
   }
-  
+
   .main-content.full-width {
     padding: 0 1rem 1rem;
   }
-  
+
   .featured-card {
     grid-template-columns: 1fr;
   }
-  
+
   .articles-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .feature-article {
     border-right: none;
     padding-right: 0;
   }
-  
+
   .headline {
     font-size: 2rem;
   }
@@ -980,15 +997,15 @@ sup {
   .subtitle {
     font-size: 1.5rem;
   }
-  
+
   .gaceta-title {
     font-size: 2rem;
   }
-  
+
   .featured-card .card-title {
     font-size: 1.5rem;
   }
-  
+
   .questions-5w {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
@@ -998,31 +1015,31 @@ sup {
   .gaceta-header {
     padding: 1rem;
   }
-  
+
   .gaceta-title {
     font-size: 1.5rem;
   }
-  
+
   .headline {
     font-size: 1.5rem;
   }
-  
+
   .pull-quote {
     font-size: 1.1rem;
   }
-  
+
   .top-nav ul {
     gap: 1rem;
   }
-  
+
   .top-nav a {
     font-size: 0.7rem;
   }
-  
+
   .featured-card .card-title {
     font-size: 1.3rem;
   }
-  
+
   .card-title {
     font-size: 1.2rem;
   }
