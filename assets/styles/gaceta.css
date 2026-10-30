@@ -275,7 +275,7 @@ body { box-sizing: border-box; }
   justify-content: center;
   padding: 2rem;
   text-align: center;
-  border-top: 6px solid #1a1a1a;
+  border-top: 4px solid #1a1a1a;
 }
 .magazine-initials {
   color: var(--naranja);
@@ -345,7 +345,7 @@ body { box-sizing: border-box; }
 /* About section */
 .about-bg {
   background: var(--blanco);
-  border-top: 6px solid #1a1a1a;
+  border-top: 4px solid #1a1a1a;
 }
 .about-text {
   color: var(--texto);
@@ -663,7 +663,7 @@ body { box-sizing: border-box; }
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, var(--blanco) 0%, var(--gris-lighter) 100%);
-  border-top: 6px solid #1a1a1a;
+  border-top: 4px solid #1a1a1a;
 }
 .cta-icon {
   background: rgba(243, 111, 33, 0.12);
