@@ -1,4 +1,4 @@
-/* Styles specific to the Gaceta Clara Zetkin home page (gacetaZetkin.html) */
+/* Styles that are only for non articles gaceta pages */
 
 .ver-mas-btn {
   font-family: var(--gaceta-font-sans);
@@ -32,6 +32,10 @@
 .ver-mas-wrap {
   text-align: center;
   margin: var(--gaceta-space-md) 0 2.5rem;
+}
+
+.ediciones .card-image {
+  filter: grayscale(1);
 }
 
 .ultima-edicion-wrap {
