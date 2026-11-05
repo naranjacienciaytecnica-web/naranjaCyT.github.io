@@ -136,9 +136,8 @@ body {
   display: block;
 }
 
-.editorial-section {
-  margin-bottom: 2.5rem;
-  padding-bottom: var(--gaceta-space-md);
+.main-content-section {
+  margin-bottom: var(--gaceta-space-lg);
   border-bottom: 1px solid var(--gaceta-background-sand);
 }
 
