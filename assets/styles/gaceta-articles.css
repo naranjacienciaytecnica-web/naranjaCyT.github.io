@@ -11,6 +11,14 @@ body {
   line-height: 1.6;
 }
 
+.principal-subtittle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  color: #181818;
+}
+
 .newspaper-container {
   max-width: 1100px;
   margin: 0 auto;
